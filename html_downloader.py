@@ -3,118 +3,152 @@ HTML Downloader
 
 This module handles downloading HTML content from university pages.
 Supports multiple page types: applying, overall-rankings, paying, academics.
-Uses the university ID extracted by the UniversityIDExtractor.
+Loads university information from universities.json file.
 """
 
 import time
 import os
+import json
+import re
 from datetime import datetime
-from typing import Optional, List
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import TimeoutException
-from webdriver_manager.chrome import ChromeDriverManager
+from typing import Optional, List, Dict
+from selenium_base import SeleniumBase
 
 
-class HTMLDownloader:
+class HTMLDownloader(SeleniumBase):
     """Downloads HTML content from US News university pages."""
     
-    def __init__(self, headless: bool = True, truncate_at_widget: bool = True):
+    def __init__(self, headless: bool = True, truncate_at_widget: bool = True, universities_json: str = "universities.json"):
         """
         Initialize the HTML downloader with Chrome WebDriver.
         
         Args:
             headless: Whether to run Chrome in headless mode (default: True)
             truncate_at_widget: If True, cut HTML at the blueshift recommendations widget if present
+            universities_json: Path to the JSON file containing university information
         """
-        self.headless = headless
+        super().__init__(headless=headless)
         self.truncate_at_widget = truncate_at_widget
-        self.driver = None
         self.downloads_dir = "downloads"
+        self.universities_json = universities_json
+        self.universities = []
         # Supported page types
         self.page_types = ["applying", "overall-rankings", "paying", "academics"]
         
-    def setup_driver(self):
-        """Set up Chrome WebDriver with appropriate options."""
-        chrome_options = Options()
-        
-        if self.headless:
-            chrome_options.add_argument("--headless")
-        
-        # Additional options for better stability
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--window-size=1920,1080")
-        
-        # HTTP/2 and network protocol fixes
-        chrome_options.add_argument("--disable-http2")  # Disable HTTP/2 to prevent protocol errors
-        chrome_options.add_argument("--disable-web-security")
-        chrome_options.add_argument("--ignore-certificate-errors")
-        chrome_options.add_argument("--ignore-ssl-errors")
-        chrome_options.add_argument("--disable-extensions")
-        
-        # User agent to appear more like a regular browser
-        chrome_options.add_argument("--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
-        
-        # Automatically download and set up ChromeDriver
-        service = Service(ChromeDriverManager().install())
-        self.driver = webdriver.Chrome(service=service, options=chrome_options)
-        
-    def construct_university_url_name(self, university_name: str) -> str:
+        # Load universities from JSON file
+        self.load_universities()
+    
+    def load_universities(self):
+        """Load university information from JSON file."""
+        try:
+            with open(self.universities_json, 'r', encoding='utf-8') as f:
+                self.universities = json.load(f)
+            print(f"✅ Loaded {len(self.universities)} universities from {self.universities_json}")
+        except FileNotFoundError:
+            print(f"❌ Universities JSON file not found: {self.universities_json}")
+            self.universities = []
+        except Exception as e:
+            print(f"❌ Error loading universities JSON: {e}")
+            self.universities = []
+    
+    def extract_university_id_from_link(self, link: str) -> Optional[str]:
         """
-        Construct the university name format used in US News URLs.
+        Extract university ID from US News link.
         
         Args:
-            university_name: Original university name
+            link: University link (e.g., "/best-colleges/princeton-university-2627")
             
         Returns:
-            Formatted university name for URL construction
+            University ID as string, or None if not found
         """
-        # Convert to lowercase and replace spaces with hyphens
-        formatted_name = university_name.lower().replace(' ', '-')
+        # Pattern to match university ID at the end of the link
+        pattern = r'-(\d+)$'
+        match = re.search(pattern, link)
+        if match:
+            return match.group(1)
+        return None
+    
+    def find_university_by_name(self, university_name: str) -> Optional[Dict]:
+        """
+        Find university information by name.
         
-        # Add 'university' if not present
-        if 'university' not in formatted_name and 'college' not in formatted_name:
-            formatted_name += '-university'
+        Args:
+            university_name: Name of the university to search for
             
-        return formatted_name
+        Returns:
+            Dictionary with university info (name, link, id) or None if not found
+        """
+        university_name_lower = university_name.lower()
+        
+        for university in self.universities:
+            if university_name_lower in university['name'].lower():
+                university_id = self.extract_university_id_from_link(university['link'])
+                return {
+                    'name': university['name'],
+                    'link': university['link'],
+                    'id': university_id
+                }
+        
+        print(f"❌ University '{university_name}' not found in the universities list")
+        return None
+    
+    def list_all_universities(self) -> List[str]:
+        """Return a list of all university names."""
+        return [university['name'] for university in self.universities]
+        
+    def construct_url_from_link(self, link: str, page_type: str) -> str:
+        """
+        Construct full URL from university link and page type.
+        
+        Args:
+            link: University link from JSON (e.g., "/best-colleges/princeton-university-2627")
+            page_type: Type of page (applying, overall-rankings, paying, academics)
+            
+        Returns:
+            Full URL for the requested page
+        """
+        # Choose the correct base URL based on page type
+        if page_type == "applying":
+            base_url = "https://premium.usnews.com"
+        else:
+            base_url = "https://www.usnews.com"
+        
+        return f"{base_url}{link}/{page_type}"
     
     def create_downloads_directory(self):
         """Create downloads directory if it doesn't exist."""
         if not os.path.exists(self.downloads_dir):
             os.makedirs(self.downloads_dir)
-            print(f"📁 Created downloads directory: {self.downloads_dir}")
     
-    def generate_filename(self, university_name: str, university_id: str, page_type: str) -> str:
+    def generate_filename_and_path(self, university_name: str, page_type: str) -> tuple:
         """
-        Generate filename for the downloaded HTML file.
+        Generate filename and directory path for the downloaded HTML file.
         
         Args:
             university_name: Name of the university
-            university_id: University ID
             page_type: Type of page (applying, overall-rankings, paying, academics)
             
         Returns:
-            Generated filename with timestamp
+            Tuple of (directory_path, filename)
         """
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        safe_name = university_name.lower().replace(' ', '_').replace('-', '_')
-        safe_page_type = page_type.replace('-', '_')
-        filename = f"{safe_name}_{university_id}_{safe_page_type}_{timestamp}.html"
-        return filename
+        # Create safe directory name
+        safe_name = university_name.replace(' ', '_').replace('&', 'and').replace(',', '').replace('.', '')
+        safe_name = ''.join(c for c in safe_name if c.isalnum() or c in '_-')
+        
+        # Create university directory
+        university_dir = os.path.join(self.downloads_dir, safe_name)
+        
+        # Simple filename based on page type
+        filename = f"{page_type.replace('-', '_')}.html"
+        
+        return university_dir, filename
     
-    def download_university_page(self, university_name: str, university_id: str, page_type: str) -> Optional[str]:
+    def download_university_page(self, university_name: str, page_type: str) -> Optional[str]:
         """
         Download HTML content from a specific university page.
         
         Args:
-            university_name: Name of the university
-            university_id: University ID extracted from search results
+            university_name: Name of the university (will be searched in universities.json)
             page_type: Type of page (applying, overall-rankings, paying, academics)
             
         Returns:
@@ -124,73 +158,56 @@ class HTMLDownloader:
             print(f"❌ Unsupported page type: {page_type}")
             print(f"Supported types: {', '.join(self.page_types)}")
             return None
-            
+        
+        # Find university information
+        university_info = self.find_university_by_name(university_name)
+        if not university_info:
+            return None
+        
+        university_id = university_info['id']
+        university_link = university_info['link']
+        actual_name = university_info['name']
+        
         try:
             # Set up the driver if not already set up
             if not self.driver:
                 self.setup_driver()
             
-            # Construct the page URL
-            formatted_name = self.construct_university_url_name(university_name)
+            # Construct the page URL using the link from JSON
+            page_url = self.construct_url_from_link(university_link, page_type)
             
-            # Choose the correct base URL based on page type
-            if page_type == "applying":
-                base_url = "https://premium.usnews.com/best-colleges"
-            else:
-                base_url = "https://www.usnews.com/best-colleges"
+            print(f"📥 {page_type} 페이지 다운로드 중...")
+            if not self.navigate_to(page_url, wait_time=1):
+                return None
             
-            page_url = f"{base_url}/{formatted_name}-{university_id}/{page_type}"
+            # Get page source after stopping
+            html_content = self.get_page_source()
+            if not html_content:
+                return None
             
-            print(f"🌐 Navigating to {page_type} page...")
-            print(f"📍 URL: {page_url}")
-            
-            # Navigate to the page
-            self.driver.get(page_url)
-            
-            # Wait for page to load
-            print("⏳ Waiting for page to load...")
-            time.sleep(5)
-            
-            # Wait for specific content to ensure page is fully loaded
-            try:
-                WebDriverWait(self.driver, 15).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "body"))
-                )
-                print("✅ Page loaded successfully")
-            except TimeoutException:
-                print("⚠️ Timeout waiting for page to load, proceeding anyway...")
-            
-            # Get page source
-            html_content = self.driver.page_source
-            
-            # Optionally truncate before recommendations widget
+            # Check for recommendations widget and handle accordingly
             if self.truncate_at_widget:
                 cut_index = self._find_widget_cut_index(html_content)
                 if cut_index is not None and cut_index > 0:
-                    print("✂️  Truncating HTML before recommendations widget")
-                    html_content = html_content[:cut_index] + "\n<!-- Truncated before blueshift-recommendations-widget -->\n"
+                    html_content = html_content[:cut_index] + "\n<!-- Truncated before recommendations widget -->\n"
             
             # Create downloads directory
             self.create_downloads_directory()
             
-            # Generate filename and path
-            filename = self.generate_filename(university_name, university_id, page_type)
-            file_path = os.path.join(self.downloads_dir, filename)
+            # Generate directory and filename
+            university_dir, filename = self.generate_filename_and_path(actual_name, page_type)
+            
+            # Create university directory if it doesn't exist
+            if not os.path.exists(university_dir):
+                os.makedirs(university_dir)
+            
+            file_path = os.path.join(university_dir, filename)
             
             # Save HTML content
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(html_content)
             
-            print(f"💾 HTML content saved successfully!")
-            print(f"📄 File: {file_path}")
-            print(f"📊 Size: {len(html_content):,} characters")
-            
-            # Get page title for additional info
-            try:
-                page_title = self.driver.title
-                print(f"📝 Page title: {page_title}")
-            except:
-                pass
+            print(f"✅ 저장됨: {filename} ({len(html_content):,}자)")
             
             return file_path
             
@@ -198,55 +215,50 @@ class HTMLDownloader:
             print(f"❌ Error downloading {page_type} page: {str(e)}")
             return None
     
-    def download_applying_page(self, university_name: str, university_id: str) -> Optional[str]:
-        """
-        Download HTML content from the university's applying page.
-        (Backward compatibility method)
-        
-        Args:
-            university_name: Name of the university
-            university_id: University ID extracted from search results
-            
-        Returns:
-            Path to the saved HTML file if successful, None otherwise
-        """
-        return self.download_university_page(university_name, university_id, "applying")
-    
-    def download_all_pages(self, university_name: str, university_id: str) -> List[str]:
+    def download_all_pages(self, university_name: str) -> List[str]:
         """
         Download HTML content from all supported university pages.
         
         Args:
-            university_name: Name of the university
-            university_id: University ID extracted from search results
+            university_name: Name of the university (will be searched in universities.json)
             
         Returns:
             List of paths to saved HTML files
         """
         downloaded_files = []
         
+        # Find university information first
+        university_info = self.find_university_by_name(university_name)
+        if not university_info:
+            return downloaded_files
+        
+        university_id = university_info['id']
+        actual_name = university_info['name']
+        
         try:
-            # Set up the driver once for all downloads
-            self.setup_driver()
-            
-            print(f"📚 Downloading all pages for {university_name} (ID: {university_id})")
+            print(f"📚 Downloading all pages for {actual_name} (ID: {university_id})")
             print("=" * 60)
             
             for i, page_type in enumerate(self.page_types, 1):
                 print(f"\n📖 [{i}/{len(self.page_types)}] Downloading {page_type} page...")
                 print("-" * 40)
                 
-                file_path = self.download_university_page(university_name, university_id, page_type)
+                # 각 페이지마다 새로운 드라이버 시작
+                self.setup_driver()
+                
+                file_path = self.download_university_page(university_name, page_type)
                 if file_path:
                     downloaded_files.append(file_path)
-                    print(f"✅ {page_type} page downloaded successfully")
                 else:
-                    print(f"❌ Failed to download {page_type} page")
+                    print(f"❌ {page_type} 페이지 다운로드 실패")
+                
+                # 페이지 다운로드 후 드라이버 종료
+                self.close()
                 
                 # Delay between downloads to be respectful to the server
                 if i < len(self.page_types):
-                    print("⏳ Waiting 10 seconds before next download...")
-                    time.sleep(10)
+                    print("⏳ Waiting 5 seconds before next download...")
+                    time.sleep(5)
             
             print(f"\n🎉 Download Summary:")
             print(f"✅ Successfully downloaded: {len(downloaded_files)}/{len(self.page_types)} pages")
@@ -258,28 +270,31 @@ class HTMLDownloader:
             return downloaded_files
             
         finally:
-            if self.driver:
-                self.driver.quit()
-                self.driver = None
-    
-    def close(self):
-        """Close the WebDriver."""
-        if self.driver:
-            self.driver.quit()
+            self.close()
 
     def _find_widget_cut_index(self, html_content: str):
         """Return the index to cut HTML before the recommendations widget, or None if not found."""
+        # 여러 종류의 추천 위젯을 찾아서 가장 먼저 나타나는 것 선택
         markers = [
             '<div id="blueshift-recommendations-widget"',
             'id="blueshift-recommendations-widget"',
-            'blueshift-recommendations-widget'
+            'blueshift-recommendations-widget',
+            '<div id="null-recommendations-widget"',
+            'id="null-recommendations-widget"',
+            'null-recommendations-widget',
+            'SailthruRecommend__Container'
         ]
+        
+        earliest_index = None
         for marker in markers:
             idx = html_content.find(marker)
             if idx != -1:
-                return idx
-        return None
-
+                if earliest_index is None or idx < earliest_index:
+                    earliest_index = idx
+        
+        return earliest_index
+    
+    
 
 # This module is designed to be imported and used by main_scraper.py
 # For testing individual functionality, use main_scraper.py
