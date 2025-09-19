@@ -1564,44 +1564,4036 @@
     "link": "/best-colleges/umes-2106"
   },
   {
+    "name": "Williams College",
+    "link": "/best-colleges/williams-college-2229"
+  },
+  {
+    "name": "Amherst College",
+    "link": "/best-colleges/amherst-college-2115"
+  },
+  {
+    "name": "Swarthmore College",
+    "link": "/best-colleges/swarthmore-college-3370"
+  },
+  {
+    "name": "United States Naval Academy",
+    "link": "/best-colleges/united-states-naval-academy-2101"
+  },
+  {
+    "name": "Bowdoin College",
+    "link": "/best-colleges/bowdoin-college-2038"
+  },
+  {
+    "name": "Pomona College",
+    "link": "/best-colleges/pomona-college-1173"
+  },
+  {
+    "name": "Wellesley College",
+    "link": "/best-colleges/wellesley-college-2224"
+  },
+  {
+    "name": "Carleton College",
+    "link": "/best-colleges/carleton-college-2340"
+  },
+  {
+    "name": "Claremont McKenna College",
+    "link": "/best-colleges/claremont-mckenna-college-1170"
+  },
+  {
+    "name": "United States Air Force Academy",
+    "link": "/best-colleges/united-states-air-force-academy-1369"
+  },
+  {
+    "name": "United States Military Academy at West Point",
+    "link": "/best-colleges/west-point-2893"
+  },
+  {
+    "name": "Harvey Mudd College",
+    "link": "/best-colleges/harvey-mudd-college-1171"
+  },
+  {
+    "name": "Vassar College",
+    "link": "/best-colleges/vassar-college-2895"
+  },
+  {
+    "name": "Barnard College",
+    "link": "/best-colleges/barnard-college-2708"
+  },
+  {
+    "name": "Davidson College",
+    "link": "/best-colleges/davidson-college-2918"
+  },
+  {
+    "name": "Hamilton College",
+    "link": "/best-colleges/hamilton-college-2728"
+  },
+  {
+    "name": "Smith College",
+    "link": "/best-colleges/smith-college-2209"
+  },
+  {
+    "name": "Wesleyan University",
+    "link": "/best-colleges/wesleyan-university-1424"
+  },
+  {
+    "name": "Grinnell College",
+    "link": "/best-colleges/grinnell-college-1868"
+  },
+  {
+    "name": "Middlebury College",
+    "link": "/best-colleges/middlebury-college-3691"
+  },
+  {
+    "name": "Washington and Lee University",
+    "link": "/best-colleges/washington-and-lee-3768"
+  },
+  {
+    "name": "Colgate University",
+    "link": "/best-colleges/colgate-university-2701"
+  },
+  {
+    "name": "University of Richmond",
+    "link": "/best-colleges/university-of-richmond-3744"
+  },
+  {
+    "name": "Haverford College",
+    "link": "/best-colleges/haverford-college-3274"
+  },
+  {
+    "name": "Colby College",
+    "link": "/best-colleges/colby-college-2039"
+  },
+  {
+    "name": "Bates College",
+    "link": "/best-colleges/bates-college-2036"
+  },
+  {
+    "name": "Macalester College",
+    "link": "/best-colleges/macalester-college-2358"
+  },
+  {
+    "name": "College of the Holy Cross",
+    "link": "/best-colleges/college-of-the-holy-cross-2141"
+  },
+  {
+    "name": "Bryn Mawr College",
+    "link": "/best-colleges/bryn-mawr-college-3237"
+  },
+  {
+    "name": "Colorado College",
+    "link": "/best-colleges/colorado-college-1347"
+  },
+  {
+    "name": "Bucknell University",
+    "link": "/best-colleges/bucknell-university-3238"
+  },
+  {
+    "name": "Franklin & Marshall College",
+    "link": "/best-colleges/franklin--marshall-college-3265"
+  },
+  {
+    "name": "Lafayette College",
+    "link": "/best-colleges/lafayette-college-3284"
+  },
+  {
+    "name": "Mount Holyoke College",
+    "link": "/best-colleges/mount-holyoke-college-2192"
+  },
+  {
+    "name": "Occidental College",
+    "link": "/best-colleges/occidental-college-1249"
+  },
+  {
+    "name": "Denison University",
+    "link": "/best-colleges/denison-university-3042"
+  },
+  {
+    "name": "Pitzer College",
+    "link": "/best-colleges/pitzer-college-1172"
+  },
+  {
+    "name": "Skidmore College",
+    "link": "/best-colleges/skidmore-college-2814"
+  },
+  {
+    "name": "Trinity College",
+    "link": "/best-colleges/trinity-college-1414"
+  },
+  {
+    "name": "Berea College",
+    "link": "/best-colleges/berea-college-1955"
+  },
+  {
+    "name": "Spelman College",
+    "link": "/best-colleges/spelman-college-1594"
+  },
+  {
+    "name": "Trinity University",
+    "link": "/best-colleges/trinity-university-3647"
+  },
+  {
+    "name": "Union College (NY)",
+    "link": "/best-colleges/union-college-new-york-2889"
+  },
+  {
+    "name": "Scripps College",
+    "link": "/best-colleges/scripps-college-1174"
+  },
+  {
+    "name": "Dickinson College",
+    "link": "/best-colleges/dickinson-college-3253"
+  },
+  {
+    "name": "Furman University",
+    "link": "/best-colleges/furman-university-3434"
+  },
+  {
+    "name": "Kenyon College",
+    "link": "/best-colleges/kenyon-college-3065"
+  },
+  {
+    "name": "Soka University of America",
+    "link": "/best-colleges/soka-university-of-america-38144"
+  },
+  {
+    "name": "The University of the South",
+    "link": "/best-colleges/the-university-of-the-south-3534"
+  },
+  {
+    "name": "DePauw University",
+    "link": "/best-colleges/depauw-university-1792"
+  },
+  {
+    "name": "Hillsdale College",
+    "link": "/best-colleges/hillsdale-college-2272"
+  },
+  {
+    "name": "St. Olaf College",
+    "link": "/best-colleges/st-olaf-college-2382"
+  },
+  {
+    "name": "Wheaton College (IL)",
+    "link": "/best-colleges/wheaton-college-il-1781"
+  },
+  {
+    "name": "Whitman College",
+    "link": "/best-colleges/whitman-college-3803"
+  },
+  {
+    "name": "Connecticut College",
+    "link": "/best-colleges/connecticut-college-1379"
+  },
+  {
+    "name": "Gettysburg College",
+    "link": "/best-colleges/gettysburg-college-3268"
+  },
+  {
+    "name": "Oberlin College",
+    "link": "/best-colleges/oberlin-college-3086"
+  },
+  {
+    "name": "Wabash College",
+    "link": "/best-colleges/wabash-college-1844"
+  },
+  {
+    "name": "Centre College",
+    "link": "/best-colleges/centre-college-1961"
+  },
+  {
+    "name": "Rhodes College",
+    "link": "/best-colleges/rhodes-college-3519"
+  },
+  {
+    "name": "St. Lawrence University",
+    "link": "/best-colleges/st-lawrence-university-2829"
+  },
+  {
+    "name": "Virginia Military Institute",
+    "link": "/best-colleges/virginia-military-institute-3753"
+  },
+  {
+    "name": "Agnes Scott College",
+    "link": "/best-colleges/agnes-scott-college-1542"
+  },
+  {
+    "name": "Reed College",
+    "link": "/best-colleges/reed-college-3217"
+  },
+  {
+    "name": "Thomas Aquinas College",
+    "link": "/best-colleges/thomas-aquinas-college-10448"
+  },
+  {
+    "name": "Gustavus Adolphus College",
+    "link": "/best-colleges/gustavus-college-2353"
+  },
+  {
+    "name": "Principia College",
+    "link": "/best-colleges/principia-college-1744"
+  },
+  {
+    "name": "Wofford College",
+    "link": "/best-colleges/wofford-college-3457"
+  },
+  {
+    "name": "Kalamazoo College",
+    "link": "/best-colleges/kalamazoo-college-2275"
+  },
+  {
+    "name": "Lawrence University",
+    "link": "/best-colleges/lawrence-university-3856"
+  },
+  {
+    "name": "Bard College",
+    "link": "/best-colleges/bard-college-2671"
+  },
+  {
+    "name": "College of St. Benedict",
+    "link": "/best-colleges/college-of-st-benedict-2341"
+  },
+  {
+    "name": "Muhlenberg College",
+    "link": "/best-colleges/muhlenberg-college-3304"
+  },
+  {
+    "name": "Earlham College",
+    "link": "/best-colleges/earlham-college-1793"
+  },
+  {
+    "name": "Hobart and William Smith Colleges",
+    "link": "/best-colleges/hobart-and-william-smith-colleges-2731"
+  },
+  {
+    "name": "Wheaton College (MA)",
+    "link": "/best-colleges/wheaton-college-massachusetts-2227"
+  },
+  {
+    "name": "The College of Wooster",
+    "link": "/best-colleges/the-college-of-wooster-3037"
+  },
+  {
+    "name": "Lake Forest College",
+    "link": "/best-colleges/lake-forest-college-1706"
+  },
+  {
+    "name": "Willamette University",
+    "link": "/best-colleges/willamette-3227"
+  },
+  {
+    "name": "Allegheny College",
+    "link": "/best-colleges/allegheny-college-3230"
+  },
+  {
+    "name": "Saint Johns University",
+    "link": "/best-colleges/saint-johns-university-2379"
+  },
+  {
+    "name": "Saint Mary's College",
+    "link": "/best-colleges/saint-marys-college-1836"
+  },
+  {
+    "name": "Austin College",
+    "link": "/best-colleges/austin-college-3543"
+  },
+  {
+    "name": "Drew University",
+    "link": "/best-colleges/drew-university-2603"
+  },
+  {
+    "name": "Knox College",
+    "link": "/best-colleges/knox-college-1704"
+  },
+  {
+    "name": "Southwestern University",
+    "link": "/best-colleges/southwestern-university-3620"
+  },
+  {
+    "name": "St. John's College (MD)",
+    "link": "/best-colleges/st-johns-college-maryland-2092"
+  },
+  {
+    "name": "Stonehill College",
+    "link": "/best-colleges/stonehill-college-2217"
+  },
+  {
+    "name": "Ursinus College",
+    "link": "/best-colleges/ursinus-3385"
+  },
+  {
+    "name": "Hope College",
+    "link": "/best-colleges/hope-college-2273"
+  },
+  {
+    "name": "Juniata College",
+    "link": "/best-colleges/juniata-college-3279"
+  },
+  {
+    "name": "Saint Anselm College",
+    "link": "/best-colleges/st-anselm-college-2587"
+  },
+  {
+    "name": "St. Norbert College",
+    "link": "/best-colleges/st-norbert-college-3892"
+  },
+  {
+    "name": "Washington & Jefferson College",
+    "link": "/best-colleges/washington--jefferson-college-3389"
+  },
+  {
+    "name": "Beloit College",
+    "link": "/best-colleges/beloit-college-3835"
+  },
+  {
+    "name": "Morehouse College",
+    "link": "/best-colleges/morehouse-college-1582"
+  },
+  {
+    "name": "University of Puget Sound",
+    "link": "/best-colleges/university-of-puget-sound-3797"
+  },
+  {
+    "name": "Washington College",
+    "link": "/best-colleges/washington-college-maryland-2108"
+  },
+  {
+    "name": "Whittier College",
+    "link": "/best-colleges/whittier-college-1342"
+  },
+  {
+    "name": "Augustana College",
+    "link": "/best-colleges/augustana-college-1633"
+  },
+  {
+    "name": "Lycoming College",
+    "link": "/best-colleges/lycoming-college-3293"
+  },
+  {
+    "name": "St. Mary's College of Maryland",
+    "link": "/best-colleges/st-marys-college-2095"
+  },
+  {
+    "name": "Hampden-Sydney College",
+    "link": "/best-colleges/hampden-sydney-3713"
+  },
+  {
+    "name": "Hanover College",
+    "link": "/best-colleges/hanover-college-1801"
+  },
+  {
+    "name": "Lewis & Clark College",
+    "link": "/best-colleges/lewis--clark-college-3197"
+  },
+  {
+    "name": "Randolph-Macon College",
+    "link": "/best-colleges/randolph-macon-college-3733"
+  },
+  {
+    "name": "Susquehanna University",
+    "link": "/best-colleges/susquehanna-university-3369"
+  },
+  {
+    "name": "Linfield University",
+    "link": "/best-colleges/linfield-university-3198"
+  },
+  {
+    "name": "Luther College",
+    "link": "/best-colleges/luther-college-1874"
+  },
+  {
+    "name": "Sarah Lawrence College",
+    "link": "/best-colleges/sarah-lawrence-2813"
+  },
+  {
+    "name": "Transylvania University",
+    "link": "/best-colleges/transylvania-university-1987"
+  },
+  {
+    "name": "Westminster College (PA)",
+    "link": "/best-colleges/westminster-college-pennsylvania-3392"
+  },
+  {
+    "name": "Westmont College",
+    "link": "/best-colleges/westmont-college-1341"
+  },
+  {
+    "name": "Bennington College",
+    "link": "/best-colleges/bennington-college-3682"
+  },
+  {
+    "name": "Hendrix College",
+    "link": "/best-colleges/hendrix-college-1099"
+  },
+  {
+    "name": "Illinois College",
+    "link": "/best-colleges/illinois-college-1688"
+  },
+  {
+    "name": "Saint Vincent College",
+    "link": "/best-colleges/saint-vincent-college-3368"
+  },
+  {
+    "name": "St. John's College (NM)",
+    "link": "/best-colleges/st-johns-college-new-mexico-2093"
+  },
+  {
+    "name": "Covenant College",
+    "link": "/best-colleges/covenant-college-3484"
+  },
+  {
+    "name": "Massachusetts College of Liberal Arts",
+    "link": "/best-colleges/mcla-2187"
+  },
+  {
+    "name": "Ohio Wesleyan University",
+    "link": "/best-colleges/ohio-wesleyan-university-3109"
+  },
+  {
+    "name": "New College of Florida",
+    "link": "/best-colleges/new-college-of-florida-153704"
+  },
+  {
+    "name": "Roanoke College",
+    "link": "/best-colleges/roanoke-college-3736"
+  },
+  {
+    "name": "Saint Michael's College",
+    "link": "/best-colleges/saint-michaels-college-3694"
+  },
+  {
+    "name": "University of Minnesota-Morris",
+    "link": "/best-colleges/university-of-minnesotamorris-2389"
+  },
+  {
+    "name": "Albion College",
+    "link": "/best-colleges/albion-college-2235"
+  },
+  {
+    "name": "Central College",
+    "link": "/best-colleges/central-college-1850"
+  },
+  {
+    "name": "Concordia College--Moorhead",
+    "link": "/best-colleges/concordia-college-moorhead-2346"
+  },
+  {
+    "name": "Eckerd College",
+    "link": "/best-colleges/eckerd-college-1487"
+  },
+  {
+    "name": "Goucher College",
+    "link": "/best-colleges/goucher-college-2073"
+  },
+  {
+    "name": "Meredith College",
+    "link": "/best-colleges/meredith-college-2945"
+  },
+  {
+    "name": "Cornell College",
+    "link": "/best-colleges/cornell-college-1856"
+  },
+  {
+    "name": "Salem College",
+    "link": "/best-colleges/salem-college-2960"
+  },
+  {
+    "name": "University of Mary Washington",
+    "link": "/best-colleges/university-of-mary-washington-3746"
+  },
+  {
+    "name": "University of North Carolina--Asheville",
+    "link": "/best-colleges/university-of-north-carolina-asheville-2907"
+  },
+  {
+    "name": "Centenary College",
+    "link": "/best-colleges/centenary-college-2003"
+  },
+  {
+    "name": "Coe College",
+    "link": "/best-colleges/coe-college-1854"
+  },
+  {
+    "name": "College of the Atlantic",
+    "link": "/best-colleges/college-of-the-atlantic-11385"
+  },
+  {
+    "name": "Hartwick College",
+    "link": "/best-colleges/hartwick-college-2729"
+  },
+  {
+    "name": "Hollins University",
+    "link": "/best-colleges/hollins-university-3715"
+  },
+  {
+    "name": "Millsaps College",
+    "link": "/best-colleges/millsaps-college-2414"
+  },
+  {
+    "name": "Patrick Henry College",
+    "link": "/best-colleges/patrick-henry-college-252644"
+  },
+  {
+    "name": "Purchase College--SUNY",
+    "link": "/best-colleges/suny-purchase-6791"
+  },
+  {
+    "name": "Ripon College",
+    "link": "/best-colleges/ripon-college-3884"
+  },
+  {
+    "name": "Emmanuel College",
+    "link": "/best-colleges/emmanuel-college--massachusetts-2147"
+  },
+  {
+    "name": "Hampshire College",
+    "link": "/best-colleges/hampshire-college-4661"
+  },
+  {
+    "name": "Aquinas College",
+    "link": "/best-colleges/aquinas-college-2239"
+  },
+  {
+    "name": "Bethany Lutheran College",
+    "link": "/best-colleges/bethany-lutheran-2337"
+  },
+  {
+    "name": "Franklin College",
+    "link": "/best-colleges/franklin-college-1798"
+  },
+  {
+    "name": "Monmouth College",
+    "link": "/best-colleges/monmouth-college-1725"
+  },
+  {
+    "name": "Presbyterian College",
+    "link": "/best-colleges/presbyterian-college-3445"
+  },
+  {
+    "name": "University of New Hampshire at Manchester",
+    "link": "/best-colleges/university-of-new-hampshire-at-manchester-9009"
+  },
+  {
+    "name": "Claflin University",
+    "link": "/best-colleges/claflin-university-3424"
+  },
+  {
+    "name": "Dillard University",
+    "link": "/best-colleges/dillard-university-2004"
+  },
+  {
+    "name": "Houghton University",
+    "link": "/best-colleges/houghton-university-2734"
+  },
+  {
+    "name": "Oglethorpe University",
+    "link": "/best-colleges/oglethorpe-university-1586"
+  },
+  {
+    "name": "Wittenberg University",
+    "link": "/best-colleges/wittenberg-university-3143"
+  },
+  {
+    "name": "Albright College",
+    "link": "/best-colleges/albright-college-3229"
+  },
+  {
+    "name": "Fisk University",
+    "link": "/best-colleges/fisk-3490"
+  },
+  {
+    "name": "Ouachita Baptist University",
+    "link": "/best-colleges/ouachita-baptist-university-1102"
+  },
+  {
+    "name": "Wartburg College",
+    "link": "/best-colleges/wartburg-college-1896"
+  },
+  {
+    "name": "Gordon College",
+    "link": "/best-colleges/gordon-college-2153"
+  },
+  {
+    "name": "Randolph College",
+    "link": "/best-colleges/randolph-college-3734"
+  },
+  {
+    "name": "University of Puerto Rico--Cayey",
+    "link": "/best-colleges/university-of-puerto-rico-cayey-7206"
+  },
+  {
+    "name": "Antioch College",
+    "link": "/best-colleges/antioch-college-8795"
+  },
+  {
+    "name": "Bridgewater College",
+    "link": "/best-colleges/bridgewater-college-3704"
+  },
+  {
+    "name": "Guilford College",
+    "link": "/best-colleges/guilford-college-2931"
+  },
+  {
+    "name": "New Saint Andrews College",
+    "link": "/best-colleges/new-saint-andrews-college-188218"
+  },
+  {
+    "name": "The King's College",
+    "link": "/best-colleges/kings-college-new-york-666134"
+  },
+  {
+    "name": "Lyon College",
+    "link": "/best-colleges/lyon-college-1088"
+  },
+  {
+    "name": "Maryville College",
+    "link": "/best-colleges/maryville-college-3505"
+  },
+  {
+    "name": "Westminster College (MO)",
+    "link": "/best-colleges/westminster-college-missouri-2523"
+  },
+  {
+    "name": "Sweet Briar College",
+    "link": "/best-colleges/sweet-briar-college-3742"
+  },
+  {
+    "name": "University of Virginia's College at Wise",
+    "link": "/best-colleges/university-of-virginias-college-at-wise-3747"
+  },
+  {
+    "name": "Johnson C. Smith University",
+    "link": "/best-colleges/johnson-c-smith-2936"
+  },
+  {
+    "name": "Virginia Wesleyan University",
+    "link": "/best-colleges/virginia-wesleyan-3767"
+  },
+  {
+    "name": "Simpson University",
+    "link": "/best-colleges/simpson-university-1291"
+  },
+  {
+    "name": "Ave Maria University",
+    "link": "/best-colleges/ave-maria-university-39413"
+  },
+  {
+    "name": "Georgetown College",
+    "link": "/best-colleges/georgetown-college-1964"
+  },
+  {
+    "name": "Marymount Manhattan College",
+    "link": "/best-colleges/marymount-manhattan-2769"
+  },
+  {
+    "name": "Medgar Evers College--CUNY",
+    "link": "/best-colleges/medgar-evers-college-cuny-10097"
+  },
+  {
+    "name": "Bethune-Cookman University",
+    "link": "/best-colleges/bethunecookman-university-1467"
+  },
+  {
+    "name": "Bryn Athyn College of the New Church",
+    "link": "/best-colleges/bryn-athyn-3228"
+  },
+  {
+    "name": "Holy Cross College at Notre Dame, Indiana",
+    "link": "/best-colleges/holy-cross-college-7263"
+  },
+  {
+    "name": "Oakwood University",
+    "link": "/best-colleges/oakwood-university-1033"
+  },
+  {
+    "name": "Southern Virginia University",
+    "link": "/best-colleges/southern-virginia-university-666980"
+  },
+  {
+    "name": "Butler University",
+    "link": "/best-colleges/butler-university-1788"
+  },
+  {
+    "name": "California Polytechnic State University--San Luis Obispo",
+    "link": "/best-colleges/california-polytechnic-state-university-san-luis-obispo-1143"
+  },
+  {
+    "name": "Citadel Military College of South Carolina",
+    "link": "/best-colleges/citadel-military-college-of-south-carolina-3423"
+  },
+  {
+    "name": "The College of New Jersey",
+    "link": "/best-colleges/the-college-of-new-jersey-2642"
+  },
+  {
+    "name": "Embry-Riddle Aeronautical University--Prescott",
+    "link": "/best-colleges/embry-riddle-prescott-666090"
+  },
+  {
+    "name": "High Point University",
+    "link": "/best-colleges/high-point-university-2933"
+  },
+  {
+    "name": "Illinois Wesleyan University",
+    "link": "/best-colleges/illinois-wesleyan-university-1696"
+  },
+  {
+    "name": "United States Coast Guard Academy",
+    "link": "/best-colleges/united-states-coast-guard-academy-1415"
+  },
+  {
+    "name": "Bentley University",
+    "link": "/best-colleges/bentley-university-2124"
+  },
+  {
+    "name": "California State University--Maritime Academy",
+    "link": "/best-colleges/california-state-university-maritime-academy-1134"
+  },
+  {
+    "name": "Cooper Union for the Advancement of Science and Art",
+    "link": "/best-colleges/cooper-union-2710"
+  },
+  {
+    "name": "Florida Polytechnic University",
+    "link": "/best-colleges/florida-polytechnic-university-506094"
+  },
+  {
+    "name": "Milwaukee School of Engineering",
+    "link": "/best-colleges/milwaukee-school-of-engineering-3868"
+  },
+  {
+    "name": "Ohio Northern University",
+    "link": "/best-colleges/ohio-northern-university-3089"
+  },
+  {
+    "name": "Rollins College",
+    "link": "/best-colleges/rollins-college-1515"
+  },
+  {
+    "name": "University of Portland",
+    "link": "/best-colleges/university-of-portland-3224"
+  },
+  {
+    "name": "Appalachian State University",
+    "link": "/best-colleges/appalachian-state-2906"
+  },
+  {
+    "name": "California State Polytechnic University--Pomona",
+    "link": "/best-colleges/california-state-polytechnic-university-pomona-1144"
+  },
+  {
+    "name": "Carroll College",
+    "link": "/best-colleges/carroll-college-2526"
+  },
+  {
+    "name": "Flagler College",
+    "link": "/best-colleges/flagler-7893"
+  },
+  {
+    "name": "John Carroll University",
+    "link": "/best-colleges/john-carroll-university-3050"
+  },
+  {
+    "name": "Providence College",
+    "link": "/best-colleges/providence-college-3406"
+  },
+  {
+    "name": "Taylor University",
+    "link": "/best-colleges/taylor-university-1838"
+  },
+  {
+    "name": "United States Merchant Marine Academy",
+    "link": "/best-colleges/us-merchant-marine-2892"
+  },
+  {
+    "name": "Berry College",
+    "link": "/best-colleges/berry-college-1554"
+  },
+  {
+    "name": "Calvin University",
+    "link": "/best-colleges/calvin-university-2241"
+  },
+  {
+    "name": "College of Idaho",
+    "link": "/best-colleges/college-of-idaho-1617"
+  },
+  {
+    "name": "College of the Ozarks",
+    "link": "/best-colleges/college-ozarks-2500"
+  },
+  {
+    "name": "Grove City College",
+    "link": "/best-colleges/grove-city-college-3269"
+  },
+  {
+    "name": "Oregon Institute of Technology",
+    "link": "/best-colleges/oregon-institute-of-technology-3211"
+  },
+  {
+    "name": "Rhode Island School of Design",
+    "link": "/best-colleges/rhode-island-school-of-design-3409"
+  },
+  {
+    "name": "San Jose State University",
+    "link": "/best-colleges/san-jose-state-university-1155"
+  },
+  {
+    "name": "University of the Ozarks",
+    "link": "/best-colleges/university-of-the-ozarks-1094"
+  },
+  {
+    "name": "Catawba College",
+    "link": "/best-colleges/catawba-college-2914"
+  },
+  {
+    "name": "Cottey College",
+    "link": "/best-colleges/cottey-college-666970"
+  },
+  {
+    "name": "Embry-Riddle Aeronautical University-Daytona Beach",
+    "link": "/best-colleges/embryriddle-aeronautical-universitydaytona-beach-1479"
+  },
+  {
+    "name": "Pennsylvania College of Technology",
+    "link": "/best-colleges/penn-college-3395"
+  },
+  {
+    "name": "Saint Edward's University",
+    "link": "/best-colleges/saint-edwards-university-3621"
+  },
+  {
+    "name": "Saint Joseph's University",
+    "link": "/best-colleges/saint-josephs-university-pennsylvania-3367"
+  },
+  {
+    "name": "Truman State University",
+    "link": "/best-colleges/truman-state-2495"
+  },
+  {
+    "name": "Benedictine College",
+    "link": "/best-colleges/benedictine-college-10256"
+  },
+  {
+    "name": "Brigham Young University--Hawaii",
+    "link": "/best-colleges/brigham-young-university-hawaii-1606"
+  },
+  {
+    "name": "Brigham Young University--Idaho",
+    "link": "/best-colleges/brigham-young-university-idaho-1625"
+  },
+  {
+    "name": "Bryant University",
+    "link": "/best-colleges/bryant-university-3402"
+  },
+  {
+    "name": "Christopher Newport University",
+    "link": "/best-colleges/christopher-newport-university-3706"
+  },
+  {
+    "name": "Criswell College",
+    "link": "/best-colleges/criswell-college-29351"
+  },
+  {
+    "name": "Dordt University",
+    "link": "/best-colleges/dordt-university-1859"
+  },
+  {
+    "name": "Farmingdale State College--SUNY",
+    "link": "/best-colleges/farmingdale-state-college-suny-2858"
+  },
+  {
+    "name": "Loyola University Maryland",
+    "link": "/best-colleges/loyola-university-maryland-2078"
+  },
+  {
+    "name": "Saint Mary's College of California",
+    "link": "/best-colleges/st-marys-college-of-california-1302"
+  },
+  {
+    "name": "Simpson College",
+    "link": "/best-colleges/simpson-college-1887"
+  },
+  {
+    "name": "University of Scranton",
+    "link": "/best-colleges/university-of-scranton-3384"
+  },
+  {
+    "name": "Wesleyan College",
+    "link": "/best-colleges/wesleyan-college-1600"
+  },
+  {
+    "name": "Elmhurst University",
+    "link": "/best-colleges/elmhurst-university-1676"
+  },
+  {
+    "name": "Kettering University",
+    "link": "/best-colleges/kettering-university-2262"
+  },
+  {
+    "name": "Maine Maritime Academy",
+    "link": "/best-colleges/maine-maritime-academy-2044"
+  },
+  {
+    "name": "Rockhurst University",
+    "link": "/best-colleges/rockhurst-university-2499"
+  },
+  {
+    "name": "Stetson University",
+    "link": "/best-colleges/stetson-university-1531"
+  },
+  {
+    "name": "University of South Carolina--Upstate",
+    "link": "/best-colleges/university-of-south-carolina-upstate-6951"
+  },
+  {
+    "name": "University of Washington Bothell",
+    "link": "/best-colleges/university-of-washington-bothell-600788"
+  },
+  {
+    "name": "Alma College",
+    "link": "/best-colleges/alma-college-2236"
+  },
+  {
+    "name": "Elmira College",
+    "link": "/best-colleges/elmira-college-2718"
+  },
+  {
+    "name": "Huntingdon College",
+    "link": "/best-colleges/huntingdon-college-1019"
+  },
+  {
+    "name": "Savannah College of Art and Design",
+    "link": "/best-colleges/savannah-college-of-art-and-design-29258"
+  },
+  {
+    "name": "University of Redlands",
+    "link": "/best-colleges/university-of-redlands-1322"
+  },
+  {
+    "name": "Whitworth University",
+    "link": "/best-colleges/whitworth-university-3804"
+  },
+  {
+    "name": "Beacon College",
+    "link": "/best-colleges/beacon-college-33733"
+  },
+  {
+    "name": "College of Charleston",
+    "link": "/best-colleges/college-of-charleston-3428"
+  },
+  {
+    "name": "Goshen College",
+    "link": "/best-colleges/goshen-college-1799"
+  },
+  {
+    "name": "Hiram College",
+    "link": "/best-colleges/hiram-college-3049"
+  },
+  {
+    "name": "Marist University",
+    "link": "/best-colleges/marist-university-2765"
+  },
+  {
+    "name": "SUNY College of Technology at Canton",
+    "link": "/best-colleges/suny-college-of-technology-at-canton-2855"
+  },
+  {
+    "name": "Texas Lutheran University",
+    "link": "/best-colleges/texas-lutheran-university-3641"
+  },
+  {
+    "name": "Tuskegee University",
+    "link": "/best-colleges/tuskegee-university-1050"
+  },
+  {
+    "name": "William Jewell College",
+    "link": "/best-colleges/william-jewell-college-2524"
+  },
+  {
+    "name": "Alfred State College--SUNY",
+    "link": "/best-colleges/alfred-state-college-suny-2854"
+  },
+  {
+    "name": "Baldwin Wallace University",
+    "link": "/best-colleges/baldwin-wallace-college-3014"
+  },
+  {
+    "name": "Barton College",
+    "link": "/best-colleges/barton-college-2908"
+  },
+  {
+    "name": "California State University--Monterey Bay",
+    "link": "/best-colleges/csumb-32603"
+  },
+  {
+    "name": "California State University--Stanislaus",
+    "link": "/best-colleges/california-state-university-stanislaus-1157"
+  },
+  {
+    "name": "John Paul the Great Catholic University",
+    "link": "/best-colleges/john-paul-the-great-catholic-university-666990"
+  },
+  {
+    "name": "Massachusetts Maritime Academy",
+    "link": "/best-colleges/massachusetts-maritime-academy-2181"
+  },
+  {
+    "name": "SUNY Cobleskill",
+    "link": "/best-colleges/suny-cobleskill-2856"
+  },
+  {
+    "name": "Tennessee Wesleyan University",
+    "link": "/best-colleges/tennessee-wesleyan-college-3525"
+  },
+  {
+    "name": "University of Hawaii--West Oahu",
+    "link": "/best-colleges/university-of-hawaii-west-oahu-21078"
+  },
+  {
+    "name": "University of Mount Saint Vincent",
+    "link": "/best-colleges/university-of-mount-saint-vincent-2703"
+  },
+  {
+    "name": "Welch College",
+    "link": "/best-colleges/welch-college-30018"
+  },
+  {
+    "name": "CUNY--Baruch College",
+    "link": "/best-colleges/cuny-baruch-college-4766"
+  },
+  {
+    "name": "Florida Southern College",
+    "link": "/best-colleges/florida-southern-college-1488"
+  },
+  {
+    "name": "Indiana Wesleyan University",
+    "link": "/best-colleges/indiana-wesleyan-university-1822"
+  },
+  {
+    "name": "University of Northern Iowa",
+    "link": "/best-colleges/university-of-northern-iowa-1890"
+  },
+  {
+    "name": "California Lutheran University",
+    "link": "/best-colleges/california-lutheran-university-1133"
+  },
+  {
+    "name": "John Brown University",
+    "link": "/best-colleges/john-brown-university-1100"
+  },
+  {
+    "name": "Le Moyne College",
+    "link": "/best-colleges/le-moyne-college-2748"
+  },
+  {
+    "name": "Loras College",
+    "link": "/best-colleges/loras-college-1873"
+  },
+  {
+    "name": "University of Washington Tacoma",
+    "link": "/best-colleges/university-of-washington-tacoma-610134"
+  },
+  {
+    "name": "Warner Pacific University",
+    "link": "/best-colleges/warner-pacific-3225"
+  },
+  {
+    "name": "Westminster University",
+    "link": "/best-colleges/westminster-university-3681"
+  },
+  {
+    "name": "Winthrop University",
+    "link": "/best-colleges/winthrop-university-3456"
+  },
+  {
+    "name": "Augustana University",
+    "link": "/best-colleges/augustana-university-3458"
+  },
+  {
+    "name": "LaGrange College",
+    "link": "/best-colleges/lagrange-college-1578"
+  },
+  {
+    "name": "Lake Superior State University",
+    "link": "/best-colleges/lake-superior-state-university-2293"
+  },
+  {
+    "name": "Life Pacific University",
+    "link": "/best-colleges/life-pacific-university-12630"
+  },
+  {
+    "name": "Otterbein University",
+    "link": "/best-colleges/otterbein-university-3110"
+  },
+  {
+    "name": "Pacific Union College",
+    "link": "/best-colleges/pacific-union-college-1258"
+  },
+  {
+    "name": "Siena University",
+    "link": "/best-colleges/siena-college-2816"
+  },
+  {
+    "name": "SUNY--Geneseo",
+    "link": "/best-colleges/suny-geneseo-2845"
+  },
+  {
+    "name": "University of Pittsburgh at Johnstown",
+    "link": "/best-colleges/university-of-pittsburgh-at-johnstown-3382"
+  },
+  {
+    "name": "University of Silicon Valley",
+    "link": "/best-colleges/university-of-silicon-valley-1177"
+  },
+  {
+    "name": "Lander University",
+    "link": "/best-colleges/lander-university-3435"
+  },
+  {
+    "name": "Millikin University",
+    "link": "/best-colleges/millikin-university-1724"
+  },
+  {
+    "name": "SUNY College of Technology--Delhi",
+    "link": "/best-colleges/suny-college-of-technology-delhi-2857"
+  },
+  {
+    "name": "Union Adventist University",
+    "link": "/best-colleges/union-adventist-university-2563"
+  },
+  {
+    "name": "University of Tampa",
+    "link": "/best-colleges/university-of-tampa-1538"
+  },
+  {
+    "name": "California State University--Los Angeles",
+    "link": "/best-colleges/california-state-university-los-angeles-1140"
+  },
+  {
+    "name": "Cedarville University",
+    "link": "/best-colleges/cedarville-university-3025"
+  },
+  {
+    "name": "Davis and Elkins College",
+    "link": "/best-colleges/davis-and-elkins-college-3811"
+  },
+  {
+    "name": "Georgia College & State University",
+    "link": "/best-colleges/georgia-college--state-university-1602"
+  },
+  {
+    "name": "Ithaca College",
+    "link": "/best-colleges/ithaca-college-2739"
+  },
+  {
+    "name": "Keene State College",
+    "link": "/best-colleges/keene-state-college-2590"
+  },
+  {
+    "name": "Longwood University",
+    "link": "/best-colleges/longwood-university-3719"
+  },
+  {
+    "name": "Monmouth University",
+    "link": "/best-colleges/monmouth-university-2616"
+  },
+  {
+    "name": "Newberry College",
+    "link": "/best-colleges/newberry-college-3440"
+  },
+  {
+    "name": "New York Institute of Technology",
+    "link": "/best-colleges/nyit-4804"
+  },
+  {
+    "name": "Point Loma Nazarene University",
+    "link": "/best-colleges/point-loma-nazarene-university-1262"
+  },
+  {
+    "name": "Towson University",
+    "link": "/best-colleges/towson-university-2099"
+  },
+  {
+    "name": "University of Maine at Farmington",
+    "link": "/best-colleges/university-of-maine-at-farmington-2040"
+  },
+  {
+    "name": "Colorado Mesa University",
+    "link": "/best-colleges/colorado-mesa-university-1358"
+  },
+  {
+    "name": "Hamline University",
+    "link": "/best-colleges/hamline-university-2354"
+  },
+  {
+    "name": "University of Evansville",
+    "link": "/best-colleges/university-of-evansville-1795"
+  },
+  {
+    "name": "University of Michigan--Dearborn",
+    "link": "/best-colleges/michigan-dearborn-2326"
+  },
+  {
+    "name": "Wisconsin Lutheran College",
+    "link": "/best-colleges/wisconsin-lutheran-21366"
+  },
+  {
+    "name": "Bob Jones University",
+    "link": "/best-colleges/bob-jones-university-666997"
+  },
+  {
+    "name": "Colby-Sawyer College",
+    "link": "/best-colleges/colby-sawyer-college-2572"
+  },
+  {
+    "name": "Marietta College",
+    "link": "/best-colleges/marietta-college-3073"
+  },
+  {
+    "name": "Milligan University",
+    "link": "/best-colleges/milligan-university-3511"
+  },
+  {
+    "name": "Queens University of Charlotte",
+    "link": "/best-colleges/queens-university-charlotte-2957"
+  },
+  {
+    "name": "Southwestern Adventist University",
+    "link": "/best-colleges/southwestern-adventist-university-3619"
+  },
+  {
+    "name": "Spring Hill College",
+    "link": "/best-colleges/spring-hill-college-1041"
+  },
+  {
+    "name": "St. Augustine College",
+    "link": "/best-colleges/st-augustine-college-21854"
+  },
+  {
+    "name": "St. Mary's University of San Antonio",
+    "link": "/best-colleges/st-marys-university-san-antonio-3623"
+  },
+  {
+    "name": "Trine University",
+    "link": "/best-colleges/trine-university-1839"
+  },
+  {
+    "name": "Baptist University of Florida",
+    "link": "/best-colleges/baptist-college-of-florida-21596"
+  },
+  {
+    "name": "Blue Mountain Christian University",
+    "link": "/best-colleges/blue-mountain-college-2398"
+  },
+  {
+    "name": "Boricua College",
+    "link": "/best-colleges/boricua-college-13029"
+  },
+  {
+    "name": "California State University--Northridge",
+    "link": "/best-colleges/california-state-university-northridge-1153"
+  },
+  {
+    "name": "Miami Dade College",
+    "link": "/best-colleges/miami-dade-college-1506"
+  },
+  {
+    "name": "St. Francis College",
+    "link": "/best-colleges/st-francis-college-2820"
+  },
+  {
+    "name": "University of Antelope Valley",
+    "link": "/best-colleges/university-of-antelope-valley-666993"
+  },
+  {
+    "name": "Western Washington University",
+    "link": "/best-colleges/western-washington-3802"
+  },
+  {
+    "name": "Emerson College",
+    "link": "/best-colleges/emerson-college-2146"
+  },
+  {
+    "name": "Fort Lewis College",
+    "link": "/best-colleges/fort-lewis-college-1353"
+  },
+  {
+    "name": "McMurry University",
+    "link": "/best-colleges/mcmurry-university-3591"
+  },
+  {
+    "name": "North Central College",
+    "link": "/best-colleges/north-central-college-1734"
+  },
+  {
+    "name": "St. Bonaventure University",
+    "link": "/best-colleges/st-bonaventure-university-2817"
+  },
+  {
+    "name": "SUNY--New Paltz",
+    "link": "/best-colleges/suny-new-paltz-2846"
+  },
+  {
+    "name": "California State University--Chico",
+    "link": "/best-colleges/california-state-university-chico-1146"
+  },
+  {
+    "name": "Dominican University",
+    "link": "/best-colleges/dominican-university-1750"
+  },
+  {
+    "name": "Hastings College",
+    "link": "/best-colleges/hastings-2548"
+  },
+  {
+    "name": "Mount Saint Mary's University",
+    "link": "/best-colleges/mount-saint-marys-university-1243"
+  },
+  {
+    "name": "Murray State University",
+    "link": "/best-colleges/murray-state-university-1977"
+  },
+  {
+    "name": "University of Minnesota Duluth",
+    "link": "/best-colleges/university-of-minnesota-duluth-2388"
+  },
+  {
+    "name": "University of Pittsburgh at Bradford",
+    "link": "/best-colleges/university-of-pittsburgh-at-bradford-3380"
+  },
+  {
+    "name": "The University of Tennessee at Martin",
+    "link": "/best-colleges/the-university-of-tennessee-at-martin-3531"
+  },
+  {
+    "name": "University of Wisconsin--Eau Claire",
+    "link": "/best-colleges/university-of-wisconsin-eau-claire-3917"
+  },
+  {
+    "name": "Xavier University of Louisiana",
+    "link": "/best-colleges/xavier-university-of-louisiana-2032"
+  },
+  {
+    "name": "Central Methodist University -- College of Liberal Arts and Sciences",
+    "link": "/best-colleges/central-methodist-university-2453"
+  },
+  {
+    "name": "CUNY--New York City College of Technology",
+    "link": "/best-colleges/cuny-new-york-city-college-of-technology-2696"
+  },
+  {
+    "name": "McPherson College",
+    "link": "/best-colleges/mcpherson-college-1933"
+  },
+  {
+    "name": "Paul Smith's College",
+    "link": "/best-colleges/paul-smiths-college-2795"
+  },
+  {
+    "name": "University of Arkansas--Pine Bluff",
+    "link": "/best-colleges/university-of-arkansas-pine-bluff-1086"
+  },
+  {
+    "name": "University of Montana Western",
+    "link": "/best-colleges/montana-western-2537"
+  },
+  {
+    "name": "Belmont Abbey College",
+    "link": "/best-colleges/belmont-abbey-2910"
+  },
+  {
+    "name": "California State University--Channel Islands",
+    "link": "/best-colleges/california-state-university-channel-islands-39803"
+  },
+  {
+    "name": "California State University--San Marcos",
+    "link": "/best-colleges/california-state-university-san-marcos-30113"
+  },
+  {
+    "name": "CUNY--John Jay College of Criminal Justice",
+    "link": "/best-colleges/cuny-john-jay-college-of-criminal-justice-2693"
+  },
+  {
+    "name": "Dominican University of California",
+    "link": "/best-colleges/dominican-university-of-california-1196"
+  },
+  {
+    "name": "Kentucky Wesleyan College",
+    "link": "/best-colleges/kentucky-wesleyan-college-1969"
+  },
+  {
+    "name": "Lees-McRae College",
+    "link": "/best-colleges/lees-mcrae-college-2939"
+  },
+  {
+    "name": "Manhattan University",
+    "link": "/best-colleges/manhattan-university-2758"
+  },
+  {
+    "name": "Montana State University Northern",
+    "link": "/best-colleges/montana-state-northern-2533"
+  },
+  {
+    "name": "University of Arkansas--Fort Smith",
+    "link": "/best-colleges/university-of-arkansas---fort-smith-1110"
+  },
+  {
+    "name": "Freed-Hardeman University",
+    "link": "/best-colleges/freedhardeman-university-3492"
+  },
+  {
+    "name": "Lewis University",
+    "link": "/best-colleges/lewis-university-1707"
+  },
+  {
+    "name": "Trinity Christian College",
+    "link": "/best-colleges/trinity-christian-college-1771"
+  },
+  {
+    "name": "University of Advancing Technology",
+    "link": "/best-colleges/university-of-advancing-technology-25590"
+  },
+  {
+    "name": "University of Montevallo",
+    "link": "/best-colleges/university-of-montevallo-1004"
+  },
+  {
+    "name": "University of West Florida",
+    "link": "/best-colleges/university-of-west-florida-3955"
+  },
+  {
+    "name": "Vaughn College of Aeronautics and Technology",
+    "link": "/best-colleges/vaughn-college-2665"
+  },
+  {
+    "name": "Augsburg University",
+    "link": "/best-colleges/augsburg-university-2334"
+  },
+  {
+    "name": "Bacone College",
+    "link": "/best-colleges/bacone-college-3147"
+  },
+  {
+    "name": "Drury University",
+    "link": "/best-colleges/drury-university-2461"
+  },
+  {
+    "name": "Messiah University",
+    "link": "/best-colleges/messiah-university-3298"
+  },
+  {
+    "name": "SUNY Morrisville",
+    "link": "/best-colleges/suny-morrisville-2859"
+  },
+  {
+    "name": "University of Mount Union",
+    "link": "/best-colleges/university-of-mount-union-3083"
+  },
+  {
+    "name": "University of Nebraska at Kearney",
+    "link": "/best-colleges/university-of-nebraska-at-kearney-2551"
+  },
+  {
+    "name": "Valley City State University",
+    "link": "/best-colleges/valley-city-state-3008"
+  },
+  {
+    "name": "Culver-Stockton College",
+    "link": "/best-colleges/culver-stockton-college-2460"
+  },
+  {
+    "name": "Hilbert College",
+    "link": "/best-colleges/hilbert-college-2735"
+  },
+  {
+    "name": "Howard Payne University",
+    "link": "/best-colleges/howard-payne-university-3575"
+  },
+  {
+    "name": "Huston-Tillotson University",
+    "link": "/best-colleges/huston-tillotson-3577"
+  },
+  {
+    "name": "North Central University",
+    "link": "/best-colleges/north-central-university-2369"
+  },
+  {
+    "name": "Pacific Lutheran University",
+    "link": "/best-colleges/pacific-lutheran-university-3785"
+  },
+  {
+    "name": "Sonoma State University",
+    "link": "/best-colleges/sonoma-state-university-1156"
+  },
+  {
+    "name": "SUNY Maritime College",
+    "link": "/best-colleges/suny-maritime-2853"
+  },
+  {
+    "name": "SUNY Oneonta",
+    "link": "/best-colleges/suny-oneonta-2847"
+  },
+  {
+    "name": "Christian Brothers University",
+    "link": "/best-colleges/christian-brothers-university-3482"
+  },
+  {
+    "name": "Elizabeth City State University",
+    "link": "/best-colleges/elizabeth-city-state-university-2926"
+  },
+  {
+    "name": "Emory & Henry University",
+    "link": "/best-colleges/emory--henry-university-3709"
+  },
+  {
+    "name": "Thiel College",
+    "link": "/best-colleges/thiel-college-3376"
+  },
+  {
+    "name": "University of North Alabama",
+    "link": "/best-colleges/university-of-north-alabama-1016"
+  },
+  {
+    "name": "William Peace University",
+    "link": "/best-colleges/william-peace-university-2953"
+  },
+  {
+    "name": "California State University--Sacramento",
+    "link": "/best-colleges/california-state-university-sacramento-1150"
+  },
+  {
+    "name": "CUNY--Hunter College",
+    "link": "/best-colleges/hunter-college-2689"
+  },
+  {
+    "name": "Lewis-Clark State College",
+    "link": "/best-colleges/lewisclark-state-college-1621"
+  },
+  {
+    "name": "Mount Aloysius College",
+    "link": "/best-colleges/mount-aloysius-college-3302"
+  },
+  {
+    "name": "Ramapo College of New Jersey",
+    "link": "/best-colleges/ramapo-college-of-new-jersey-9344"
+  },
+  {
+    "name": "Rocky Mountain College of Art and Design",
+    "link": "/best-colleges/rocky-mountain-college-of-art-and-design-7649"
+  },
+  {
+    "name": "Salve Regina University",
+    "link": "/best-colleges/salve-regina-university-3411"
+  },
+  {
+    "name": "University of Dallas",
+    "link": "/best-colleges/university-of-dallas-3651"
+  },
+  {
+    "name": "University of Minnesota Crookston",
+    "link": "/best-colleges/university-of-minnesota-crookston-4069"
+  },
+  {
+    "name": "Dunwoody College of Technology",
+    "link": "/best-colleges/dunwoody-college-of-technology-4641"
+  },
+  {
+    "name": "Franciscan University of Steubenville",
+    "link": "/best-colleges/franciscan-university-3036"
+  },
+  {
+    "name": "Mars Hill University",
+    "link": "/best-colleges/mars-hill-college-2944"
+  },
+  {
+    "name": "Montserrat College of Art",
+    "link": "/best-colleges/montserrat-college-of-art-20630"
+  },
+  {
+    "name": "University of Illinois--Springfield",
+    "link": "/best-colleges/university-of-illinois-springfield-9333"
+  },
+  {
+    "name": "University of Maine--Fort Kent",
+    "link": "/best-colleges/university-of-maine-fort-kent-2041"
+  },
+  {
+    "name": "University of Wisconsin--La Crosse",
+    "link": "/best-colleges/university-of-wisconsin-la-crosse-3919"
+  },
+  {
+    "name": "Winona State University",
+    "link": "/best-colleges/winona-state-2394"
+  },
+  {
+    "name": "Arizona Christian University",
+    "link": "/best-colleges/arizona-christian-university-7113"
+  },
+  {
+    "name": "ArtCenter College of Design",
+    "link": "/best-colleges/artcenter-college-of-design-1116"
+  },
+  {
+    "name": "Bluffton University",
+    "link": "/best-colleges/bluffton-university-3016"
+  },
+  {
+    "name": "Columbia International University",
+    "link": "/best-colleges/columbia-international-university-3429"
+  },
+  {
+    "name": "Dakota Wesleyan University",
+    "link": "/best-colleges/dakota-wesleyan-3461"
+  },
+  {
+    "name": "Eureka College",
+    "link": "/best-colleges/eureka-college-1678"
+  },
+  {
+    "name": "Johnson & Wales University--Charlotte",
+    "link": "/best-colleges/johnson--wales-university-charlotte-108847"
+  },
+  {
+    "name": "Lee University",
+    "link": "/best-colleges/lee-university-3500"
+  },
+  {
+    "name": "Wiley College",
+    "link": "/best-colleges/wiley-college-3669"
+  },
+  {
+    "name": "California Baptist University",
+    "link": "/best-colleges/california-baptist-university-1125"
+  },
+  {
+    "name": "California State University--Bakersfield",
+    "link": "/best-colleges/csub-7993"
+  },
+  {
+    "name": "Mitchell College",
+    "link": "/best-colleges/mitchell-college-1393"
+  },
+  {
+    "name": "Pennsylvania State University--Abington",
+    "link": "/best-colleges/pennsylvania-state-university-abington-3342"
+  },
+  {
+    "name": "St. Francis University",
+    "link": "/best-colleges/saint-francis-university-3366"
+  },
+  {
+    "name": "Toccoa Falls College",
+    "link": "/best-colleges/toccoa-falls-college-1596"
+  },
+  {
+    "name": "University of Puerto Rico--Ponce",
+    "link": "/best-colleges/university-of-puerto-rico-ponce-9652"
+  },
+  {
+    "name": "West Virginia Wesleyan College",
+    "link": "/best-colleges/west-virginia-wesleyan-3830"
+  },
+  {
+    "name": "Asbury University",
+    "link": "/best-colleges/asbury-university-1952"
+  },
+  {
+    "name": "Austin Peay State University",
+    "link": "/best-colleges/austin-peay-state-university-3478"
+  },
+  {
+    "name": "Canisius University",
+    "link": "/best-colleges/canisius-university-2681"
+  },
+  {
+    "name": "CUNY--Lehman College",
+    "link": "/best-colleges/lehman-college-7022"
+  },
+  {
+    "name": "Nevada State University",
+    "link": "/best-colleges/nevada-state-university-41143"
+  },
+  {
+    "name": "Rogers State University",
+    "link": "/best-colleges/rogers-state-university-3168"
+  },
+  {
+    "name": "Adrian College",
+    "link": "/best-colleges/adrian-college-2234"
+  },
+  {
+    "name": "Blackburn College",
+    "link": "/best-colleges/blackburn-college-1639"
+  },
+  {
+    "name": "Cal Poly Humboldt",
+    "link": "/best-colleges/cal-poly-humboldt-1149"
+  },
+  {
+    "name": "Carroll University",
+    "link": "/best-colleges/carroll-university-3838"
+  },
+  {
+    "name": "Dean College",
+    "link": "/best-colleges/dean-college-2144"
+  },
+  {
+    "name": "Kansas Wesleyan University",
+    "link": "/best-colleges/kansas-wesleyan-university-1929"
+  },
+  {
+    "name": "Northland College",
+    "link": "/best-colleges/northland-college-3875"
+  },
+  {
+    "name": "South Dakota School of Mines and Technology",
+    "link": "/best-colleges/south-dakota-school-of-mines-3470"
+  },
+  {
+    "name": "Sterling College (VT)",
+    "link": "/best-colleges/sterling-college-vermont-21435"
+  },
+  {
+    "name": "Chaminade University of Honolulu",
+    "link": "/best-colleges/chaminade-university-of-honolulu-1605"
+  },
+  {
+    "name": "Morehead State University",
+    "link": "/best-colleges/morehead-state-university-1976"
+  },
+  {
+    "name": "Niagara University",
+    "link": "/best-colleges/niagara-university-2788"
+  },
+  {
+    "name": "Reinhardt University",
+    "link": "/best-colleges/reinhardt-university-1589"
+  },
+  {
+    "name": "Snow College",
+    "link": "/best-colleges/snow-college-666994"
+  },
+  {
+    "name": "SUNY Polytechnic Institute",
+    "link": "/best-colleges/suny-polytechnic-institute-11678"
+  },
+  {
+    "name": "Anderson University (SC)",
+    "link": "/best-colleges/anderson-university-south-carolina-3418"
+  },
+  {
+    "name": "Brevard College",
+    "link": "/best-colleges/brevard-college-2912"
+  },
+  {
+    "name": "California Institute of the Arts",
+    "link": "/best-colleges/california-institute-of-the-arts-1132"
+  },
+  {
+    "name": "Coastal Carolina University",
+    "link": "/best-colleges/coastal-carolina-university-3451"
+  },
+  {
+    "name": "Johnson University (TN)",
+    "link": "/best-colleges/johnson-university-tennessee-3495"
+  },
+  {
+    "name": "Mississippi University for Women",
+    "link": "/best-colleges/mississippi-women-2422"
+  },
+  {
+    "name": "North Carolina Central University",
+    "link": "/best-colleges/north-carolina-central-2950"
+  },
+  {
+    "name": "Northern New Mexico College",
+    "link": "/best-colleges/northern-new-mexico-college-20839"
+  },
+  {
+    "name": "North Greenville University",
+    "link": "/best-colleges/north-greenville-university-3441"
+  },
+  {
+    "name": "Pennsylvania State University -- Scranton",
+    "link": "/best-colleges/pennsylvania-state-university---scranton-228657"
+  },
+  {
+    "name": "Southern Adventist University",
+    "link": "/best-colleges/southern-adventist-university-3518"
+  },
+  {
+    "name": "University of Puerto Rico--Arecibo",
+    "link": "/best-colleges/university-of-puerto-rico-arecibo-7228"
+  },
+  {
+    "name": "University of Wisconsin--Whitewater",
+    "link": "/best-colleges/university-of-wisconsin-whitewater-3926"
+  },
+  {
+    "name": "California State University--Dominguez Hills",
+    "link": "/best-colleges/california-state-university-dominguez-hills-1141"
+  },
+  {
+    "name": "Central Washington University",
+    "link": "/best-colleges/central-washington-university-3771"
+  },
+  {
+    "name": "LeTourneau University",
+    "link": "/best-colleges/letourneau-university-3584"
+  },
+  {
+    "name": "Montana Technological University",
+    "link": "/best-colleges/montana-technological-university-2531"
+  },
+  {
+    "name": "New Mexico Tech",
+    "link": "/best-colleges/nmt-2654"
+  },
+  {
+    "name": "Paul Quinn College",
+    "link": "/best-colleges/paul-quinn-college-667046"
+  },
+  {
+    "name": "Rider University",
+    "link": "/best-colleges/rider-university-2628"
+  },
+  {
+    "name": "Stephen F. Austin State University",
+    "link": "/best-colleges/stephen-f-austin-state-university-3624"
+  },
+  {
+    "name": "University of Maine--Presque Isle",
+    "link": "/best-colleges/university-of-maine-presque-isle-2033"
+  },
+  {
+    "name": "The University of North Texas--Dallas",
+    "link": "/best-colleges/the-university-of-north-texas-dallas-666992"
+  },
+  {
+    "name": "University of Northwestern--St. Paul",
+    "link": "/best-colleges/northwestern-college-2371"
+  },
+  {
+    "name": "Webster University",
+    "link": "/best-colleges/webster-university-2521"
+  },
+  {
+    "name": "Wentworth Institute of Technology",
+    "link": "/best-colleges/wentworth-institute-of-technology-29099"
+  },
+  {
+    "name": "Bethel College",
+    "link": "/best-colleges/bethel-college-1905"
+  },
+  {
+    "name": "Brescia University",
+    "link": "/best-colleges/brescia-university-1958"
+  },
+  {
+    "name": "Oklahoma Panhandle State University",
+    "link": "/best-colleges/oklahoma-panhandle-state-3174"
+  },
+  {
+    "name": "Quincy University",
+    "link": "/best-colleges/quincy-university-1745"
+  },
+  {
+    "name": "University of Valley Forge",
+    "link": "/best-colleges/valley-forge-christian-3306"
+  },
+  {
+    "name": "Utah Tech University",
+    "link": "/best-colleges/utah-tech-university-3671"
+  },
+  {
+    "name": "Williams Baptist University",
+    "link": "/best-colleges/williams-baptist-university-1106"
+  },
+  {
+    "name": "Ashland University",
+    "link": "/best-colleges/ashland-university-3012"
+  },
+  {
+    "name": "Carthage College",
+    "link": "/best-colleges/carthage-college-3839"
+  },
+  {
+    "name": "Huntington University",
+    "link": "/best-colleges/huntington-university-1803"
+  },
+  {
+    "name": "Keystone College",
+    "link": "/best-colleges/keystone-college-3280"
+  },
+  {
+    "name": "Moravian University",
+    "link": "/best-colleges/moravian-university-3301"
+  },
+  {
+    "name": "Saint Xavier University",
+    "link": "/best-colleges/saint-xavier-university-1768"
+  },
+  {
+    "name": "SUNY Oswego",
+    "link": "/best-colleges/suny-oswego-2848"
+  },
+  {
+    "name": "Berkeley College (NY)",
+    "link": "/best-colleges/berkeley-college-new-york-7394"
+  },
+  {
+    "name": "Central Penn College",
+    "link": "/best-colleges/central-penn-college-4890"
+  },
+  {
+    "name": "Northern Marianas College",
+    "link": "/best-colleges/northern-marianas-college-667045"
+  },
+  {
+    "name": "University of South Carolina--Beaufort",
+    "link": "/best-colleges/university-of-south-carolina-beaufort-3450"
+  },
+  {
+    "name": "Wilmington College",
+    "link": "/best-colleges/wilmington-college-3142"
+  },
+  {
+    "name": "Berklee College of Music",
+    "link": "/best-colleges/berklee-college-of-music-2126"
+  },
+  {
+    "name": "Bluefield State University",
+    "link": "/best-colleges/bluefield-state-university-3809"
+  },
+  {
+    "name": "CUNY--Brooklyn College",
+    "link": "/best-colleges/cuny-brooklyn-college-2687"
+  },
+  {
+    "name": "Emmaus Bible College",
+    "link": "/best-colleges/emmaus-bible-college-23289"
+  },
+  {
+    "name": "Endicott College",
+    "link": "/best-colleges/endicott-college-2148"
+  },
+  {
+    "name": "Jarvis Christian University",
+    "link": "/best-colleges/jarvis-christian-university-3637"
+  },
+  {
+    "name": "Merrimack College",
+    "link": "/best-colleges/merrimack-college-2120"
+  },
+  {
+    "name": "Saint Peter's University",
+    "link": "/best-colleges/saint-peters-university-2638"
+  },
+  {
+    "name": "University of Puerto Rico--Humacao",
+    "link": "/best-colleges/university-of-puerto-rico-humacao-3943"
+  },
+  {
+    "name": "Pennsylvania State University--Berks",
+    "link": "/best-colleges/pennsylvania-state-university-berks-861542"
+  },
+  {
+    "name": "Pennsylvania State University -- Schuylkill",
+    "link": "/best-colleges/pennsylvania-state-university---schuylkill-460903"
+  },
+  {
+    "name": "Southwestern Christian University",
+    "link": "/best-colleges/southwestern-christian-university-3180"
+  },
+  {
+    "name": "University of Maine--Augusta",
+    "link": "/best-colleges/university-of-maine-augusta-6760"
+  },
+  {
+    "name": "The University of Olivet",
+    "link": "/best-colleges/olivet-2308"
+  },
+  {
+    "name": "Columbia College (SC)",
+    "link": "/best-colleges/columbia-college-south-carolina-3430"
+  },
+  {
+    "name": "Dalton State College",
+    "link": "/best-colleges/dalton-state-college-3956"
+  },
+  {
+    "name": "Jacksonville University",
+    "link": "/best-colleges/jacksonville-university-1495"
+  },
+  {
+    "name": "Kentucky State University",
+    "link": "/best-colleges/kentucky-state-university-1968"
+  },
+  {
+    "name": "Olivet Nazarene University",
+    "link": "/best-colleges/olivet-nazarene-university-1741"
+  },
+  {
+    "name": "Ottawa University",
+    "link": "/best-colleges/ottawa-university-1937"
+  },
+  {
+    "name": "South Texas College",
+    "link": "/best-colleges/south-texas-college-31034"
+  },
+  {
+    "name": "Spalding University",
+    "link": "/best-colleges/spalding-university-1960"
+  },
+  {
+    "name": "University of North Carolina--Pembroke",
+    "link": "/best-colleges/unc-pembroke-2954"
+  },
+  {
+    "name": "University of Tennessee Southern",
+    "link": "/best-colleges/the-university-of-tennessee-southern-3504"
+  },
+  {
+    "name": "University of Wisconsin--Stevens Point",
+    "link": "/best-colleges/uw-stevens-point-3924"
+  },
+  {
+    "name": "York University",
+    "link": "/best-colleges/york-university-2567"
+  },
+  {
+    "name": "Saint Martin's University",
+    "link": "/best-colleges/st-martins-3794"
+  },
+  {
+    "name": "College of Saint Mary",
+    "link": "/best-colleges/college-of-saint-mary-2540"
+  },
+  {
+    "name": "Fisher College",
+    "link": "/best-colleges/fisher-college-2150"
+  },
+  {
+    "name": "God's Bible School and College",
+    "link": "/best-colleges/gods-bible-school-and-college-22205"
+  },
+  {
+    "name": "La Sierra University",
+    "link": "/best-colleges/la-sierra-university-1215"
+  },
+  {
+    "name": "Muskingum University",
+    "link": "/best-colleges/muskingum-university-3084"
+  },
+  {
+    "name": "Northwestern College",
+    "link": "/best-colleges/northwestern-college-1883"
+  },
+  {
+    "name": "Northwest University",
+    "link": "/best-colleges/northwest-university-3783"
+  },
+  {
+    "name": "Oklahoma Baptist University",
+    "link": "/best-colleges/oklahoma-baptist-university-3164"
+  },
+  {
+    "name": "Saint Mary-of-the-Woods College",
+    "link": "/best-colleges/saint-maryofthewoods-college-1835"
+  },
+  {
+    "name": "Southwestern College",
+    "link": "/best-colleges/southwestern-college-1940"
+  },
+  {
+    "name": "Tabor College",
+    "link": "/best-colleges/tabor-college-1946"
+  },
+  {
+    "name": "University of Saint Francis",
+    "link": "/best-colleges/university-of-saint-francis-1832"
+  },
+  {
+    "name": "Vanguard University of Southern California",
+    "link": "/best-colleges/vanguard-university-of-southern-california-1293"
+  },
+  {
+    "name": "Abraham Baldwin Agricultural College",
+    "link": "/best-colleges/abraham-baldwin-agricultural-college-1541"
+  },
+  {
+    "name": "The College of Westchester",
+    "link": "/best-colleges/college-of-westchester-666973"
+  },
+  {
+    "name": "Elizabethtown College",
+    "link": "/best-colleges/elizabethtown-college-3262"
+  },
+  {
+    "name": "Marywood University",
+    "link": "/best-colleges/marywood-university-3296"
+  },
+  {
+    "name": "Nazareth University",
+    "link": "/best-colleges/nazareth-university-2779"
+  },
+  {
+    "name": "Pennsylvania State University -- Greater Allegheny",
+    "link": "/best-colleges/pennsylvania-state-university---greater-allegheny-989152"
+  },
+  {
+    "name": "Roger Williams University",
+    "link": "/best-colleges/roger-williams-university-4917"
+  },
+  {
+    "name": "Slippery Rock University of Pennsylvania",
+    "link": "/best-colleges/slippery-rock-university-of-pennsylvania-3327"
+  },
+  {
+    "name": "Converse University",
+    "link": "/best-colleges/converse-university-3431"
+  },
+  {
+    "name": "North Carolina Wesleyan University",
+    "link": "/best-colleges/north-carolina-wesleyan-university-2951"
+  },
+  {
+    "name": "Troy University",
+    "link": "/best-colleges/troy-university-1047"
+  },
+  {
+    "name": "Defiance College",
+    "link": "/best-colleges/defiance-college-3041"
+  },
+  {
+    "name": "Dickinson State University",
+    "link": "/best-colleges/dickinson-state-university-2989"
+  },
+  {
+    "name": "Erskine College",
+    "link": "/best-colleges/erskine-college-3432"
+  },
+  {
+    "name": "Pennsylvania State University -- Fayette-Eberly",
+    "link": "/best-colleges/pennsylvania-state-university---fayetteeberly-510407"
+  },
+  {
+    "name": "Pennsylvania State University--Wilkes-Barre",
+    "link": "/best-colleges/pennsylvania-state-university-wilkesbarre-338379"
+  },
+  {
+    "name": "Sterling College (KS)",
+    "link": "/best-colleges/sterling-college-kansas-1945"
+  },
+  {
+    "name": "Alice Lloyd College",
+    "link": "/best-colleges/alice-lloyd-college-1951"
+  },
+  {
+    "name": "Crowley's Ridge College",
+    "link": "/best-colleges/crowleys-ridge-college-666944"
+  },
+  {
+    "name": "Edward Waters University",
+    "link": "/best-colleges/edward-waters-university-1478"
+  },
+  {
+    "name": "Fresno Pacific University",
+    "link": "/best-colleges/fresno-pacific-university-1253"
+  },
+  {
+    "name": "Louisiana State University--Alexandria",
+    "link": "/best-colleges/louisiana-state-university-alexandria-2011"
+  },
+  {
+    "name": "Texas A&M International University",
+    "link": "/best-colleges/texas-am-international-9651"
+  },
+  {
+    "name": "University of North Georgia",
+    "link": "/best-colleges/university-of-north-georgia-1585"
+  },
+  {
+    "name": "Walla Walla University",
+    "link": "/best-colleges/walla-walla-university-3799"
+  },
+  {
+    "name": "West Texas A&M University",
+    "link": "/best-colleges/west-texas-am-university-3665"
+  },
+  {
+    "name": "Woodbury University",
+    "link": "/best-colleges/woodbury-university-1343"
+  },
+  {
+    "name": "Buena Vista University",
+    "link": "/best-colleges/buena-vista-university-1847"
+  },
+  {
+    "name": "Capital University",
+    "link": "/best-colleges/capital-university-3023"
+  },
+  {
+    "name": "Eastern Mennonite University",
+    "link": "/best-colleges/eastern-mennonite-university-3708"
+  },
+  {
+    "name": "Goodwin University",
+    "link": "/best-colleges/goodwin-university-667091"
+  },
+  {
+    "name": "Grace College and Seminary",
+    "link": "/best-colleges/grace-college-and-seminary-1800"
+  },
+  {
+    "name": "Lynn University",
+    "link": "/best-colleges/lynn-university-1505"
+  },
+  {
+    "name": "Nebraska Wesleyan University",
+    "link": "/best-colleges/nebraska-wesleyan-university-2555"
+  },
+  {
+    "name": "Pennsylvania State University -- Mont Alto",
+    "link": "/best-colleges/pennsylvania-state-university---mont-alto-817798"
+  },
+  {
+    "name": "Siena Heights University",
+    "link": "/best-colleges/siena-heights-university-2316"
+  },
+  {
+    "name": "University of Puerto Rico--Mayaguez",
+    "link": "/best-colleges/university-of-puerto-rico-mayaguez-3944"
+  },
+  {
+    "name": "University of Wisconsin--River Falls",
+    "link": "/best-colleges/university-of-wisconsin-river-falls-3923"
+  },
+  {
+    "name": "Villa Maria College",
+    "link": "/best-colleges/villa-maria-college-666972"
+  },
+  {
+    "name": "CUNY--Queens College",
+    "link": "/best-colleges/queens-college-2690"
+  },
+  {
+    "name": "Faith Baptist Bible College and Theological Seminary",
+    "link": "/best-colleges/faith-baptist-bible-college-and-theological-seminary-7121"
+  },
+  {
+    "name": "Salisbury University",
+    "link": "/best-colleges/salisbury-university-2091"
+  },
+  {
+    "name": "Seton Hill University",
+    "link": "/best-colleges/seton-hill-university-pennsylvania-3362"
+  },
+  {
+    "name": "SUNY Cortland",
+    "link": "/best-colleges/suny-cortland-2843"
+  },
+  {
+    "name": "SUNY--Plattsburgh",
+    "link": "/best-colleges/suny-plattsburgh-2849"
+  },
+  {
+    "name": "University of Saint Joseph",
+    "link": "/best-colleges/university-of-saint-joseph-1409"
+  },
+  {
+    "name": "Rochester Christian University",
+    "link": "/best-colleges/rochester-university-2288"
+  },
+  {
+    "name": "Alcorn State University",
+    "link": "/best-colleges/alcorn-state-university-2396"
+  },
+  {
+    "name": "Barclay College",
+    "link": "/best-colleges/barclay-college-667123"
+  },
+  {
+    "name": "Delta State University",
+    "link": "/best-colleges/delta-state-university-2403"
+  },
+  {
+    "name": "Ferrum College",
+    "link": "/best-colleges/ferrum-college-3711"
+  },
+  {
+    "name": "Francis Marion University",
+    "link": "/best-colleges/francis-marion-9226"
+  },
+  {
+    "name": "Lenoir-Rhyne University",
+    "link": "/best-colleges/lenoir-rhyne-university-2941"
+  },
+  {
+    "name": "Mid-Atlantic Christian University",
+    "link": "/best-colleges/midatlantic-christian-university-22809"
+  },
+  {
+    "name": "Pennsylvania State University -- Beaver",
+    "link": "/best-colleges/pennsylvania-state-university---beaver-363895"
+  },
+  {
+    "name": "University of Puerto Rico--Aguadilla",
+    "link": "/best-colleges/university-of-puerto-rico-aguadilla-12123"
+  },
+  {
+    "name": "West Virginia University Institute of Technology",
+    "link": "/best-colleges/west-virginia-university-institute-of-technology-3825"
+  },
+  {
+    "name": "William Penn University",
+    "link": "/best-colleges/william-penn-university-1900"
+  },
+  {
+    "name": "Heritage University",
+    "link": "/best-colleges/heritage-university-3777"
+  },
+  {
+    "name": "Pennsylvania State University -- New Kensington",
+    "link": "/best-colleges/pennsylvania-state-university---new-kensington-698055"
+  },
+  {
+    "name": "Eastern Washington University",
+    "link": "/best-colleges/eastern-washington-university-3775"
+  },
+  {
+    "name": "Hannibal-LaGrange University",
+    "link": "/best-colleges/hannibal-lagrange-9089"
+  },
+  {
+    "name": "Pennsylvania State University -- DuBois",
+    "link": "/best-colleges/pennsylvania-state-university---dubois-402912"
+  },
+  {
+    "name": "Pennsylvania State University -- Hazleton",
+    "link": "/best-colleges/pennsylvania-state-university---hazleton-163013"
+  },
+  {
+    "name": "Eastern Illinois University",
+    "link": "/best-colleges/eastern-illinois-university-1674"
+  },
+  {
+    "name": "Grace Christian University",
+    "link": "/best-colleges/grace-christian-university-2265"
+  },
+  {
+    "name": "Lawrence Technological University",
+    "link": "/best-colleges/lawrence-tech-2279"
+  },
+  {
+    "name": "Minnesota State University--Moorhead",
+    "link": "/best-colleges/minnesota-state-university-moorhead-2367"
+  },
+  {
+    "name": "Weber State University",
+    "link": "/best-colleges/weber-state-university-3680"
+  },
+  {
+    "name": "Bethany College (KS)",
+    "link": "/best-colleges/bethany-college-kansas-1904"
+  },
+  {
+    "name": "Colorado Christian University",
+    "link": "/best-colleges/colorado-christian-university-9401"
+  },
+  {
+    "name": "Jacksonville State University",
+    "link": "/best-colleges/jacksonville-state-university-1020"
+  },
+  {
+    "name": "Miami University--Hamilton",
+    "link": "/best-colleges/miami-university-hamilton-162743"
+  },
+  {
+    "name": "Norfolk State University",
+    "link": "/best-colleges/norfolk-state-university-3765"
+  },
+  {
+    "name": "Philander Smith College",
+    "link": "/best-colleges/philander-smith-college-1103"
+  },
+  {
+    "name": "St. Joseph's University, New York",
+    "link": "/best-colleges/st-josephs-university-new-york-2825"
+  },
+  {
+    "name": "SUNY Brockport",
+    "link": "/best-colleges/suny-brockport-2841"
+  },
+  {
+    "name": "Georgia Gwinnett College",
+    "link": "/best-colleges/georgia-gwinnett-college-41429"
+  },
+  {
+    "name": "Midwestern State University",
+    "link": "/best-colleges/midwestern-state-3592"
+  },
+  {
+    "name": "University of Guam",
+    "link": "/best-colleges/university-of-guam-3935"
+  },
+  {
+    "name": "Assumption University",
+    "link": "/best-colleges/assumption-university-2118"
+  },
+  {
+    "name": "Benedictine University",
+    "link": "/best-colleges/benedictine-university-1767"
+  },
+  {
+    "name": "Bethel University (IN)",
+    "link": "/best-colleges/bethel-university-in-1787"
+  },
+  {
+    "name": "Eastern Connecticut State University",
+    "link": "/best-colleges/eastern-connecticut-state-university-1425"
+  },
+  {
+    "name": "Glenville State University",
+    "link": "/best-colleges/glenville-state-college-3813"
+  },
+  {
+    "name": "Lincoln University (MO)",
+    "link": "/best-colleges/lincoln-university-missouri-2479"
+  },
+  {
+    "name": "Mayville State University",
+    "link": "/best-colleges/mayville-state-university-2993"
+  },
+  {
+    "name": "Miami University--Middletown",
+    "link": "/best-colleges/miami-university-middletown-315381"
+  },
+  {
+    "name": "Northwestern State University of Louisiana",
+    "link": "/best-colleges/northwestern-state-university-of-louisiana-2021"
+  },
+  {
+    "name": "Regis College",
+    "link": "/best-colleges/regis-college-2206"
+  },
+  {
+    "name": "Southern Wesleyan University",
+    "link": "/best-colleges/southern-wesleyan-3422"
+  },
+  {
+    "name": "Truett McConnell University",
+    "link": "/best-colleges/truett-mcconnell-university-1597"
+  },
+  {
+    "name": "University of Rio Grande",
+    "link": "/best-colleges/university-of-rio-grande-3116"
+  },
+  {
+    "name": "Virginia State University",
+    "link": "/best-colleges/virginia-state-3764"
+  },
+  {
+    "name": "Western Illinois University",
+    "link": "/best-colleges/western-illinois-university-1780"
+  },
+  {
+    "name": "West Liberty University",
+    "link": "/best-colleges/west-liberty-university-3823"
+  },
+  {
+    "name": "Wheeling University",
+    "link": "/best-colleges/wheeling-university-3831"
+  },
+  {
+    "name": "Northeastern State University",
+    "link": "/best-colleges/northeastern-state-university-3161"
+  },
+  {
+    "name": "University of Houston--Downtown",
+    "link": "/best-colleges/university-of-houston-downtown-12826"
+  },
+  {
+    "name": "Western Oregon University",
+    "link": "/best-colleges/western-oregon-university-3209"
+  },
+  {
+    "name": "Central Baptist College",
+    "link": "/best-colleges/central-baptist-college-1093"
+  },
+  {
+    "name": "Emmanuel University",
+    "link": "/best-colleges/emmanuel-college-georgia-1563"
+  },
+  {
+    "name": "Florida College",
+    "link": "/best-colleges/florida-college-1482"
+  },
+  {
+    "name": "Fairleigh Dickinson University--Metropolitan Campus",
+    "link": "/best-colleges/fairleigh-dickinson-university-metropolitan-campus-8770"
+  },
+  {
+    "name": "Hood College",
+    "link": "/best-colleges/hood-college-2076"
+  },
+  {
+    "name": "Iona University",
+    "link": "/best-colleges/iona-university-2737"
+  },
+  {
+    "name": "Minnesota State University--Mankato",
+    "link": "/best-colleges/minnesota-state-university-mankato-2360"
+  },
+  {
+    "name": "Mount Mary University",
+    "link": "/best-colleges/mount-mary-college-3869"
+  },
+  {
+    "name": "Mount Mercy University",
+    "link": "/best-colleges/mount-mercy-university-1880"
+  },
+  {
+    "name": "University of Wisconsin--Platteville",
+    "link": "/best-colleges/university-of-wisconsin-platteville-3921"
+  },
+  {
+    "name": "Wagner College",
+    "link": "/best-colleges/wagner-college-2899"
+  },
+  {
+    "name": "William Paterson University of New Jersey",
+    "link": "/best-colleges/william-paterson-2625"
+  },
+  {
+    "name": "Oklahoma Christian University",
+    "link": "/best-colleges/oklahoma-christian-3165"
+  },
+  {
+    "name": "University of Northwestern Ohio",
+    "link": "/best-colleges/northwestern-ohio-4861"
+  },
+  {
+    "name": "University of Texas Permian Basin",
+    "link": "/best-colleges/university-of-texas-permian-basin-9930"
+  },
+  {
+    "name": "Averett University",
+    "link": "/best-colleges/averett-university-3702"
+  },
+  {
+    "name": "Calvary University",
+    "link": "/best-colleges/calvary-university-2450"
+  },
+  {
+    "name": "Fayetteville State University",
+    "link": "/best-colleges/fayetteville-state-university-2928"
+  },
+  {
+    "name": "Fort Valley State University",
+    "link": "/best-colleges/fort-valley-state-university-1566"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Barranquitas",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-barranquitas-5027"
+  },
+  {
+    "name": "Kentucky Christian University",
+    "link": "/best-colleges/kentucky-christian-university-1965"
+  },
+  {
+    "name": "Montreat College",
+    "link": "/best-colleges/montreat-college-2948"
+  },
+  {
+    "name": "Northwest Nazarene University",
+    "link": "/best-colleges/northwest-nazarene-university-1624"
+  },
+  {
+    "name": "Wilberforce University",
+    "link": "/best-colleges/wilberforce-university-3141"
+  },
+  {
+    "name": "Angelo State University",
+    "link": "/best-colleges/angelo-state-university-3541"
+  },
+  {
+    "name": "Cornerstone University",
+    "link": "/best-colleges/cornerstone-university-2266"
+  },
+  {
+    "name": "The Evergreen State College",
+    "link": "/best-colleges/the-evergreen-state-college-8155"
+  },
+  {
+    "name": "Heidelberg University",
+    "link": "/best-colleges/heidelberg-university-3048"
+  },
+  {
+    "name": "Southern Nazarene University",
+    "link": "/best-colleges/southern-nazarene-university-3149"
+  },
+  {
+    "name": "Southwestern Oklahoma State University",
+    "link": "/best-colleges/southwestern-oklahoma-state-university-3181"
+  },
+  {
+    "name": "University of Wisconsin--Green Bay",
+    "link": "/best-colleges/uw-green-bay-3899"
+  },
+  {
+    "name": "Wright State University--Lake Campus",
+    "link": "/best-colleges/wright-state-university--lake-campus-146066"
+  },
+  {
+    "name": "Arkansas Tech University",
+    "link": "/best-colleges/arkansas-tech-university-1089"
+  },
+  {
+    "name": "Auburn University at Montgomery",
+    "link": "/best-colleges/auburn-university-at-montgomery-8310"
+  },
+  {
+    "name": "Central State University",
+    "link": "/best-colleges/central-state-university-3026"
+  },
+  {
+    "name": "Charleston Southern University",
+    "link": "/best-colleges/charleston-southern-university-3419"
+  },
+  {
+    "name": "Columbus State University",
+    "link": "/best-colleges/columbus-state-university-1561"
+  },
+  {
+    "name": "Florida Memorial University",
+    "link": "/best-colleges/florida-memorial-university-1486"
+  },
+  {
+    "name": "Great Lakes Christian College",
+    "link": "/best-colleges/great-lakes-christian-college-2269"
+  },
+  {
+    "name": "Mercyhurst University",
+    "link": "/best-colleges/mercyhurst-college-3297"
+  },
+  {
+    "name": "Midway University",
+    "link": "/best-colleges/midway-university-1975"
+  },
+  {
+    "name": "Piedmont University",
+    "link": "/best-colleges/piedmont-university-1588"
+  },
+  {
+    "name": "University of South Carolina--Aiken",
+    "link": "/best-colleges/usc-aiken-3449"
+  },
+  {
+    "name": "Alfred University",
+    "link": "/best-colleges/alfred-university-2668"
+  },
+  {
+    "name": "Central Connecticut State University",
+    "link": "/best-colleges/central-connecticut-state-university-1378"
+  },
+  {
+    "name": "Chowan University",
+    "link": "/best-colleges/chowan-university-2916"
+  },
+  {
+    "name": "Molloy University",
+    "link": "/best-colleges/molloy-university-2775"
+  },
+  {
+    "name": "Monroe University",
+    "link": "/best-colleges/monroe-university-4799"
+  },
+  {
+    "name": "Notre Dame of Maryland University",
+    "link": "/best-colleges/notre-dame-of-maryland-university-2065"
+  },
+  {
+    "name": "Pontifical Catholic University of Puerto Rico--Mayaguez",
+    "link": "/best-colleges/pontifical-catholic-university-of-puerto-rico-mayaguez-985213"
+  },
+  {
+    "name": "Southern Connecticut State University",
+    "link": "/best-colleges/southern-connecticut-state-university-1406"
+  },
+  {
+    "name": "SUNY at Fredonia",
+    "link": "/best-colleges/suny-fredonia-2844"
+  },
+  {
+    "name": "Westfield State University",
+    "link": "/best-colleges/westfield-state-college-2189"
+  },
+  {
+    "name": "Alverno College",
+    "link": "/best-colleges/alverno-college-3832"
+  },
+  {
+    "name": "Anderson University (IN)",
+    "link": "/best-colleges/anderson-university-in-1785"
+  },
+  {
+    "name": "Central Christian College of Kansas",
+    "link": "/best-colleges/central-christian-college-of-kansas-1908"
+  },
+  {
+    "name": "Harris-Stowe State University",
+    "link": "/best-colleges/harris-stowe-state-2466"
+  },
+  {
+    "name": "Kent State University at Stark",
+    "link": "/best-colleges/kent-state-university-at-stark-490136"
+  },
+  {
+    "name": "Manchester University",
+    "link": "/best-colleges/manchester-university-1820"
+  },
+  {
+    "name": "Northern Michigan University",
+    "link": "/best-colleges/northern-michigan-university-2301"
+  },
+  {
+    "name": "Northwest Missouri State University",
+    "link": "/best-colleges/northwest-missouri-2496"
+  },
+  {
+    "name": "Stephens College",
+    "link": "/best-colleges/stephens-college-2512"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Guayama",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-guayama-22827"
+  },
+  {
+    "name": "Jessup University",
+    "link": "/best-colleges/jessup-university-1281"
+  },
+  {
+    "name": "Livingstone College",
+    "link": "/best-colleges/livingstone-college-2942"
+  },
+  {
+    "name": "Point University",
+    "link": "/best-colleges/point-university-1547"
+  },
+  {
+    "name": "Texas A&M University--San Antonio",
+    "link": "/best-colleges/texas-am-san-antonio-845912"
+  },
+  {
+    "name": "Voorhees University",
+    "link": "/best-colleges/voorhees-college-3455"
+  },
+  {
+    "name": "Bushnell University",
+    "link": "/best-colleges/bushnell-university-3208"
+  },
+  {
+    "name": "Houston Christian University",
+    "link": "/best-colleges/houston-christian-university-3576"
+  },
+  {
+    "name": "Southern Utah University",
+    "link": "/best-colleges/southern-utah-university-3678"
+  },
+  {
+    "name": "University of Central Oklahoma",
+    "link": "/best-colleges/university-of-central-oklahoma-3152"
+  },
+  {
+    "name": "Vincennes University",
+    "link": "/best-colleges/vincennes-university-1843"
+  },
+  {
+    "name": "Western Colorado University",
+    "link": "/best-colleges/western-colorado-university-1372"
+  },
+  {
+    "name": "Missouri Valley College",
+    "link": "/best-colleges/missouri-valley-2489"
+  },
+  {
+    "name": "Ohio State University--Lima",
+    "link": "/best-colleges/ohio-state-university-lima-3092"
+  },
+  {
+    "name": "Ohio State University--Marion",
+    "link": "/best-colleges/ohio-state-university-marion-3094"
+  },
+  {
+    "name": "College of Coastal Georgia",
+    "link": "/best-colleges/college-of-coastal-georgia-1558"
+  },
+  {
+    "name": "Nicholls State University",
+    "link": "/best-colleges/nicholls-state-university-2005"
+  },
+  {
+    "name": "Talladega College",
+    "link": "/best-colleges/talladega-college-1046"
+  },
+  {
+    "name": "Coker University",
+    "link": "/best-colleges/coker-college-3427"
+  },
+  {
+    "name": "Mount Vernon Nazarene University",
+    "link": "/best-colleges/mount-vernon-nazarene-university-7085"
+  },
+  {
+    "name": "North Park University",
+    "link": "/best-colleges/north-park-university-1735"
+  },
+  {
+    "name": "Spring Arbor University",
+    "link": "/best-colleges/spring-arbor-university-2318"
+  },
+  {
+    "name": "University of Central Missouri",
+    "link": "/best-colleges/university-of-central-missouri-2454"
+  },
+  {
+    "name": "University of Mobile",
+    "link": "/best-colleges/university-of-mobile-1029"
+  },
+  {
+    "name": "University of Southern Indiana",
+    "link": "/best-colleges/university-of-southern-indiana-1808"
+  },
+  {
+    "name": "Viterbo University",
+    "link": "/best-colleges/viterbo-university-3911"
+  },
+  {
+    "name": "Arcadia University",
+    "link": "/best-colleges/arcadia-university-3235"
+  },
+  {
+    "name": "Caldwell University",
+    "link": "/best-colleges/caldwell-university-2598"
+  },
+  {
+    "name": "Cedar Crest College",
+    "link": "/best-colleges/cedar-crest-college-3243"
+  },
+  {
+    "name": "Elms College",
+    "link": "/best-colleges/elms-college-2140"
+  },
+  {
+    "name": "Framingham State University",
+    "link": "/best-colleges/framingham-state-2185"
+  },
+  {
+    "name": "Lebanon Valley College",
+    "link": "/best-colleges/lebanon-valley-college-3288"
+  },
+  {
+    "name": "Manhattanville University",
+    "link": "/best-colleges/manhattanville-university-2760"
+  },
+  {
+    "name": "Webber International University",
+    "link": "/best-colleges/webber-international-university-1540"
+  },
+  {
+    "name": "King University",
+    "link": "/best-colleges/king-university-3496"
+  },
+  {
+    "name": "Schreiner University",
+    "link": "/best-colleges/schreiner-university-3610"
+  },
+  {
+    "name": "South Georgia State College",
+    "link": "/best-colleges/south-georgia-state-college-666991"
+  },
+  {
+    "name": "Bryan College",
+    "link": "/best-colleges/bryan-college-3536"
+  },
+  {
+    "name": "Concord University",
+    "link": "/best-colleges/concord-university-athens-3810"
+  },
+  {
+    "name": "Hawaii Pacific University",
+    "link": "/best-colleges/hawaii-pacific-university-7279"
+  },
+  {
+    "name": "Limestone University",
+    "link": "/best-colleges/limestone-college-3436"
+  },
+  {
+    "name": "Oral Roberts University",
+    "link": "/best-colleges/oral-roberts-university-3985"
+  },
+  {
+    "name": "LeMoyne-Owen College",
+    "link": "/best-colleges/lemoyne-owen-college-3501"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Fajardo",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-fajardo-22828"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Ponce",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-ponce-5029"
+  },
+  {
+    "name": "Lubbock Christian University",
+    "link": "/best-colleges/lubbock-christian-university-3586"
+  },
+  {
+    "name": "McNeese State University",
+    "link": "/best-colleges/mcneese-state-university-2017"
+  },
+  {
+    "name": "Shepherd University",
+    "link": "/best-colleges/shepherd-university-3822"
+  },
+  {
+    "name": "Southern Arkansas University",
+    "link": "/best-colleges/southern-arkansas-university-1107"
+  },
+  {
+    "name": "Universidad Adventista de las Antillas",
+    "link": "/best-colleges/universidad-adventista-de-las-antillas-5019"
+  },
+  {
+    "name": "University of Alaska Anchorage",
+    "link": "/best-colleges/university-of-alaska-anchorage-11462"
+  },
+  {
+    "name": "Doane University",
+    "link": "/best-colleges/doane-university-2544"
+  },
+  {
+    "name": "University of Dubuque",
+    "link": "/best-colleges/university-of-dubuque-1891"
+  },
+  {
+    "name": "University of Wisconsin--Stout",
+    "link": "/best-colleges/university-of-wisconsin-stout-3915"
+  },
+  {
+    "name": "Benedict College",
+    "link": "/best-colleges/benedict-3420"
+  },
+  {
+    "name": "Texas A&M University--Texarkana",
+    "link": "/best-colleges/texas-am-texarkana-31703"
+  },
+  {
+    "name": "Caribbean University--Carolina",
+    "link": "/best-colleges/caribbean-university-carolina-421606"
+  },
+  {
+    "name": "Corban University",
+    "link": "/best-colleges/corban-university-1339"
+  },
+  {
+    "name": "Mount St. Mary's University",
+    "link": "/best-colleges/mount-st-marys-university-2086"
+  },
+  {
+    "name": "Northwestern Oklahoma State University",
+    "link": "/best-colleges/northwestern-oklahoma-state-3163"
+  },
+  {
+    "name": "Southwestern Assemblies of God University",
+    "link": "/best-colleges/southwestern-assemblies-of-god-3616"
+  },
+  {
+    "name": "Stevenson University",
+    "link": "/best-colleges/stevenson-university-2107"
+  },
+  {
+    "name": "University of Puerto Rico--Bayamon",
+    "link": "/best-colleges/university-of-puerto-rico-bayamon-10975"
+  },
+  {
+    "name": "Utica University",
+    "link": "/best-colleges/utica-university-2883"
+  },
+  {
+    "name": "Concordia University (NE)",
+    "link": "/best-colleges/concordia-university-nebraska-2541"
+  },
+  {
+    "name": "Emporia State University",
+    "link": "/best-colleges/emporia-state-university-1927"
+  },
+  {
+    "name": "Madonna University",
+    "link": "/best-colleges/madonna-university-2282"
+  },
+  {
+    "name": "McKendree University",
+    "link": "/best-colleges/mckendree-university-1722"
+  },
+  {
+    "name": "Northern State University",
+    "link": "/best-colleges/northern-state-university-3466"
+  },
+  {
+    "name": "Pittsburg State University",
+    "link": "/best-colleges/pittsburg-state-university-1926"
+  },
+  {
+    "name": "Southeastern Louisiana University",
+    "link": "/best-colleges/southeastern-louisiana-university-2024"
+  },
+  {
+    "name": "Southeast Missouri State University",
+    "link": "/best-colleges/southeast-missouri-state-2501"
+  },
+  {
+    "name": "Thomas More University",
+    "link": "/best-colleges/thomas-more-university-2001"
+  },
+  {
+    "name": "University of Mount Olive",
+    "link": "/best-colleges/university-of-mount-olive-2949"
+  },
+  {
+    "name": "University of Sioux Falls",
+    "link": "/best-colleges/university-of-sioux-falls-3469"
+  },
+  {
+    "name": "University of West Alabama",
+    "link": "/best-colleges/university-of-west-alabama-1024"
+  },
+  {
+    "name": "Washburn University",
+    "link": "/best-colleges/washburn-university-1949"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Bayamon",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-bayamon-5028"
+  },
+  {
+    "name": "Miles College",
+    "link": "/best-colleges/miles-college-1028"
+  },
+  {
+    "name": "Morris College",
+    "link": "/best-colleges/morris-college-3439"
+  },
+  {
+    "name": "East Central University",
+    "link": "/best-colleges/east-central-university-3154"
+  },
+  {
+    "name": "East Texas Baptist University",
+    "link": "/best-colleges/east-texas-baptist-university-3564"
+  },
+  {
+    "name": "Fitchburg State University",
+    "link": "/best-colleges/fitchburg-state-university-2184"
+  },
+  {
+    "name": "Geneva College",
+    "link": "/best-colleges/geneva-college-3267"
+  },
+  {
+    "name": "McDaniel College",
+    "link": "/best-colleges/mcdaniel-college-2109"
+  },
+  {
+    "name": "Mount St. Mary College",
+    "link": "/best-colleges/mount-st-mary-college-2778"
+  },
+  {
+    "name": "Rocky Mountain College",
+    "link": "/best-colleges/rocky-mountain-college-2534"
+  },
+  {
+    "name": "SUNY Potsdam",
+    "link": "/best-colleges/suny-potsdam-2850"
+  },
+  {
+    "name": "University of Baltimore",
+    "link": "/best-colleges/university-of-baltimore-2102"
+  },
+  {
+    "name": "York College of Pennsylvania",
+    "link": "/best-colleges/york-college-of-pennsylvania-3399"
+  },
+  {
+    "name": "Clayton State University",
+    "link": "/best-colleges/clayton-state-university-8976"
+  },
+  {
+    "name": "Fairmont State University",
+    "link": "/best-colleges/fairmont-state-3812"
+  },
+  {
+    "name": "Saint Augustine's University",
+    "link": "/best-colleges/saint-augustines-college-2968"
+  },
+  {
+    "name": "Eastern Oregon University",
+    "link": "/best-colleges/eastern-oregon-university-3193"
+  },
+  {
+    "name": "New Mexico Highlands University",
+    "link": "/best-colleges/new-mexico-highlands-university-2653"
+  },
+  {
+    "name": "Southern Oregon University",
+    "link": "/best-colleges/southern-oregon-university-3219"
+  },
+  {
+    "name": "Stillman College",
+    "link": "/best-colleges/stillman-college-1044"
+  },
+  {
+    "name": "Everglades University",
+    "link": "/best-colleges/everglades-university-31085"
+  },
+  {
+    "name": "Florida National University",
+    "link": "/best-colleges/florida-national-university-666987"
+  },
+  {
+    "name": "Grambling State University",
+    "link": "/best-colleges/grambling-state-university-2006"
+  },
+  {
+    "name": "University of the Virgin Islands",
+    "link": "/best-colleges/university-of-the-virgin-islands-3946"
+  },
+  {
+    "name": "Colorado State University Pueblo",
+    "link": "/best-colleges/colorado-state-university-pueblo-1365"
+  },
+  {
+    "name": "University of Houston--Victoria",
+    "link": "/best-colleges/university-of-houston-victoria-13231"
+  },
+  {
+    "name": "Bemidji State University",
+    "link": "/best-colleges/bemidji-state-2336"
+  },
+  {
+    "name": "Dakota State University",
+    "link": "/best-colleges/dakota-state-university-3463"
+  },
+  {
+    "name": "Evangel University",
+    "link": "/best-colleges/evangel-university-2463"
+  },
+  {
+    "name": "Frostburg State University",
+    "link": "/best-colleges/frostburg-state-university-2072"
+  },
+  {
+    "name": "Johnson & Wales University--Providence",
+    "link": "/best-colleges/johnson--wales-university-providence-3404"
+  },
+  {
+    "name": "Ohio Dominican University",
+    "link": "/best-colleges/ohio-dominican-university-3035"
+  },
+  {
+    "name": "Salem State University",
+    "link": "/best-colleges/salem-state-2188"
+  },
+  {
+    "name": "University of New Haven",
+    "link": "/best-colleges/university-of-new-haven-1397"
+  },
+  {
+    "name": "University of Saint Mary",
+    "link": "/best-colleges/university-of-saint-mary-1943"
+  },
+  {
+    "name": "Cumberland University",
+    "link": "/best-colleges/cumberland-university-3485"
+  },
+  {
+    "name": "NewSchool of Architecture and Design",
+    "link": "/best-colleges/newschool-of-architecture-and-design-30439"
+  },
+  {
+    "name": "Pfeiffer University",
+    "link": "/best-colleges/pfeiffer-university-2955"
+  },
+  {
+    "name": "Tusculum University",
+    "link": "/best-colleges/tusculum-university-3527"
+  },
+  {
+    "name": "Concordia University Texas",
+    "link": "/best-colleges/concordia-austin-3557"
+  },
+  {
+    "name": "Oklahoma Wesleyan University",
+    "link": "/best-colleges/oklahoma-wesleyan-3151"
+  },
+  {
+    "name": "University of Providence",
+    "link": "/best-colleges/university-of-providence-2527"
+  },
+  {
+    "name": "Bridgewater State University",
+    "link": "/best-colleges/bridgewater-state-university-2183"
+  },
+  {
+    "name": "Georgian Court University",
+    "link": "/best-colleges/georgian-court-2608"
+  },
+  {
+    "name": "Louisiana State University--Shreveport",
+    "link": "/best-colleges/louisiana-state-university-shreveport-2013"
+  },
+  {
+    "name": "South Carolina State University",
+    "link": "/best-colleges/south-carolina-state-university-3446"
+  },
+  {
+    "name": "Cameron University",
+    "link": "/best-colleges/cameron-university-3150"
+  },
+  {
+    "name": "Concordia University, St. Paul",
+    "link": "/best-colleges/concordia-university-st-paul-2347"
+  },
+  {
+    "name": "Eastern New Mexico University",
+    "link": "/best-colleges/eastern-new-mexico-university-2651"
+  },
+  {
+    "name": "Prescott College",
+    "link": "/best-colleges/prescott-college-29022"
+  },
+  {
+    "name": "Utah Valley University",
+    "link": "/best-colleges/utah-valley-4027"
+  },
+  {
+    "name": "Wayne State College",
+    "link": "/best-colleges/wayne-state-college-2566"
+  },
+  {
+    "name": "Alabama A&M University",
+    "link": "/best-colleges/alabama-am-university-1002"
+  },
+  {
+    "name": "Albany State University",
+    "link": "/best-colleges/albany-state-university-1544"
+  },
+  {
+    "name": "Carlow University",
+    "link": "/best-colleges/carlow-university-3303"
+  },
+  {
+    "name": "Centenary University",
+    "link": "/best-colleges/centenary-university-2599"
+  },
+  {
+    "name": "Lindsey Wilson University",
+    "link": "/best-colleges/lindsey-wilson-university-1972"
+  },
+  {
+    "name": "Methodist University",
+    "link": "/best-colleges/methodist-university-2946"
+  },
+  {
+    "name": "Shippensburg University of Pennsylvania",
+    "link": "/best-colleges/shippensburg-university-of-pennsylvania-3326"
+  },
+  {
+    "name": "Worcester State University",
+    "link": "/best-colleges/worcester-state-university-2190"
+  },
+  {
+    "name": "Grand View University",
+    "link": "/best-colleges/grand-view-university-1867"
+  },
+  {
+    "name": "St. Cloud State University",
+    "link": "/best-colleges/st-cloud-state-university-2377"
+  },
+  {
+    "name": "Youngstown State University",
+    "link": "/best-colleges/youngstown-state-3145"
+  },
+  {
+    "name": "Hope International University",
+    "link": "/best-colleges/hope-international-university-1252"
+  },
+  {
+    "name": "Sul Ross State University",
+    "link": "/best-colleges/sul-ross-3625"
+  },
+  {
+    "name": "Champlain College",
+    "link": "/best-colleges/champlain-college-3684"
+  },
+  {
+    "name": "CUNY--College of Staten Island",
+    "link": "/best-colleges/cuny-college-of-staten-island-29040"
+  },
+  {
+    "name": "Fort Hays State University",
+    "link": "/best-colleges/fort-hays-state-university-1915"
+  },
+  {
+    "name": "Greensboro College",
+    "link": "/best-colleges/greensboro-college-2930"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--San German",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-san-german-3938"
+  },
+  {
+    "name": "King's College",
+    "link": "/best-colleges/kings-college-pennsylvania-3282"
+  },
+  {
+    "name": "Lourdes University",
+    "link": "/best-colleges/lourdes-college-3069"
+  },
+  {
+    "name": "Millersville University of Pennsylvania",
+    "link": "/best-colleges/millersville-university-of-pennsylvania-3325"
+  },
+  {
+    "name": "Norwich University",
+    "link": "/best-colleges/norwich-university-3692"
+  },
+  {
+    "name": "Rhode Island College",
+    "link": "/best-colleges/rhode-island-college-3407"
+  },
+  {
+    "name": "Roberts Wesleyan University",
+    "link": "/best-colleges/roberts-wesleyan-university-2805"
+  },
+  {
+    "name": "Saint Elizabeth University",
+    "link": "/best-colleges/saint-elizabeth-university-2600"
+  },
+  {
+    "name": "St. Joseph's College (ME)",
+    "link": "/best-colleges/st-josephs-college-2051"
+  },
+  {
+    "name": "SUNY College--Old Westbury",
+    "link": "/best-colleges/suny-college-old-westbury-7109"
+  },
+  {
+    "name": "University of Holy Cross",
+    "link": "/best-colleges/university-of-holy-cross-2023"
+  },
+  {
+    "name": "Metropolitan State University of Denver",
+    "link": "/best-colleges/metropolitan-state-university-of-denver-1360"
+  },
+  {
+    "name": "National University",
+    "link": "/best-colleges/national-university-11460"
+  },
+  {
+    "name": "Southeastern Oklahoma State University",
+    "link": "/best-colleges/southeastern-oklahoma-state-3179"
+  },
+  {
+    "name": "Greenville University",
+    "link": "/best-colleges/greenville-university-1684"
+  },
+  {
+    "name": "Judson University",
+    "link": "/best-colleges/judson-university-1700"
+  },
+  {
+    "name": "Metropolitan State University",
+    "link": "/best-colleges/metropolitan-state-university-10374"
+  },
+  {
+    "name": "MidAmerica Nazarene University",
+    "link": "/best-colleges/midamerica-nazarene-university-7032"
+  },
+  {
+    "name": "Purdue University--Northwest",
+    "link": "/best-colleges/purdue-university-northwest-666998"
+  },
+  {
+    "name": "Saginaw Valley State University",
+    "link": "/best-colleges/saginaw-valley-state-university-2314"
+  },
+  {
+    "name": "Campbellsville University",
+    "link": "/best-colleges/campbellsville-university-1959"
+  },
+  {
+    "name": "Georgia Southwestern State University",
+    "link": "/best-colleges/georgia-southwestern-state-university-1573"
+  },
+  {
+    "name": "Union College (KY)",
+    "link": "/best-colleges/union-college-kentucky-1988"
+  },
+  {
+    "name": "West Virginia State University",
+    "link": "/best-colleges/west-virginia-state-university-3826"
+  },
+  {
+    "name": "Henderson State University",
+    "link": "/best-colleges/henderson-state-university-1098"
+  },
+  {
+    "name": "Concordia University Chicago",
+    "link": "/best-colleges/concordia-university-chicago-1666"
+  },
+  {
+    "name": "Indiana University East",
+    "link": "/best-colleges/indiana-university-east-1811"
+  },
+  {
+    "name": "Louisiana Christian University",
+    "link": "/best-colleges/louisiana-college-2007"
+  },
+  {
+    "name": "Malone University",
+    "link": "/best-colleges/malone-university-3072"
+  },
+  {
+    "name": "Mount Marty University",
+    "link": "/best-colleges/mount-marty-university-3465"
+  },
+  {
+    "name": "Shawnee State University",
+    "link": "/best-colleges/shawnee-state-university-12748"
+  },
+  {
+    "name": "Southwest Minnesota State University",
+    "link": "/best-colleges/southwest-minnesota-state-2375"
+  },
+  {
+    "name": "Ursuline College",
+    "link": "/best-colleges/ursuline-3134"
+  },
+  {
+    "name": "ECPI University",
+    "link": "/best-colleges/ecpi-university-25354"
+  },
+  {
+    "name": "Universidad del Sagrado Corazon",
+    "link": "/best-colleges/universidad-del-sagrado-corazon-3937"
+  },
+  {
+    "name": "Holy Family University",
+    "link": "/best-colleges/holy-family-university-3275"
+  },
+  {
+    "name": "Bay Path University",
+    "link": "/best-colleges/bay-path-2122"
+  },
+  {
+    "name": "Bluefield University",
+    "link": "/best-colleges/bluefield-university-3703"
+  },
+  {
+    "name": "Savannah State University",
+    "link": "/best-colleges/savannah-state-university-1590"
+  },
+  {
+    "name": "Warner University",
+    "link": "/best-colleges/warner-university-8848"
+  },
+  {
+    "name": "Waynesburg University",
+    "link": "/best-colleges/waynesburg-3391"
+  },
+  {
+    "name": "Western Connecticut State University",
+    "link": "/best-colleges/western-connecticut-state-university-1380"
+  },
+  {
+    "name": "Delaware State University",
+    "link": "/best-colleges/delaware-state-university-1428"
+  },
+  {
+    "name": "Felician University",
+    "link": "/best-colleges/felician-university-2610"
+  },
+  {
+    "name": "Kutztown University of Pennsylvania",
+    "link": "/best-colleges/kutztown-university-3322"
+  },
+  {
+    "name": "Lasell University",
+    "link": "/best-colleges/lasell-university-2158"
+  },
+  {
+    "name": "Mercy University",
+    "link": "/best-colleges/mercy-university-2772"
+  },
+  {
+    "name": "Middle Georgia State University",
+    "link": "/best-colleges/middle-georgia-state-university-7728"
+  },
+  {
+    "name": "Shorter University",
+    "link": "/best-colleges/shorter-university-1591"
+  },
+  {
+    "name": "Morningside University",
+    "link": "/best-colleges/morningside-university-1879"
+  },
+  {
+    "name": "Avila University",
+    "link": "/best-colleges/avila-university-2449"
+  },
+  {
+    "name": "Life University",
+    "link": "/best-colleges/life-university-20748"
+  },
+  {
+    "name": "Graceland University",
+    "link": "/best-colleges/graceland-university-1866"
+  },
+  {
+    "name": "Indiana University--Kokomo",
+    "link": "/best-colleges/indiana-university-kokomo-1814"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Metropolitan Campus",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-metropolitan-campus-3940"
+  },
+  {
+    "name": "Minot State University",
+    "link": "/best-colleges/minot-state-2994"
+  },
+  {
+    "name": "Mississippi Valley State University",
+    "link": "/best-colleges/mississippi-valley-state-university-2424"
+  },
+  {
+    "name": "University of Wisconsin--Parkside",
+    "link": "/best-colleges/university-of-wisconsin-parkside-5015"
+  },
+  {
+    "name": "Albertus Magnus College",
+    "link": "/best-colleges/albertus-magnus-college-1374"
+  },
+  {
+    "name": "Bethel University (TN)",
+    "link": "/best-colleges/bethel-university-tennessee-3480"
+  },
+  {
+    "name": "Bowie State University",
+    "link": "/best-colleges/bowie-state-university-2062"
+  },
+  {
+    "name": "Chestnut Hill College",
+    "link": "/best-colleges/chestnut-hill-college-3245"
+  },
+  {
+    "name": "Faulkner University",
+    "link": "/best-colleges/faulkner-university-1003"
+  },
+  {
+    "name": "School of Visual Arts",
+    "link": "/best-colleges/school-of-visual-arts-7468"
+  },
+  {
+    "name": "St. Thomas Aquinas College",
+    "link": "/best-colleges/st-thomas-aquinas-2832"
+  },
+  {
+    "name": "SUNY Buffalo State University",
+    "link": "/best-colleges/suny-buffalo-state-university-2842"
+  },
+  {
+    "name": "Purdue University--Fort Wayne",
+    "link": "/best-colleges/purdue-university-fort-wayne-1812"
+  },
+  {
+    "name": "Southwest Baptist University",
+    "link": "/best-colleges/southwest-baptist-2502"
+  },
+  {
+    "name": "Indiana University--South Bend",
+    "link": "/best-colleges/indiana-university-south-bend-1816"
+  },
+  {
+    "name": "Lindenwood University",
+    "link": "/best-colleges/lindenwood-university-2480"
+  },
+  {
+    "name": "Marian University (WI)",
+    "link": "/best-colleges/marian-university-3861"
+  },
+  {
+    "name": "University of Wisconsin--Superior",
+    "link": "/best-colleges/university-of-wisconsin-superior-3925"
+  },
+  {
+    "name": "Commonwealth University of Pennsylvania",
+    "link": "/best-colleges/commonwealth-university-of-pennsylvania-436986"
+  },
+  {
+    "name": "Goldey-Beacom College",
+    "link": "/best-colleges/goldeybeacom-college-1429"
+  },
+  {
+    "name": "Lincoln University (PA)",
+    "link": "/best-colleges/lincoln-university-pennsylvania-3290"
+  },
+  {
+    "name": "Columbia College Chicago",
+    "link": "/best-colleges/columbia-college-chicago-1665"
+  },
+  {
+    "name": "Friends University",
+    "link": "/best-colleges/friends-university-1918"
+  },
+  {
+    "name": "East Stroudsburg University",
+    "link": "/best-colleges/east-stroudsburg-university-3320"
+  },
+  {
+    "name": "La Roche University",
+    "link": "/best-colleges/la-roche-university-3987"
+  },
+  {
+    "name": "Neumann University",
+    "link": "/best-colleges/neumann-university-3988"
+  },
+  {
+    "name": "Trinity Washington University",
+    "link": "/best-colleges/trinity-washington-university-1460"
+  },
+  {
+    "name": "Crown College",
+    "link": "/best-colleges/crown-college-2383"
+  },
+  {
+    "name": "Maranatha Baptist University",
+    "link": "/best-colleges/maranatha-baptist-university-23172"
+  },
+  {
+    "name": "Missouri Southern State University",
+    "link": "/best-colleges/missouri-southern-state-university-2488"
+  },
+  {
+    "name": "Newman University",
+    "link": "/best-colleges/newman-university-1939"
+  },
+  {
+    "name": "Rockford University",
+    "link": "/best-colleges/rockford-university-1748"
+  },
+  {
+    "name": "Nichols College",
+    "link": "/best-colleges/nichols-college-2197"
+  },
+  {
+    "name": "Delaware Valley University",
+    "link": "/best-colleges/delaware-valley-university-3252"
+  },
+  {
+    "name": "Castleton University",
+    "link": "/best-colleges/castleton-university-3683"
+  },
+  {
+    "name": "Chadron State College",
+    "link": "/best-colleges/chadron-state-college-2539"
+  },
+  {
+    "name": "Curry College",
+    "link": "/best-colleges/curry-college-2143"
+  },
+  {
+    "name": "Pennsylvania Western University",
+    "link": "/best-colleges/pennsylvania-western-university-664059"
+  },
+  {
+    "name": "University of Jamestown",
+    "link": "/best-colleges/jamestown-college-2990"
+  },
+  {
+    "name": "Davenport University",
+    "link": "/best-colleges/davenport-university-2249"
+  },
+  {
+    "name": "Indiana University Southeast",
+    "link": "/best-colleges/indiana-university-southeast-1817"
+  },
+  {
+    "name": "Lakeland University",
+    "link": "/best-colleges/lakeland-university-3854"
+  },
+  {
+    "name": "Missouri Western State University",
+    "link": "/best-colleges/missouri-western-state-university-2490"
+  },
+  {
+    "name": "Pennsylvania State University -- Behrend",
+    "link": "/best-colleges/penn-state-behrend-3333"
+  },
+  {
+    "name": "Keuka College",
+    "link": "/best-colleges/keuka-college-2744"
+  },
+  {
+    "name": "University of Southern Maine",
+    "link": "/best-colleges/university-of-southern-maine-9762"
+  },
+  {
+    "name": "York College--CUNY",
+    "link": "/best-colleges/york-college-cuny-4759"
+  },
+  {
+    "name": "Tiffin University",
+    "link": "/best-colleges/tiffin-university-3121"
+  },
+  {
+    "name": "Franklin Pierce University",
+    "link": "/best-colleges/franklin-pierce-university-2575"
+  },
+  {
+    "name": "Lake Erie College",
+    "link": "/best-colleges/lake-erie-college-3066"
+  },
+  {
+    "name": "Lancaster Bible College",
+    "link": "/best-colleges/lancaster-bible-college-3285"
+  },
+  {
+    "name": "Plymouth State University",
+    "link": "/best-colleges/plymouth-state-university-2591"
+  },
+  {
+    "name": "Rivier University",
+    "link": "/best-colleges/rivier-university-2586"
+  },
+  {
+    "name": "Midland University",
+    "link": "/best-colleges/midland-university-2553"
+  },
+  {
+    "name": "Indiana Tech",
+    "link": "/best-colleges/indiana-tech-1805"
+  },
+  {
+    "name": "Concordia University Ann Arbor",
+    "link": "/best-colleges/concordia-university-ann-arbor-2247"
+  },
+  {
+    "name": "Indiana University Northwest",
+    "link": "/best-colleges/indiana-university-northwest-1815"
+  },
+  {
+    "name": "Eastern University",
+    "link": "/best-colleges/eastern-university-3259"
+  },
+  {
+    "name": "Anna Maria College",
+    "link": "/best-colleges/anna-maria-college-2117"
+  },
+  {
+    "name": "Black Hills State University",
+    "link": "/best-colleges/black-hills-state-3459"
+  },
+  {
+    "name": "Cairn University",
+    "link": "/best-colleges/philadelphia-biblical-3351"
+  },
+  {
+    "name": "New Jersey City University",
+    "link": "/best-colleges/new-jersey-city-university-2613"
+  },
+  {
+    "name": "University of the District of Columbia",
+    "link": "/best-colleges/udc-29100"
+  },
+  {
+    "name": "Northeastern Illinois University",
+    "link": "/best-colleges/northeastern-illinois-university-1693"
+  },
+  {
+    "name": "Academy of Art University",
+    "link": "/best-colleges/academy-of-art-university-7531"
+  },
+  {
+    "name": "Adams State University",
+    "link": "/best-colleges/adams-state-university-1345"
+  },
+  {
     "name": "Alabama State University",
     "link": "/best-colleges/alabama-state-university-1005"
+  },
+  {
+    "name": "Alaska Pacific University",
+    "link": "/best-colleges/alaska-pacific-university-1061"
+  },
+  {
+    "name": "Allen University",
+    "link": "/best-colleges/allen-university-3417"
   },
   {
     "name": "American International College",
     "link": "/best-colleges/american-international-college-2114"
   },
   {
+    "name": "Art Institute of Atlanta",
+    "link": "/best-colleges/art-institute-of-atlanta-9270"
+  },
+  {
+    "name": "Baker College",
+    "link": "/best-colleges/baker-college-4673"
+  },
+  {
     "name": "Barry University",
     "link": "/best-colleges/barry-university-1466"
+  },
+  {
+    "name": "Bayamon Central University",
+    "link": "/best-colleges/bayamon-central-university-5022"
+  },
+  {
+    "name": "Bay State College",
+    "link": "/best-colleges/bay-state-college-3965"
   },
   {
     "name": "Belhaven University",
     "link": "/best-colleges/belhaven-2397"
   },
   {
+    "name": "Bellevue University",
+    "link": "/best-colleges/bellevue-university-9743"
+  },
+  {
+    "name": "Bennett College",
+    "link": "/best-colleges/bennett-college-2911"
+  },
+  {
+    "name": "Berkeley College (NJ)",
+    "link": "/best-colleges/berkeley-college-new-jersey-183789"
+  },
+  {
+    "name": "Bethany College (WV)",
+    "link": "/best-colleges/bethany-college-west-virginia-3808"
+  },
+  {
     "name": "Brenau University",
     "link": "/best-colleges/brenau-university-1556"
+  },
+  {
+    "name": "Brewton-Parker College",
+    "link": "/best-colleges/brewtonparker-college-1557"
+  },
+  {
+    "name": "Calumet College of St. Joseph",
+    "link": "/best-colleges/calumet-college-of-st-joseph-1834"
+  },
+  {
+    "name": "Caribbean University",
+    "link": "/best-colleges/caribbean-university-12525"
+  },
+  {
+    "name": "Caribbean University--Vega Baja",
+    "link": "/best-colleges/caribbean-university-vega-baja-868925"
+  },
+  {
+    "name": "Cheyney University of Pennsylvania",
+    "link": "/best-colleges/cheyney-university-3317"
+  },
+  {
+    "name": "Chicago State University",
+    "link": "/best-colleges/chicago-state-university-1694"
+  },
+  {
+    "name": "Colegio Universitario de San Juan",
+    "link": "/best-colleges/colegio-universitario-de-san-juan-667011"
+  },
+  {
+    "name": "Colorado Mountain College",
+    "link": "/best-colleges/colorado-mountain-college-666946"
   },
   {
     "name": "Colorado Technical University",
     "link": "/best-colleges/colorado-technical-university-10148"
   },
   {
+    "name": "Columbia College",
+    "link": "/best-colleges/columbia-college-2456"
+  },
+  {
+    "name": "Coppin State University",
+    "link": "/best-colleges/coppin-state-university-2068"
+  },
+  {
     "name": "Dallas Baptist University",
     "link": "/best-colleges/dallas-baptist-university-3560"
+  },
+  {
+    "name": "DeVry University",
+    "link": "/best-colleges/devry-chicago-10727"
+  },
+  {
+    "name": "East-West University",
+    "link": "/best-colleges/east-west-chicago-university-21686"
+  },
+  {
+    "name": "Franklin University",
+    "link": "/best-colleges/franklin-university-3046"
+  },
+  {
+    "name": "Gordon State College",
+    "link": "/best-colleges/gordon-state-college-1575"
+  },
+  {
+    "name": "Governors State University",
+    "link": "/best-colleges/governors-state-9145"
   },
   {
     "name": "Grand Canyon University",
     "link": "/best-colleges/grand-canyon-university-1074"
   },
   {
+    "name": "Great Basin College",
+    "link": "/best-colleges/great-basin-college-6977"
+  },
+  {
     "name": "Hardin-Simmons University",
     "link": "/best-colleges/hardin-simmons-university-3571"
   },
   {
+    "name": "Harrisburg University of Science and Technology",
+    "link": "/best-colleges/harrisburg-university-of-science-and-technology-39483"
+  },
+  {
+    "name": "Hebrew Theological College",
+    "link": "/best-colleges/hebrew-theological-college-1685"
+  },
+  {
+    "name": "Herzing University",
+    "link": "/best-colleges/herzing-college-9621"
+  },
+  {
+    "name": "Herzing University-Atlanta",
+    "link": "/best-colleges/herzing-universityatlanta-415197"
+  },
+  {
     "name": "Idaho State University",
     "link": "/best-colleges/idaho-state-university-1620"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Aguadilla",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-aguadilla-3939"
+  },
+  {
+    "name": "Inter American University of Puerto Rico--Arecibo",
+    "link": "/best-colleges/inter-american-university-of-puerto-rico-arecibo-5026"
   },
   {
     "name": "Jackson State University",
@@ -1612,36 +5604,188 @@
     "link": "/best-colleges/kennesaw-state-university-1577"
   },
   {
+    "name": "Kent State University at Ashtabula",
+    "link": "/best-colleges/kent-state-university-at-ashtabula-148917"
+  },
+  {
+    "name": "Kent State University at East Liverpool",
+    "link": "/best-colleges/kent-state-university-at-east-liverpool-667095"
+  },
+  {
+    "name": "Kent State University at Geauga",
+    "link": "/best-colleges/kent-state-university-at-geauga-646582"
+  },
+  {
+    "name": "Kent State University at Salem",
+    "link": "/best-colleges/kent-state-university-at-salem-273454"
+  },
+  {
+    "name": "Kent State University at Trumbull",
+    "link": "/best-colleges/kent-state-university-at-trumbull-770760"
+  },
+  {
+    "name": "Kent State University at Tuscarawas",
+    "link": "/best-colleges/kent-state-university-at-tuscarawas-965102"
+  },
+  {
+    "name": "Lackawanna College",
+    "link": "/best-colleges/lackawanna-college-667024"
+  },
+  {
     "name": "Lamar University",
     "link": "/best-colleges/lamar-university-3581"
+  },
+  {
+    "name": "Lane College",
+    "link": "/best-colleges/lane-college-3499"
+  },
+  {
+    "name": "Langston University",
+    "link": "/best-colleges/langston-university-3157"
   },
   {
     "name": "Liberty University",
     "link": "/best-colleges/liberty-university-10392"
   },
   {
+    "name": "Maharishi International University",
+    "link": "/best-colleges/maharishi-university-of-management-11113"
+  },
+  {
+    "name": "Metropolitan College of New York",
+    "link": "/best-colleges/metropolitan-college-190114"
+  },
+  {
+    "name": "Miami International University of Art & Design",
+    "link": "/best-colleges/miami-international-university-of-art--design-8878"
+  },
+  {
+    "name": "Mid-America Christian University",
+    "link": "/best-colleges/midamerica-christian-university-6942"
+  },
+  {
+    "name": "Missouri Baptist University",
+    "link": "/best-colleges/missouri-baptist-university-7540"
+  },
+  {
+    "name": "Montana State University Billings",
+    "link": "/best-colleges/montana-state-billings-2530"
+  },
+  {
+    "name": "Naropa University",
+    "link": "/best-colleges/naropa-university-21175"
+  },
+  {
     "name": "National Louis University",
     "link": "/best-colleges/national-louis-university-1733"
+  },
+  {
+    "name": "National University College",
+    "link": "/best-colleges/national-university-college-667100"
+  },
+  {
+    "name": "New England College",
+    "link": "/best-colleges/new-england-college-2579"
   },
   {
     "name": "Northern Kentucky University",
     "link": "/best-colleges/northern-kentucky-university-9275"
   },
   {
+    "name": "Ohio Christian University",
+    "link": "/best-colleges/ohio-christian-university-3030"
+  },
+  {
+    "name": "Ohio State University--Mansfield",
+    "link": "/best-colleges/ohio-state-university-mansfield-3093"
+  },
+  {
+    "name": "Ohio State University--Newark",
+    "link": "/best-colleges/ohio-state-university-newark-3095"
+  },
+  {
     "name": "Our Lady of the Lake University",
     "link": "/best-colleges/our-lady-of-the-lake-university-3598"
+  },
+  {
+    "name": "Paine College",
+    "link": "/best-colleges/paine-college-1587"
+  },
+  {
+    "name": "Park University",
+    "link": "/best-colleges/park-university-2498"
+  },
+  {
+    "name": "Pennsylvania State University--Altoona",
+    "link": "/best-colleges/pennsylvania-state-university-altoona-253849"
+  },
+  {
+    "name": "Pennsylvania State University--Brandywine",
+    "link": "/best-colleges/pennsylvania-state-university-brandywine-123396"
+  },
+  {
+    "name": "Pennsylvania State University--Harrisburg",
+    "link": "/best-colleges/pennsylvania-state-university-harrisburg-6814"
+  },
+  {
+    "name": "Pennsylvania State University -- Lehigh Valley",
+    "link": "/best-colleges/pennsylvania-state-university---lehigh-valley-247640"
+  },
+  {
+    "name": "Pennsylvania State University -- Shenango",
+    "link": "/best-colleges/pennsylvania-state-university---shenango-297953"
+  },
+  {
+    "name": "Pennsylvania State University -- York",
+    "link": "/best-colleges/pennsylvania-state-university---york-820648"
+  },
+  {
+    "name": "Peru State College",
+    "link": "/best-colleges/peru-state-college-2559"
+  },
+  {
+    "name": "Pillar College",
+    "link": "/best-colleges/pillar-college-667128"
   },
   {
     "name": "Pontifical Catholic University of Puerto Rico--Arecibo",
     "link": "/best-colleges/pontifical-catholic-university-of-puerto-rico-arecibo-667004"
   },
   {
+    "name": "Post University",
+    "link": "/best-colleges/post-university-1401"
+  },
+  {
+    "name": "Providence Christian College",
+    "link": "/best-colleges/providence-christian-college-41539"
+  },
+  {
     "name": "Roosevelt University",
     "link": "/best-colleges/roosevelt-university-1749"
   },
   {
+    "name": "Rosemont College",
+    "link": "/best-colleges/rosemont-college-3360"
+  },
+  {
+    "name": "Rust College",
+    "link": "/best-colleges/rust-college-2433"
+  },
+  {
     "name": "Saint Leo University",
     "link": "/best-colleges/saint-leo-university-1526"
+  },
+  {
+    "name": "Salem University",
+    "link": "/best-colleges/salem-university-3820"
+  },
+  {
+    "name": "San Diego Christian College",
+    "link": "/best-colleges/san-diego-christian-college-12031"
+  },
+  {
+    "name": "Shaw University",
+    "link": "/best-colleges/shaw-university-2962"
   },
   {
     "name": "South College",
@@ -1652,12 +5796,28 @@
     "link": "/best-colleges/southeastern-university-1521"
   },
   {
+    "name": "Southern New Hampshire University",
+    "link": "/best-colleges/southern-new-hampshire-university-2580"
+  },
+  {
     "name": "Southern University and A&M College",
     "link": "/best-colleges/southern-university-and-am-college-9636"
   },
   {
+    "name": "Southern University at New Orleans",
+    "link": "/best-colleges/southern-university-at-new-orleans-2026"
+  },
+  {
+    "name": "St. Andrews University",
+    "link": "/best-colleges/st-andrews-university-893337"
+  },
+  {
     "name": "St. Thomas University",
     "link": "/best-colleges/st-thomas-university-1468"
+  },
+  {
+    "name": "SUNY Empire State University",
+    "link": "/best-colleges/suny-empire-state-university-10286"
   },
   {
     "name": "Tennessee State University",
@@ -1668,6 +5828,10 @@
     "link": "/best-colleges/texas-am-university-corpus-christi-11161"
   },
   {
+    "name": "Texas College",
+    "link": "/best-colleges/texas-college-3638"
+  },
+  {
     "name": "Texas Southern University",
     "link": "/best-colleges/texas-southern-university-3642"
   },
@@ -1676,16 +5840,52 @@
     "link": "/best-colleges/texas-wesleyan-university-3645"
   },
   {
+    "name": "Thomas College",
+    "link": "/best-colleges/thomas-college-2052"
+  },
+  {
+    "name": "Thomas University",
+    "link": "/best-colleges/thomas-university-1555"
+  },
+  {
+    "name": "Tougaloo College",
+    "link": "/best-colleges/tougaloo-college-2439"
+  },
+  {
     "name": "Trinity International University",
     "link": "/best-colleges/trinity-international-university-1772"
+  },
+  {
+    "name": "Unity Environmental University",
+    "link": "/best-colleges/unity-environmental-university-6858"
+  },
+  {
+    "name": "Universidad Ana G. Mendez--Carolina Campus",
+    "link": "/best-colleges/universidad-ana-g-mendez-carolina-campus-3941"
+  },
+  {
+    "name": "Universidad Ana G. Mendez--Cupey Campus",
+    "link": "/best-colleges/universidad-ana-g-mendez-cupey-campus-25875"
   },
   {
     "name": "Universidad Ana G. Mendez--Gurabo Campus",
     "link": "/best-colleges/universidad-ana-g-mendez-gurabo-campus-11719"
   },
   {
+    "name": "Universidad Politecnica de Puerto Rico",
+    "link": "/best-colleges/universidad-politecnica-de-puerto-rico-21000"
+  },
+  {
+    "name": "University of Alaska--Southeast",
+    "link": "/best-colleges/university-of-alaska-southeast-1065"
+  },
+  {
     "name": "University of Arkansas--Little Rock",
     "link": "/best-colleges/university-of-arkansas-little-rock-1101"
+  },
+  {
+    "name": "University of Arkansas--Monticello",
+    "link": "/best-colleges/university-of-arkansas-monticello-1085"
   },
   {
     "name": "University of Bridgeport",
@@ -1716,12 +5916,60 @@
     "link": "/best-colleges/university-of-pikeville-1980"
   },
   {
+    "name": "University of Pittsburgh at Greensburg",
+    "link": "/best-colleges/university-of-pittsburgh-at-greensburg-3381"
+  },
+  {
+    "name": "University of Puerto Rico--Utuado",
+    "link": "/best-colleges/university-of-puerto-rico-utuado-667020"
+  },
+  {
+    "name": "University of Science and Arts of Oklahoma",
+    "link": "/best-colleges/university-of-science-and-arts-3167"
+  },
+  {
     "name": "University of the Cumberlands",
     "link": "/best-colleges/university-of-the-cumberlands-1962"
   },
   {
+    "name": "University of the Southwest",
+    "link": "/best-colleges/university-of-the-southwest-2650"
+  },
+  {
+    "name": "Upper Iowa University",
+    "link": "/best-colleges/upper-iowa-university-1893"
+  },
+  {
     "name": "Valdosta State University",
     "link": "/best-colleges/valdosta-state-university-1599"
+  },
+  {
+    "name": "Vermont State University",
+    "link": "/best-colleges/northern-vermont-university-3688"
+  },
+  {
+    "name": "Virginia Union University",
+    "link": "/best-colleges/virginia-union-university-3766"
+  },
+  {
+    "name": "Waldorf University",
+    "link": "/best-colleges/waldorf-university-1895"
+  },
+  {
+    "name": "Warren Wilson College",
+    "link": "/best-colleges/warren-wilson-2979"
+  },
+  {
+    "name": "Washington Adventist University",
+    "link": "/best-colleges/washington-adventist-university-2067"
+  },
+  {
+    "name": "Wayland Baptist University",
+    "link": "/best-colleges/wayland-baptist-3663"
+  },
+  {
+    "name": "Western New Mexico University",
+    "link": "/best-colleges/western-new-mexico-university-2664"
   },
   {
     "name": "William Woods University",
@@ -1732,15 +5980,1331 @@
     "link": "/best-colleges/wilmington-university-7948"
   },
   {
+    "name": "Wilson College",
+    "link": "/best-colleges/wilson-college-3396"
+  },
+  {
     "name": "Wright State University",
     "link": "/best-colleges/wright-state-9168"
+  },
+  {
+    "name": "Young Harris College",
+    "link": "/best-colleges/young-harris-college-666965"
+  },
+  {
+    "name": "Aaniiih Nakoda College",
+    "link": "/best-colleges/aaniiih-nakoda-college-769846"
+  },
+  {
+    "name": "AdventHealth University",
+    "link": "/best-colleges/adventhealth-university-31155"
+  },
+  {
+    "name": "Albany College of Pharmacy and Health Sciences",
+    "link": "/best-colleges/albany-college-of-pharmacy-and-health-sciences-2885"
+  },
+  {
+    "name": "Albizu University",
+    "link": "/best-colleges/albizu-university-10724"
   },
   {
     "name": "Albizu University--Miami",
     "link": "/best-colleges/albizu-university-miami-667083"
   },
   {
+    "name": "Allen College",
+    "link": "/best-colleges/allen-college-30691"
+  },
+  {
     "name": "Alliant International University",
     "link": "/best-colleges/alliant-international-university-1158"
+  },
+  {
+    "name": "Alpena Community College",
+    "link": "/best-colleges/alpena-community-college-667068"
+  },
+  {
+    "name": "American Academy of Art",
+    "link": "/best-colleges/american-academy-of-art-142887"
+  },
+  {
+    "name": "American Musical and Dramatic Academy",
+    "link": "/best-colleges/american-musical-and-dramatic-academy-994260"
+  },
+  {
+    "name": "American Samoa Community College",
+    "link": "/best-colleges/american-samoa-community-college-667027"
+  },
+  {
+    "name": "American University of Health Sciences",
+    "link": "/best-colleges/american-university-of-health-sciences-667080"
+  },
+  {
+    "name": "Ana G. Mendez University",
+    "link": "/best-colleges/ana-g-mendez-university-325302"
+  },
+  {
+    "name": "Andrew College",
+    "link": "/best-colleges/andrew-college-667009"
+  },
+  {
+    "name": "Antelope Valley College",
+    "link": "/best-colleges/antelope-valley-college-667028"
+  },
+  {
+    "name": "Appalachian Bible College",
+    "link": "/best-colleges/appalachian-bible-college-7544"
+  },
+  {
+    "name": "Arizona College of Nursing",
+    "link": "/best-colleges/arizona-college-of-nursing-811518"
+  },
+  {
+    "name": "Arizona College of Nursing--Las Vegas",
+    "link": "/best-colleges/arizona-college-of-nursing-las-vegas-759284"
+  },
+  {
+    "name": "Arkansas Baptist College",
+    "link": "/best-colleges/arkansas-baptist-college-1087"
+  },
+  {
+    "name": "Art Academy of Cincinnati",
+    "link": "/best-colleges/art-academy-of-cincinnati-3011"
+  },
+  {
+    "name": "Aspen University",
+    "link": "/best-colleges/aspen-university-891422"
+  },
+  {
+    "name": "Atenas University Dr. María Luisa Hernández",
+    "link": "/best-colleges/atenas-university-dr-maría-luisa-hernández-547652"
+  },
+  {
+    "name": "Atlanta Metropolitan State College",
+    "link": "/best-colleges/atlanta-metropolitan-state-college-666963"
+  },
+  {
+    "name": "Aultman College of Nursing and Health Sciences",
+    "link": "/best-colleges/aultman-college-of-nursing-and-health-sciences-667081"
+  },
+  {
+    "name": "Austin Community College District",
+    "link": "/best-colleges/austin-community-college-district-334336"
+  },
+  {
+    "name": "Babson College",
+    "link": "/best-colleges/babson-college-2121"
+  },
+  {
+    "name": "Bakersfield College",
+    "link": "/best-colleges/bakersfield-college-667029"
+  },
+  {
+    "name": "Baptist Bible College",
+    "link": "/best-colleges/baptist-bible-college-13208"
+  },
+  {
+    "name": "Baptist Health Sciences University",
+    "link": "/best-colleges/baptist-memorial-college-of-health-sciences-34403"
+  },
+  {
+    "name": "Baptist Missionary Association Theological Seminary",
+    "link": "/best-colleges/baptist-missionary-association-theological-seminary-23312"
+  },
+  {
+    "name": "Bard College at Simon's Rock",
+    "link": "/best-colleges/bard-college-at-simons-rock-9645"
+  },
+  {
+    "name": "Bay Mills Community College",
+    "link": "/best-colleges/bay-mills-community-college-326949"
+  },
+  {
+    "name": "Bellevue College",
+    "link": "/best-colleges/bellevue-college-3769"
+  },
+  {
+    "name": "Bellin College",
+    "link": "/best-colleges/bellin-college-6639"
+  },
+  {
+    "name": "Bellingham Technical College",
+    "link": "/best-colleges/bellingham-technical-college-667030"
+  },
+  {
+    "name": "Benjamin Franklin Institute of Technology",
+    "link": "/best-colleges/benjamin-franklin-institute-of-technology-2151"
+  },
+  {
+    "name": "Bismarck State College",
+    "link": "/best-colleges/bismarck-state-college-2988"
+  },
+  {
+    "name": "Blessing-Rieman College of Nursing and Health Sciences",
+    "link": "/best-colleges/blessingrieman-college-of-nursing-and-health-sciences-6214"
+  },
+  {
+    "name": "Bon Secours Memorial College of Nursing",
+    "link": "/best-colleges/bon-secours-memorial-college-of-nursing-635850"
+  },
+  {
+    "name": "Boston Architectural College",
+    "link": "/best-colleges/boston-architectural-college-3966"
+  },
+  {
+    "name": "Brazosport College",
+    "link": "/best-colleges/brazosport-college-7287"
+  },
+  {
+    "name": "Brookline College--Albuquerque",
+    "link": "/best-colleges/brookline-college-albuquerque-689047"
+  },
+  {
+    "name": "Brookline College-Phoenix",
+    "link": "/best-colleges/brookline-collegephoenix-508128"
+  },
+  {
+    "name": "Broward College",
+    "link": "/best-colleges/broward-college-666949"
+  },
+  {
+    "name": "Bryan College of Health Sciences",
+    "link": "/best-colleges/bryan-college-of-health-sciences-667082"
+  },
+  {
+    "name": "Bryant & Stratton College--Wauwatosa",
+    "link": "/best-colleges/bryant--stratton-college-wauwatosa-761530"
+  },
+  {
+    "name": "Cabarrus College of Health Sciences",
+    "link": "/best-colleges/cabarrus-college-of-health-sciences-6477"
+  },
+  {
+    "name": "California College of the Arts",
+    "link": "/best-colleges/california-college-of-the-arts-1127"
+  },
+  {
+    "name": "Cambridge College",
+    "link": "/best-colleges/cambridge-college-21829"
+  },
+  {
+    "name": "Carolinas College of Health Sciences",
+    "link": "/best-colleges/carolinas-college-of-health-sciences-555295"
+  },
+  {
+    "name": "Cascadia College",
+    "link": "/best-colleges/cascadia-college-667031"
+  },
+  {
+    "name": "CEM College--San Juan",
+    "link": "/best-colleges/cem-college-san-juan-667084"
+  },
+  {
+    "name": "Centralia College",
+    "link": "/best-colleges/centralia-college-666981"
+  },
+  {
+    "name": "Chamberlain University",
+    "link": "/best-colleges/chamberlain-university-6385"
+  },
+  {
+    "name": "Charles R. Drew University of Medicine and Science",
+    "link": "/best-colleges/charles-r-drew-university-of-medicine-and-science-10365"
+  },
+  {
+    "name": "The Chicago School of Professional Psychology at Chicago",
+    "link": "/best-colleges/the-chicago-school-of-professional-psychology-at-chicago-305474"
+  },
+  {
+    "name": "Chicago School of Professional Psychology at Los Angeles",
+    "link": "/best-colleges/chicago-school-of-professional-psychology-at-los-angeles-667085"
+  },
+  {
+    "name": "Chipola College",
+    "link": "/best-colleges/chipola-college-1472"
+  },
+  {
+    "name": "Christ College of Nursing and Health Sciences",
+    "link": "/best-colleges/christ-college-of-nursing-and-health-sciences-667086"
+  },
+  {
+    "name": "Clark College",
+    "link": "/best-colleges/clark-college-667032"
+  },
+  {
+    "name": "Clarkson College",
+    "link": "/best-colleges/clarkson-college-9862"
+  },
+  {
+    "name": "Clear Creek Baptist Bible College",
+    "link": "/best-colleges/clear-creek-baptist-bible-college-25356"
+  },
+  {
+    "name": "Cleary University",
+    "link": "/best-colleges/cleary-university-2246"
+  },
+  {
+    "name": "Cleveland Institute of Art",
+    "link": "/best-colleges/cleveland-institute-of-art-3982"
+  },
+  {
+    "name": "Cleveland Institute of Music",
+    "link": "/best-colleges/cleveland-institute-of-music-3031"
+  },
+  {
+    "name": "Cleveland University--Kansas City",
+    "link": "/best-colleges/cleveland-university-kansas-city-20907"
+  },
+  {
+    "name": "Clover Park Technical College",
+    "link": "/best-colleges/clover-park-technical-college-667033"
+  },
+  {
+    "name": "College for Creative Studies",
+    "link": "/best-colleges/college-for-creative-studies-6771"
+  },
+  {
+    "name": "College of Biblical Studies--Houston",
+    "link": "/best-colleges/college-of-biblical-studies-houston-667124"
+  },
+  {
+    "name": "College of Central Florida",
+    "link": "/best-colleges/college-of-central-florida-666950"
+  },
+  {
+    "name": "College of Menominee Nation",
+    "link": "/best-colleges/college-of-menominee-nation-667133"
+  },
+  {
+    "name": "College of Southern Nevada",
+    "link": "/best-colleges/college-of-southern-nevada-10362"
+  },
+  {
+    "name": "Collin County Community College District",
+    "link": "/best-colleges/collin-county-community-college-district-686414"
+  },
+  {
+    "name": "Columbia Basin College",
+    "link": "/best-colleges/columbia-basin-college-666982"
+  },
+  {
+    "name": "Columbia Central University--Caguas",
+    "link": "/best-colleges/columbia-central-university-caguas-667087"
+  },
+  {
+    "name": "Columbia College Hollywood",
+    "link": "/best-colleges/columbia-college-hollywood-667075"
+  },
+  {
+    "name": "Columbus College of Art and Design",
+    "link": "/best-colleges/columbus-college-of-art-and-design-3039"
+  },
+  {
+    "name": "Community College of Denver",
+    "link": "/best-colleges/community-college-of-denver-667034"
+  },
+  {
+    "name": "Conception Seminary College",
+    "link": "/best-colleges/conception-seminary-college-2467"
+  },
+  {
+    "name": "Cornish College of the Arts",
+    "link": "/best-colleges/cornish-college-of-the-arts-12315"
+  },
+  {
+    "name": "Culinary Institute of America",
+    "link": "/best-colleges/culinary-institute-of-america-7304"
+  },
+  {
+    "name": "Curtis Institute of Music",
+    "link": "/best-colleges/curtis-institute-of-music-3251"
+  },
+  {
+    "name": "Cypress College",
+    "link": "/best-colleges/cypress-college-667035"
+  },
+  {
+    "name": "Davis College",
+    "link": "/best-colleges/davis-college-21691"
+  },
+  {
+    "name": "Daytona State College",
+    "link": "/best-colleges/daytona-state-college-1475"
+  },
+  {
+    "name": "Delaware Technical Community College--Terry",
+    "link": "/best-colleges/delaware-technical-community-college-terry-667023"
+  },
+  {
+    "name": "Denver College of Nursing",
+    "link": "/best-colleges/denver-college-of-nursing-667088"
+  },
+  {
+    "name": "Design Institute of San Diego",
+    "link": "/best-colleges/design-institute-of-san-diego-667076"
+  },
+  {
+    "name": "DigiPen Institute of Technology",
+    "link": "/best-colleges/digipen-institute-of-technology-125971"
+  },
+  {
+    "name": "Dine College",
+    "link": "/best-colleges/dine-college-667134"
+  },
+  {
+    "name": "Divine Word College",
+    "link": "/best-colleges/divine-word-college-1858"
+  },
+  {
+    "name": "Donnelly College",
+    "link": "/best-colleges/donnelly-college-1914"
+  },
+  {
+    "name": "Eagle Gate College--Murray",
+    "link": "/best-colleges/eagle-gate-college-murray-277107"
+  },
+  {
+    "name": "Eastern Florida State College",
+    "link": "/best-colleges/eastern-florida-state-college-666948"
+  },
+  {
+    "name": "Eastern International College--Jersey City",
+    "link": "/best-colleges/eastern-international-college-jersey-city-749831"
+  },
+  {
+    "name": "East Georgia State College",
+    "link": "/best-colleges/east-georgia-state-college-666964"
+  },
+  {
+    "name": "Edmonds Community College",
+    "link": "/best-colleges/edmonds-community-college-667036"
+  },
+  {
+    "name": "EDP University of Puerto Rico Inc--San Juan",
+    "link": "/best-colleges/edp-university-of-puerto-rico-inc-san-juan-667012"
+  },
+  {
+    "name": "Escuela de Artes Plasticas de Puerto Rico",
+    "link": "/best-colleges/escuela-de-artes-plasticas-de-puerto-rico-25694"
+  },
+  {
+    "name": "Fashion Institute of Design & Merchandising",
+    "link": "/best-colleges/fashion-institute-of-design--merchandising-11112"
+  },
+  {
+    "name": "Fashion Institute of Technology",
+    "link": "/best-colleges/fashion-institute-of-technology-2866"
+  },
+  {
+    "name": "Feather River Community College District",
+    "link": "/best-colleges/feather-river-community-college-district-667037"
+  },
+  {
+    "name": "Five Towns College",
+    "link": "/best-colleges/five-towns-college-121561"
+  },
+  {
+    "name": "Florida A&M University - Florida State University College of Engineering",
+    "link": "/best-colleges/florida-am---florida-state-313779"
+  },
+  {
+    "name": "Florida Gateway College",
+    "link": "/best-colleges/florida-gateway-college-666952"
+  },
+  {
+    "name": "Florida Keys Community College",
+    "link": "/best-colleges/florida-keys-community-college-667013"
+  },
+  {
+    "name": "Florida SouthWestern State College",
+    "link": "/best-colleges/edison-state-college-1477"
+  },
+  {
+    "name": "Florida State College--Jacksonville",
+    "link": "/best-colleges/florida-state-college-jacksonville-1484"
+  },
+  {
+    "name": "Foothill College",
+    "link": "/best-colleges/foothill-college-667038"
+  },
+  {
+    "name": "Franciscan Missionaries of Our Lady University",
+    "link": "/best-colleges/franciscan-missionaries-of-our-lady-university-31062"
+  },
+  {
+    "name": "Franklin W. Olin College of Engineering",
+    "link": "/best-colleges/franklin-w-olin-college-of-engineering-39463"
+  },
+  {
+    "name": "Galen College of Nursing--Louisville",
+    "link": "/best-colleges/galen-college-of-nursing-louisville-667089"
+  },
+  {
+    "name": "Georgia Highlands College",
+    "link": "/best-colleges/georgia-highlands-college-667000"
+  },
+  {
+    "name": "Georgia Military College",
+    "link": "/best-colleges/georgia-military-college-667014"
+  },
+  {
+    "name": "Goldfarb School of Nursing at Barnes-Jewish College",
+    "link": "/best-colleges/goldfarb-school-of-nursing-at-barnesjewish-college-6389"
+  },
+  {
+    "name": "Good Samaritan College of Nursing and Health Science",
+    "link": "/best-colleges/good-samaritan-college-of-nursing-and-health-science-667090"
+  },
+  {
+    "name": "Grays Harbor College",
+    "link": "/best-colleges/grays-harbor-college-667039"
+  },
+  {
+    "name": "Grayson College",
+    "link": "/best-colleges/grayson-college-624398"
+  },
+  {
+    "name": "Green River College",
+    "link": "/best-colleges/green-river-college-667040"
+  },
+  {
+    "name": "Gulf Coast State College",
+    "link": "/best-colleges/gulf-coast-state-college-666951"
+  },
+  {
+    "name": "Haskell Indian Nations University",
+    "link": "/best-colleges/haskell-indian-nations-university-10438"
+  },
+  {
+    "name": "Helene Fuld College of Nursing",
+    "link": "/best-colleges/helene-fuld-college-of-nursing-667092"
+  },
+  {
+    "name": "Hellenic College",
+    "link": "/best-colleges/hellenic-college-2154"
+  },
+  {
+    "name": "Henry Ford College",
+    "link": "/best-colleges/henry-ford-college-667069"
+  },
+  {
+    "name": "Herzing University-Brookfield",
+    "link": "/best-colleges/herzing-universitybrookfield-268500"
+  },
+  {
+    "name": "Herzing University-Kenosha",
+    "link": "/best-colleges/herzing-universitykenosha-716803"
+  },
+  {
+    "name": "Herzing University--Minneapolis",
+    "link": "/best-colleges/herzing-university-minneapolis-303627"
+  },
+  {
+    "name": "Herzing University--Orlando",
+    "link": "/best-colleges/herzing-university-orlando-643831"
+  },
+  {
+    "name": "Hesston College",
+    "link": "/best-colleges/hesston-college-667070"
+  },
+  {
+    "name": "Highline College",
+    "link": "/best-colleges/highline-college-667041"
+  },
+  {
+    "name": "Holy Apostles College and Seminary",
+    "link": "/best-colleges/holy-apostles-college-and-seminary-1389"
+  },
+  {
+    "name": "Huertas College",
+    "link": "/best-colleges/huertas-college-667093"
+  },
+  {
+    "name": "Hult International Business School",
+    "link": "/best-colleges/hult-international-business-school-GB0001"
+  },
+  {
+    "name": "Humphreys University",
+    "link": "/best-colleges/humphreys-college-1212"
+  },
+  {
+    "name": "Ilisagvik College",
+    "link": "/best-colleges/ilisagvik-college-803372"
+  },
+  {
+    "name": "Indian River State College",
+    "link": "/best-colleges/indian-river-state-college-1493"
+  },
+  {
+    "name": "Institute of American Indian Arts",
+    "link": "/best-colleges/institute-of-american-indian-arts-21464"
+  },
+  {
+    "name": "Jackson College",
+    "link": "/best-colleges/jackson-college-666968"
+  },
+  {
+    "name": "Jamestown Business College",
+    "link": "/best-colleges/jamestown-business-college-666971"
+  },
+  {
+    "name": "Jewish Theological Seminary of America",
+    "link": "/best-colleges/jewish-theological-seminary-of-america-2740"
+  },
+  {
+    "name": "Joyce University",
+    "link": "/best-colleges/joyce-university-652473"
+  },
+  {
+    "name": "Juilliard School",
+    "link": "/best-colleges/juilliard-school-2742"
+  },
+  {
+    "name": "Kansas City Art Institute",
+    "link": "/best-colleges/kansas-city-art-institute-2473"
+  },
+  {
+    "name": "Kettering College",
+    "link": "/best-colleges/kettering-college-7035"
+  },
+  {
+    "name": "Kuyper College",
+    "link": "/best-colleges/kuyper-college-2311"
+  },
+  {
+    "name": "Laboure College",
+    "link": "/best-colleges/laboure-college-667096"
+  },
+  {
+    "name": "Laguna College of Art and Design",
+    "link": "/best-colleges/laguna-college-of-art-and-design-23305"
+  },
+  {
+    "name": "Lake-Sumter State College",
+    "link": "/best-colleges/lakesumter-state-college-666953"
+  },
+  {
+    "name": "Lakeview College of Nursing",
+    "link": "/best-colleges/lakeview-college-of-nursing-10501"
+  },
+  {
+    "name": "Lake Washington Institute of Technology",
+    "link": "/best-colleges/lake-washington-institute-of-technology-666983"
+  },
+  {
+    "name": "Landmark College",
+    "link": "/best-colleges/landmark-college-666986"
+  },
+  {
+    "name": "LIM College",
+    "link": "/best-colleges/lim-college-7466"
+  },
+  {
+    "name": "Lincoln University (CA)",
+    "link": "/best-colleges/lincoln-university-california-6975"
+  },
+  {
+    "name": "Logan University",
+    "link": "/best-colleges/logan-university-667097"
+  },
+  {
+    "name": "Louisiana State University Health Sciences Center",
+    "link": "/best-colleges/louisiana-state-university-health-sciences-center-2014"
+  },
+  {
+    "name": "Maine College of Art",
+    "link": "/best-colleges/maine-college-of-art-11673"
+  },
+  {
+    "name": "Manhattan Christian College",
+    "link": "/best-colleges/manhattan-christian-college-1931"
+  },
+  {
+    "name": "Manhattan School of Music",
+    "link": "/best-colleges/manhattan-school-of-music-2759"
+  },
+  {
+    "name": "Manor College",
+    "link": "/best-colleges/manor-college-496229"
+  },
+  {
+    "name": "Maria College of Albany",
+    "link": "/best-colleges/maria-college-of-albany-2763"
+  },
+  {
+    "name": "Martin Luther College",
+    "link": "/best-colleges/martin-luther-college-2361"
+  },
+  {
+    "name": "Martin University",
+    "link": "/best-colleges/martin-university-21408"
+  },
+  {
+    "name": "Maryland Institute College of Art",
+    "link": "/best-colleges/maryland-institute-college-of-art-2080"
+  },
+  {
+    "name": "Massachusetts College of Art and Design",
+    "link": "/best-colleges/massachusetts-college-of-art-and-design-2180"
+  },
+  {
+    "name": "MCPHS University",
+    "link": "/best-colleges/mcphs-university-2165"
+  },
+  {
+    "name": "Medical University of South Carolina",
+    "link": "/best-colleges/medical-university-of-south-carolina-3438"
+  },
+  {
+    "name": "Menlo College",
+    "link": "/best-colleges/menlo-college-1236"
+  },
+  {
+    "name": "Mercy College of Health Sciences",
+    "link": "/best-colleges/mercy-college-of-health-sciences-6273"
+  },
+  {
+    "name": "Mercy College of Ohio",
+    "link": "/best-colleges/mercy-college-of-ohio-30970"
+  },
+  {
+    "name": "Methodist College",
+    "link": "/best-colleges/methodist-college-667098"
+  },
+  {
+    "name": "MGH Institute of Health Professions",
+    "link": "/best-colleges/mgh-institute-of-health-professions-667099"
+  },
+  {
+    "name": "Miami Regional University",
+    "link": "/best-colleges/miami-regional-university-509669"
+  },
+  {
+    "name": "Midland College",
+    "link": "/best-colleges/midland-college-9797"
+  },
+  {
+    "name": "Midwestern Baptist Theological Seminary",
+    "link": "/best-colleges/midwestern-baptist-theological-seminary-667127"
+  },
+  {
+    "name": "Milwaukee Institute of Art and Design",
+    "link": "/best-colleges/milwaukee-institute-of-art-and-design-29113"
+  },
+  {
+    "name": "Minneapolis College of Art and Design",
+    "link": "/best-colleges/minneapolis-college-of-art-and-design-2365"
+  },
+  {
+    "name": "MiraCosta College",
+    "link": "/best-colleges/miracosta-college-667042"
+  },
+  {
+    "name": "Modesto Junior College",
+    "link": "/best-colleges/modesto-junior-college-667043"
+  },
+  {
+    "name": "Moody Bible Institute",
+    "link": "/best-colleges/moody-bible-institute-1727"
+  },
+  {
+    "name": "Moore College of Art & Design",
+    "link": "/best-colleges/moore-college-of-art--design-3300"
+  },
+  {
+    "name": "Mount Angel Seminary",
+    "link": "/best-colleges/mount-angel-seminary-3203"
+  },
+  {
+    "name": "Mount Carmel College of Nursing",
+    "link": "/best-colleges/mount-carmel-college-of-nursing-30719"
+  },
+  {
+    "name": "Navajo Technical University",
+    "link": "/best-colleges/navajo-technical-university-667135"
+  },
+  {
+    "name": "Nebraska Methodist College",
+    "link": "/best-colleges/nebraska-methodist-college-6404"
+  },
+  {
+    "name": "Neumont College of Computer Science",
+    "link": "/best-colleges/neumont-college-of-computer-science-147897"
+  },
+  {
+    "name": "New England Conservatory of Music",
+    "link": "/best-colleges/new-england-conservatory-of-music-2194"
+  },
+  {
+    "name": "New England Institute of Technology",
+    "link": "/best-colleges/new-england-institute-of-technology-7845"
+  },
+  {
+    "name": "New Orleans Baptist Theological Seminary",
+    "link": "/best-colleges/new-orleans-baptist-theological-seminary-2019"
+  },
+  {
+    "name": "New York College of Health Professions",
+    "link": "/best-colleges/new-york-college-of-health-professions-951446"
+  },
+  {
+    "name": "New York School of Interior Design",
+    "link": "/best-colleges/new-york-school-of-interior-design-667078"
+  },
+  {
+    "name": "Nightingale College",
+    "link": "/best-colleges/nightingale-college-615035"
+  },
+  {
+    "name": "North Florida College",
+    "link": "/best-colleges/north-florida-college-667017"
+  },
+  {
+    "name": "North Seattle College",
+    "link": "/best-colleges/north-seattle-college-666984"
+  },
+  {
+    "name": "Northwestern Health Sciences University",
+    "link": "/best-colleges/northwestern-health-sciences-university-12328"
+  },
+  {
+    "name": "Northwestern Michigan College",
+    "link": "/best-colleges/northwestern-michigan-college-666969"
+  },
+  {
+    "name": "Northwest Florida State College",
+    "link": "/best-colleges/northwest-florida-state-college-1510"
+  },
+  {
+    "name": "Northwest Indian College",
+    "link": "/best-colleges/northwest-indian-college-667136"
+  },
+  {
+    "name": "Northwood University",
+    "link": "/best-colleges/northwood-university-8759"
+  },
+  {
+    "name": "Nueta Hidatsa Sahnish College",
+    "link": "/best-colleges/nueta-hidatsa-sahnish-college-667137"
+  },
+  {
+    "name": "Oak Valley College",
+    "link": "/best-colleges/oak-valley-college-861198"
+  },
+  {
+    "name": "Oglala Lakota College",
+    "link": "/best-colleges/oglala-lakota-college-14659"
+  },
+  {
+    "name": "Oklahoma State University Institute of Technology--Okmulgee",
+    "link": "/best-colleges/oklahoma-state-university-institute-of-technology-okmulgee-3172"
+  },
+  {
+    "name": "Oklahoma State University--Oklahoma City",
+    "link": "/best-colleges/oklahoma-state-university-oklahoma-city-9647"
+  },
+  {
+    "name": "Olympic College",
+    "link": "/best-colleges/olympic-college-3784"
+  },
+  {
+    "name": "Oregon Health and Science University",
+    "link": "/best-colleges/oregon-health-and-science-university-4882"
+  },
+  {
+    "name": "Otis College of Art and Design",
+    "link": "/best-colleges/otis-college-of-art-and-design-1251"
+  },
+  {
+    "name": "Ozark Christian College",
+    "link": "/best-colleges/ozark-christian-22027"
+  },
+  {
+    "name": "Pacific College",
+    "link": "/best-colleges/pacific-college-667103"
+  },
+  {
+    "name": "Pacific Oaks College",
+    "link": "/best-colleges/pacific-oaks-college-1255"
+  },
+  {
+    "name": "Palm Beach State College",
+    "link": "/best-colleges/palm-beach-state-college-666955"
+  },
+  {
+    "name": "Parker University",
+    "link": "/best-colleges/parker-university-23053"
+  },
+  {
+    "name": "Pasco-Hernando State College",
+    "link": "/best-colleges/pascohernando-state-college-667018"
+  },
+  {
+    "name": "Peirce College",
+    "link": "/best-colleges/peirce-college-philadelphia-3309"
+  },
+  {
+    "name": "Peninsula College",
+    "link": "/best-colleges/peninsula-college-3786"
+  },
+  {
+    "name": "Pennsylvania College of Art & Design",
+    "link": "/best-colleges/pennsylvania-college-of-art--design-215053"
+  },
+  {
+    "name": "Pensacola State College",
+    "link": "/best-colleges/pensacola-state-college-666956"
+  },
+  {
+    "name": "Phillips School of Nursing at Mount Sinai Beth Israel",
+    "link": "/best-colleges/phillips-school-of-nursing-at-mount-sinai-beth-israel-681418"
+  },
+  {
+    "name": "Pierce College District",
+    "link": "/best-colleges/pierce-college-district-667047"
+  },
+  {
+    "name": "Pittsburgh Technical College",
+    "link": "/best-colleges/pittsburgh-technical-college-667026"
+  },
+  {
+    "name": "Platt College",
+    "link": "/best-colleges/platt-college-30149"
+  },
+  {
+    "name": "Plaza College",
+    "link": "/best-colleges/plaza-college-12358"
+  },
+  {
+    "name": "Polk State College",
+    "link": "/best-colleges/polk-state-college-666957"
+  },
+  {
+    "name": "Pontifical College Josephinum",
+    "link": "/best-colleges/pontifical-college-josephinum-3113"
+  },
+  {
+    "name": "Pratt Institute",
+    "link": "/best-colleges/pratt-institute-2798"
+  },
+  {
+    "name": "Provo College",
+    "link": "/best-colleges/provo-college-507477"
+  },
+  {
+    "name": "Pueblo Community College",
+    "link": "/best-colleges/pueblo-community-college-667048"
+  },
+  {
+    "name": "Puerto Rico Conservatory of Music",
+    "link": "/best-colleges/puerto-rico-conservatory-of-music-10819"
+  },
+  {
+    "name": "Ranken Technical College",
+    "link": "/best-colleges/ranken-technical-college-12500"
+  },
+  {
+    "name": "Rasmussen University",
+    "link": "/best-colleges/rasmussen-university-676574"
+  },
+  {
+    "name": "Red Rocks Community College",
+    "link": "/best-colleges/red-rocks-community-college-667049"
+  },
+  {
+    "name": "Renton Technical College",
+    "link": "/best-colleges/renton-technical-college-667050"
+  },
+  {
+    "name": "Research College of Nursing",
+    "link": "/best-colleges/research-college-of-nursing-6392"
+  },
+  {
+    "name": "Ringling College of Art and Design",
+    "link": "/best-colleges/ringling-college-of-art-and-design-12574"
+  },
+  {
+    "name": "Rio Hondo College",
+    "link": "/best-colleges/rio-hondo-college-667051"
+  },
+  {
+    "name": "Rose-Hulman Institute of Technology",
+    "link": "/best-colleges/rosehulman-institute-of-technology-1830"
+  },
+  {
+    "name": "Roseman University of Health Sciences",
+    "link": "/best-colleges/roseman-university-of-health-sciences-667107"
+  },
+  {
+    "name": "Sacred Heart Major Seminary",
+    "link": "/best-colleges/sacred-heart-major-seminary-2313"
+  },
+  {
+    "name": "Saint Anthony College of Nursing",
+    "link": "/best-colleges/saint-anthony-college-of-nursing-9987"
+  },
+  {
+    "name": "Saint Francis Medical Center College of Nursing",
+    "link": "/best-colleges/st-francis-medical-center-college-of-nursing-6240"
+  },
+  {
+    "name": "Saint Johns River State College",
+    "link": "/best-colleges/saint-johns-river-state-college-666959"
+  },
+  {
+    "name": "Salish Kootenai College",
+    "link": "/best-colleges/salish-kootenai-college-21434"
+  },
+  {
+    "name": "Samuel Merritt University",
+    "link": "/best-colleges/samuel-merritt-university-7012"
+  },
+  {
+    "name": "San Diego Mesa College",
+    "link": "/best-colleges/san-diego-mesa-college-667052"
+  },
+  {
+    "name": "San Francisco Bay University",
+    "link": "/best-colleges/san-francisco-bay-university-995463"
+  },
+  {
+    "name": "San Francisco Conservatory of Music",
+    "link": "/best-colleges/san-francisco-conservatory-of-music-1278"
+  },
+  {
+    "name": "San Joaquin Valley College--Visalia",
+    "link": "/best-colleges/san-joaquin-valley-college-visalia-667053"
+  },
+  {
+    "name": "San Juan Bautista School of Medicine",
+    "link": "/best-colleges/san-juan-bautista-school-of-medicine-667119"
+  },
+  {
+    "name": "Santa Ana College",
+    "link": "/best-colleges/santa-ana-college-667054"
+  },
+  {
+    "name": "Santa Fe College",
+    "link": "/best-colleges/santa-fe-college-666958"
+  },
+  {
+    "name": "Santa Monica College",
+    "link": "/best-colleges/santa-monica-college-667055"
+  },
+  {
+    "name": "Schoolcraft College",
+    "link": "/best-colleges/schoolcraft-college-667072"
+  },
+  {
+    "name": "School of the Art Institute of Chicago",
+    "link": "/best-colleges/school-of-the-art-institute-of-chicago-1753"
+  },
+  {
+    "name": "Seattle Central College",
+    "link": "/best-colleges/seattle-central-college-666985"
+  },
+  {
+    "name": "Seminole State College of Florida",
+    "link": "/best-colleges/seminole-state-college-of-florida-1520"
+  },
+  {
+    "name": "Sentara College of Health Sciences",
+    "link": "/best-colleges/sentara-college-of-health-sciences-528883"
+  },
+  {
+    "name": "Shasta College",
+    "link": "/best-colleges/shasta-college-667056"
+  },
+  {
+    "name": "Sinte Gleska University",
+    "link": "/best-colleges/sinte-gleska-university-21437"
+  },
+  {
+    "name": "Sitting Bull College",
+    "link": "/best-colleges/sitting-bull-college-21882"
+  },
+  {
+    "name": "Skagit Valley College",
+    "link": "/best-colleges/skagit-valley-college-667057"
+  },
+  {
+    "name": "Skyline College",
+    "link": "/best-colleges/skyline-college-667058"
+  },
+  {
+    "name": "Solano Community College",
+    "link": "/best-colleges/solano-community-college-667059"
+  },
+  {
+    "name": "Southeast Missouri Hospital College of Nursing and Health Sciences",
+    "link": "/best-colleges/southeast-missouri-hospital-college-of-nursing-and-health-sciences-667110"
+  },
+  {
+    "name": "Southern Baptist Theological Seminary",
+    "link": "/best-colleges/southern-baptist-theological-seminary-1982"
+  },
+  {
+    "name": "Southern California Institute of Architecture",
+    "link": "/best-colleges/southern-california-institute-of-architecture-20758"
+  },
+  {
+    "name": "Southern California University of Health Sciences",
+    "link": "/best-colleges/southern-california-university-of-health-sciences-667111"
+  },
+  {
+    "name": "South Florida State College",
+    "link": "/best-colleges/south-florida-state-college-666960"
+  },
+  {
+    "name": "South Seattle College",
+    "link": "/best-colleges/south-seattle-college-9706"
+  },
+  {
+    "name": "South University",
+    "link": "/best-colleges/south-university-13039"
+  },
+  {
+    "name": "South University-Tampa",
+    "link": "/best-colleges/south-universitytampa-667109"
+  },
+  {
+    "name": "Southwestern Christian College",
+    "link": "/best-colleges/southwestern-christian-college-3618"
+  },
+  {
+    "name": "Spokane Community College",
+    "link": "/best-colleges/spokane-community-college-667060"
+  },
+  {
+    "name": "Spokane Falls Community College",
+    "link": "/best-colleges/spokane-falls-community-college-667061"
+  },
+  {
+    "name": "State College of Florida--Manatee-Sarasota",
+    "link": "/best-colleges/state-college-of-florida-manateesarasota-666954"
+  },
+  {
+    "name": "St. Charles Borromeo Seminary",
+    "link": "/best-colleges/st-charles-borromeo-seminary-3364"
+  },
+  {
+    "name": "St. John's College (IL)",
+    "link": "/best-colleges/st-johns-college-illinois-30980"
+  },
+  {
+    "name": "St. John Vianney College Seminary",
+    "link": "/best-colleges/st-john-vianney-college-seminary-8075"
+  },
+  {
+    "name": "St. Joseph Seminary College",
+    "link": "/best-colleges/st-joseph-seminary-college-2027"
+  },
+  {
+    "name": "St Luke's College",
+    "link": "/best-colleges/st-lukes-college-667112"
+  },
+  {
+    "name": "Stone Child College",
+    "link": "/best-colleges/stone-child-college-983244"
+  },
+  {
+    "name": "St. Petersburg College",
+    "link": "/best-colleges/st-petersburg-college-1528"
+  },
+  {
+    "name": "Strayer University",
+    "link": "/best-colleges/strayer-university-1459"
+  },
+  {
+    "name": "Sullivan University",
+    "link": "/best-colleges/sullivan-university-4619"
+  },
+  {
+    "name": "SUM Bible College and Theological Seminary",
+    "link": "/best-colleges/sum-bible-college-and-theological-seminary-727952"
+  },
+  {
+    "name": "SUNY Downstate Health Sciences University",
+    "link": "/best-colleges/suny-downstate-health-sciences-university-2839"
+  },
+  {
+    "name": "Tacoma Community College",
+    "link": "/best-colleges/tacoma-community-college-667062"
+  },
+  {
+    "name": "Tallahassee Community College",
+    "link": "/best-colleges/tallahassee-community-college-667019"
+  },
+  {
+    "name": "Texas Tech University Health Sciences Center-El Paso",
+    "link": "/best-colleges/texas-tech-university-health-sciences-centerel-paso-122541"
+  },
+  {
+    "name": "Texas Tech University Health Sciences Center-Lubbock",
+    "link": "/best-colleges/texas-tech-university-health-sciences-center-10674"
+  },
+  {
+    "name": "Thomas Edison State University",
+    "link": "/best-colleges/thomas-edison-state-university-11648"
+  },
+  {
+    "name": "Thomas More College of Liberal Arts",
+    "link": "/best-colleges/thomas-more-college-merrimack-30431"
+  },
+  {
+    "name": "Touro University Nevada",
+    "link": "/best-colleges/touro-university-nevada-283208"
+  },
+  {
+    "name": "Trinity Bible College and Graduate School",
+    "link": "/best-colleges/trinity-bible-college-and-graduate-school-667130"
+  },
+  {
+    "name": "Trinity College of Nursing & Health Sciences",
+    "link": "/best-colleges/trinity-college-of-nursing--health-sciences-66606"
+  },
+  {
+    "name": "Trocair College",
+    "link": "/best-colleges/trocair-college-666999"
+  },
+  {
+    "name": "Truckee Meadows Community College",
+    "link": "/best-colleges/truckee-meadows-community-college-386486"
+  },
+  {
+    "name": "Turtle Mountain Community College",
+    "link": "/best-colleges/turtle-mountain-community-college-667138"
+  },
+  {
+    "name": "Tyler Junior College",
+    "link": "/best-colleges/tyler-junior-college-667063"
+  },
+  {
+    "name": "Union Institute and University",
+    "link": "/best-colleges/union-institute-and-university-10923"
+  },
+  {
+    "name": "United States University",
+    "link": "/best-colleges/united-states-university-666996"
+  },
+  {
+    "name": "United Tribes Technical College",
+    "link": "/best-colleges/united-tribes-technical-college-667139"
+  },
+  {
+    "name": "Unitek College",
+    "link": "/best-colleges/unitek-college-323548"
+  },
+  {
+    "name": "Universidad Central Del Caribe",
+    "link": "/best-colleges/universidad-central-del-caribe-667120"
+  },
+  {
+    "name": "University of Arkansas for Medical Sciences",
+    "link": "/best-colleges/university-of-arkansas-for-medical-sciences-1109"
+  },
+  {
+    "name": "University of Cincinnati--UC Blue Ash College",
+    "link": "/best-colleges/uc-blue-ash-college-4868"
+  },
+  {
+    "name": "University of Hawaii--Maui College",
+    "link": "/best-colleges/university-of-hawaii-maui-college-1615"
+  },
+  {
+    "name": "University of Health Sciences & Pharmacy in St. Louis",
+    "link": "/best-colleges/university-of-health-sciences--pharmacy-in-st-louis-2504"
+  },
+  {
+    "name": "University of Maryland, Baltimore",
+    "link": "/best-colleges/university-of-maryland-baltimore-2104"
+  },
+  {
+    "name": "University of Nebraska Medical Center",
+    "link": "/best-colleges/university-of-nebraska-medical-center-6895"
+  },
+  {
+    "name": "University of North Carolina School of the Arts",
+    "link": "/best-colleges/university-of-north-carolina-school-of-the-arts-3981"
+  },
+  {
+    "name": "University of Oklahoma Health Sciences Center",
+    "link": "/best-colleges/university-of-oklahoma-health-sciences-center-5889"
+  },
+  {
+    "name": "University of Tennessee Health Sciences Center",
+    "link": "/best-colleges/university-of-tennessee-health-sciences-center-6725"
+  },
+  {
+    "name": "University of Texas Health Science Center--Houston",
+    "link": "/best-colleges/university-of-texas-health-science-center-houston-4951"
+  },
+  {
+    "name": "University of Texas Health Science Center--San Antonio",
+    "link": "/best-colleges/university-of-texas-health-science-center-san-antonio-3659"
+  },
+  {
+    "name": "University of Texas Medical Branch--Galveston",
+    "link": "/best-colleges/university-of-texas-medical-branch-galveston-4952"
+  },
+  {
+    "name": "University of the Arts",
+    "link": "/best-colleges/university-of-the-arts-3350"
+  },
+  {
+    "name": "University of the Potomac",
+    "link": "/best-colleges/university-of-the-potomac-32183"
+  },
+  {
+    "name": "University of the West",
+    "link": "/best-colleges/university-of-the-west-36963"
+  },
+  {
+    "name": "Valencia College",
+    "link": "/best-colleges/valencia-college-666961"
+  },
+  {
+    "name": "VanderCook College of Music",
+    "link": "/best-colleges/vandercook-college-of-music-1778"
+  },
+  {
+    "name": "Wade College",
+    "link": "/best-colleges/wade-college-666977"
+  },
+  {
+    "name": "Webb Institute",
+    "link": "/best-colleges/webb-institute-2900"
+  },
+  {
+    "name": "Wenatchee Valley College",
+    "link": "/best-colleges/wenatchee-valley-college-667064"
+  },
+  {
+    "name": "Westcliff University",
+    "link": "/best-colleges/westcliff-university-510130"
+  },
+  {
+    "name": "West Coast University",
+    "link": "/best-colleges/west-coast-university-8716"
+  },
+  {
+    "name": "Western Nevada College",
+    "link": "/best-colleges/western-nevada-college-10363"
+  },
+  {
+    "name": "West Los Angeles College",
+    "link": "/best-colleges/west-los-angeles-college-667065"
+  },
+  {
+    "name": "West Virginia University--Parkersburg",
+    "link": "/best-colleges/west-virginia-university-parkersburg-3828"
+  },
+  {
+    "name": "Whatcom Community College",
+    "link": "/best-colleges/whatcom-community-college-667066"
+  },
+  {
+    "name": "Yakima Valley College",
+    "link": "/best-colleges/yakima-valley-college-667067"
   }
 ]

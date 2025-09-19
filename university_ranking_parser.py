@@ -143,7 +143,7 @@ class UniversityRankingParser:
 def main():
     """메인 함수"""
     # HTML 파일 경로
-    html_file = "ranking.html"
+    html_file = "downloads/ranking.html"
     
     # 파서 생성 및 실행
     parser = UniversityRankingParser(html_file)
