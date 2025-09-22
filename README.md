@@ -4,12 +4,13 @@
 
 ## 📋 기능
 
-- 436개 미국 대학교 정보 자동 수집
-- 7가지 페이지 타입 지원: main, overall-rankings, applying, paying, academics, student-life, campus-info
-- 기존 Chrome 브라우저 연결 지원
-- 자동 타임아웃으로 빠른 수집
-- 대학교별 폴더 자동 생성
-- **🆕 Admissions Calculator API 모니터링**: 네트워크 응답 실시간 감지 및 저장
+- **1,827개 미국 대학교** 정보 자동 수집
+- **7가지 페이지 타입** 지원: main, overall-rankings, applying, paying, academics, student-life, campus-info
+- **🔐 로그인 세션 캡처**: 기존 Chrome에서 로그인 상태를 복사하여 새 브라우저에서 사용
+- **모듈화된 아키텍처**: selenium 기능을 6개 모듈로 분리하여 유지보수성 향상
+- **자동 타임아웃**으로 빠른 수집
+- **대학교별 폴더** 자동 생성
+- **중복 콘텐츠 감지**: SHA256 해시로 동일한 내용 중복 저장 방지
 
 ## 🚀 빠른 시작
 
@@ -23,15 +24,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. 기본 사용법 (헤드리스 모드)
+### 2. 기본 사용법
 
 ```bash
-# 개별 대학교 스크래핑 (백그라운드에서 실행)
-python main_scraper.py princeton
-python main_scraper.py harvard
-python main_scraper.py mit
+# 개별 대학교 스크래핑 (세션 캡처 모드)
+python main_scraper.py "Princeton University"
+python main_scraper.py "Harvard University"
+python main_scraper.py "MIT"
 
-# 모든 대학교 일괄 스크래핑 (436개 대학교)
+# 모든 대학교 일괄 스크래핑 (1,827개 대학교)
 python main_scraper.py --all
 
 # 사용 가능한 대학교 목록 보기
@@ -41,26 +42,33 @@ python main_scraper.py --list
 python main_scraper.py --help
 ```
 
-**참고**: 모든 스크래핑은 헤드리스 모드(백그라운드)에서 실행되어 브라우저 창이 뜨지 않습니다.
+**🔐 로그인 세션 캡처**: 기존 Chrome에서 로그인 상태를 자동으로 복사하여 새 브라우저에서 사용합니다.
 
-### 3. 🆕 Admissions Calculator API 모니터링
+### 3. 🔐 로그인 세션 캡처 설정
 
-US News의 Admissions Calculator API 응답을 실시간으로 감지하고 저장할 수 있습니다.
+프리미엄 콘텐츠에 접근하려면 로그인된 Chrome 브라우저가 필요합니다:
 
 ```bash
-# 대화형 API 모니터링 (추천)
-python admissions_calculator_monitor.py
+# 1. Chrome을 디버그 모드로 실행
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --user-data-dir=/tmp/chrome_dev_session
 
-# 또는 테스트 스크립트 실행
-python test_api_monitor.py
+# 2. 브라우저에서 US News에 로그인
+# https://www.usnews.com 에서 로그인
+
+# 3. 스크래퍼 실행 (자동으로 세션 캡처)
+python main_scraper.py "Princeton University"
 ```
 
-**사용법**:
-1. 브라우저가 열리면 대학 페이지로 이동
-2. Admissions Calculator 섹션에서 성적 입력/계산 버튼 클릭
-3. API 응답이 자동으로 `api_responses/` 폴더에 저장됨
-
-**타겟 API**: `https://www.usnews.com/best-colleges/compass/api/admissions-calculator?school_id=...`
+**세션 캡처 로그 예시**:
+```
+🔍 세션 캡처 시작: ['https://www.usnews.com', 'https://premium.usnews.com']
+✅ Chrome 연결 성공
+🍪 https://www.usnews.com에서 쿠키 84개 수집
+💾 https://www.usnews.com에서 localStorage 90개 수집
+🗂️ https://www.usnews.com에서 sessionStorage 3개 수집
+🔐 세션 캡처: 쿠키 168개, localStorage 89개, sessionStorage 3개
+🔐 기존 Chrome의 로그인 세션을 캡처했습니다.
+```
 
 ## 📁 출력 구조
 
@@ -84,11 +92,6 @@ downloads/
 │   └── campus_info.html
 └── ...
 
-api_responses/
-├── princeton_university_2155.txt
-├── harvard_university_2155.txt
-├── admissions_api_20240918_143022.txt
-└── ...
 ```
 
 ## 📖 사용 예시
@@ -109,7 +112,7 @@ python main_scraper.py mit
 ### 일괄 스크래핑 (모든 대학교)
 
 ```bash
-# 436개 모든 대학교 스크래핑
+# 1,827개 모든 대학교 스크래핑
 python main_scraper.py --all
 
 # ⚠️ 주의사항:
@@ -117,6 +120,7 @@ python main_scraper.py --all
 # - Ctrl+C로 언제든 중단 가능
 # - 진행률과 통계를 실시간으로 표시
 # - 실패한 대학교는 자동으로 건너뜀
+# - 이미 다운로드된 대학교는 자동으로 스킵
 ```
 
 ### 대학교 이름 검색
@@ -142,28 +146,14 @@ python main_scraper.py "new york"  # New York University
 python main_scraper.py texas       # The University of Texas--Austin (첫 번째 매칭)
 ```
 
-### API 모니터링 사용
+### 중복 콘텐츠 감지
+
+스크래퍼는 SHA256 해시를 사용하여 동일한 콘텐츠의 중복 저장을 방지합니다:
 
 ```bash
-# 1. 대화형 모니터링 실행
-python admissions_calculator_monitor.py
-
-# 출력 예시:
-# 🎓 대학 이름을 입력하세요: Princeton University
-# 🆔 대학 ID를 입력하세요: 2155
-# 🌐 대학 페이지로 이동: https://www.usnews.com/best-colleges/princeton-university-2155
-# 📡 API 모니터링 시작: best-colleges/compass/api/admissions-calculator
-# ⏳ API 호출 대기 중... (최대 60초)
-# ✅ 1개의 API 응답 감지!
-# 🎉 API 응답이 성공적으로 저장되었습니다: api_responses/princeton_university_2155.txt
-
-# 2. 프로그래밍 방식 사용
-python -c "
-from admissions_calculator_monitor import AdmissionsCalculatorMonitor
-monitor = AdmissionsCalculatorMonitor(headless=False)
-saved_file = monitor.monitor_university_api('Princeton University', '2155')
-print(f'저장됨: {saved_file}')
-"
+# 이미 다운로드된 대학교는 자동으로 스킵
+⏭️ Princeton University 이미 완전히 다운로드됨 - 스킵
+📁 기존 파일: 7개 (완료)
 ```
 
 ## ⚙️ 설정 옵션
@@ -171,16 +161,22 @@ print(f'저장됨: {saved_file}')
 ### HTMLDownloader 클래스 옵션
 
 ```python
-from html_downloader import HTMLDownloader
+from usnews_scraper.html_downloader import HTMLDownloader, DownloaderConfig
 
-# 기본 사용 (헤드리스 모드)
-downloader = HTMLDownloader(headless=True)
+# 기본 사용 (세션 캡처 모드)
+config = DownloaderConfig(preserve_login_from_existing=True)
+downloader = HTMLDownloader(
+    headless=True, 
+    use_existing_chrome=False,
+    downloader_config=config
+)
 
-# 기존 Chrome 사용 (개발/디버깅용)
+# 기존 Chrome 직접 사용 (개발/디버깅용)
 downloader = HTMLDownloader(headless=False, use_existing_chrome=True)
 
 # 위젯 제거 비활성화
-downloader = HTMLDownloader(headless=True, truncate_at_widget=False)
+config = DownloaderConfig(truncate_at_widget=False)
+downloader = HTMLDownloader(downloader_config=config)
 ```
 
 ## 🔧 고급 사용법
@@ -188,13 +184,17 @@ downloader = HTMLDownloader(headless=True, truncate_at_widget=False)
 ### 개별 페이지 다운로드
 
 ```python
-from html_downloader import HTMLDownloader
+from usnews_scraper.html_downloader import HTMLDownloader, DownloaderConfig
 
-downloader = HTMLDownloader(headless=True)
-downloader.setup_driver()
+config = DownloaderConfig(preserve_login_from_existing=True)
+downloader = HTMLDownloader(
+    headless=True, 
+    use_existing_chrome=False,
+    downloader_config=config
+)
 
 # 특정 페이지만 다운로드
-file_path = downloader.download_university_page("princeton", "applying")
+file_path = downloader.download_university_page("Princeton University", "applying")
 print(f"저장됨: {file_path}")
 
 downloader.close()
@@ -203,12 +203,12 @@ downloader.close()
 ### 대학교 정보 조회
 
 ```python
-from html_downloader import HTMLDownloader
+from usnews_scraper.html_downloader import HTMLDownloader
 
 downloader = HTMLDownloader(headless=True)
 
 # 대학교 검색
-university_info = downloader.find_university_by_name("princeton")
+university_info = downloader.find_university_by_name("Princeton University")
 print(university_info)
 # {'name': 'Princeton University', 'link': '/best-colleges/princeton-university-2627', 'id': '2627'}
 
@@ -224,21 +224,32 @@ print(f"총 {len(universities)}개 대학교")
 ```
 🎓 US News University Scraper
 ==================================================
-Target University: princeton
+Target University: Princeton University
 
 📥 Downloading HTML Content from All Pages
---------------------------------------------------
-✅ Loaded 436 universities from universities.json
+==================================================
+✅ Loaded 1827 universities from data/universities.json
+🔍 세션 캡처 시작: ['https://www.usnews.com', 'https://premium.usnews.com']
+🔗 Chrome 연결 시도: 127.0.0.1:9222
+✅ Chrome 연결 성공
+🍪 https://www.usnews.com에서 쿠키 84개 수집
+💾 https://www.usnews.com에서 localStorage 90개 수집
+🗂️ https://www.usnews.com에서 sessionStorage 3개 수집
+🔐 세션 캡처: 쿠키 168개, localStorage 89개, sessionStorage 3개
+🔐 기존 Chrome의 로그인 세션을 캡처했습니다.
 
-📚 Downloading all pages for Princeton University (ID: 2627)
+📚 Downloading all pages for Princeton University
 ============================================================
+🔄 Chrome 응답성 확인 중...
+✅ Chrome 정상 동작 중
+🔐 로그인 세션 적용 시도 중... (1/3)
+🔐 로그인 세션 적용 완료 (학교 단위)
 
-📖 [1/4] Downloading applying page...
+📖 [1/7] Downloading main page...
 ----------------------------------------
-📥 applying 페이지 다운로드 중...
+📥 main 페이지 다운로드 중...
 ✅ 페이지 로딩 완료
-✅ 저장됨: applying.html (345,009자)
-
+✅ 저장됨: main.html (412,745자)
 ⏳ Waiting 10 seconds before next download...
 ...
 ```
@@ -281,14 +292,29 @@ Target University: princeton
 6. **student-life**: 학생 생활 정보 (기숙사, 클럽 등)
 7. **campus-info**: 캠퍼스 정보 (위치, 시설 등)
 
-## 🔄 업데이트
+## 🏗️ 아키텍처
 
-새로운 대학교 정보를 업데이트하려면:
+### 모듈화된 구조
 
-```bash
-# ranking.html 파일 업데이트 후
-python university_ranking_parser.py
 ```
+usnews_scraper/
+├── selenium/
+│   ├── __init__.py         # 통합 모듈
+│   ├── config.py           # 설정과 상수
+│   ├── chrome_setup.py     # Chrome 설정
+│   ├── navigation.py       # 네비게이션/에러 처리
+│   ├── session_manager.py  # 세션 관리
+│   └── health_check.py     # 상태 체크
+├── html_downloader.py      # 메인 다운로더
+└── selenium_base.py        # 통합 베이스 클래스
+```
+
+### 주요 개선사항
+
+- **747줄 → 185줄**: 메인 클래스 크기 75% 감소
+- **모듈화**: 기능별 독립적인 모듈로 분리
+- **유지보수성**: 각 기능을 개별적으로 수정 가능
+- **테스트 용이성**: 컴포넌트별 단위 테스트 가능
 
 ## 📋 요구사항
 
