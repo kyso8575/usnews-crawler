@@ -1,36 +1,40 @@
 # Active Context
 
 ## Current Focus
-Successfully separated the monolithic scraper into modular components for better organization and maintainability.
+Restructured the repository into a clean package layout and updated imports/paths.
 
 ## Current Project Structure
 ```
 scraper/
-├── venv/                           # Virtual environment
-├── memory-bank/                    # Project documentation
-├── university_id_extractor.py      # ✅ University ID extraction module
-├── main_scraper.py                 # ✅ Main orchestrator module
+├── usnews_scraper/                 # Python package (core modules)
+│   ├── __init__.py
+│   ├── html_downloader.py          # HTML download orchestration
+│   └── selenium_base.py            # Selenium common utilities
+├── data/
+│   └── universities.json           # University list dataset
+├── scripts/
+│   └── clean_equal_size_folders.py # Utility script
+├── archive/
+│   └── university_ranking_parser.py # Deprecated/for reference
+├── downloads/                      # Saved HTML by university
+├── main_scraper.py                 # CLI entrypoint
 ├── requirements.txt                # Dependencies
-└── downloads/                      # (Will be created for HTML files)
+└── memory-bank/                    # Project documentation
 ```
 
 ## Recently Completed
-1. ✅ **Code Separation**: Split monolithic scraper into focused modules
-2. ✅ **ID Extractor Module**: Dedicated `UniversityIDExtractor` class
-3. ✅ **Main Orchestrator**: `main_scraper.py` to coordinate all modules
-4. ✅ **Testing**: Both modules work correctly with Harvard example
-5. ✅ **Cleanup**: Removed old `scraper.py` file
+1. ✅ Directory restructure into `usnews_scraper/` package
+2. ✅ Moved dataset to `data/universities.json`
+3. ✅ Updated imports and JSON paths
+4. ✅ Smoke test `--list` passed in venv
 
 ## Next Steps
-1. 🔄 Create HTML downloader module (`html_downloader.py`)
-2. ⏳ Integrate HTML download functionality into main scraper
-3. ⏳ Test complete workflow (ID extraction → HTML download)
+1. ⏳ Optional: Update README to reflect new structure
+2. ⏳ Optional: Add packaging metadata if distributing
 
 ## Current Capabilities
-- **University ID Extraction**: ✅ Working (Harvard → 2155)
-- **Search Navigation**: ✅ Working (US News search pages)
-- **Link Processing**: ✅ Working (Google redirect URLs)
-- **HTML Download**: 🚧 Ready to implement
+- **University listing (--list)**: ✅ Working
+- **Search navigation & HTML download**: ✅ Working via `HTMLDownloader`
 
 ## Key Technical Details
 - **Target URL Pattern**: `https://premium.usnews.com/best-colleges/{university-name}-{id}/applying`
