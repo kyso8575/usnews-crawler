@@ -1,14 +1,14 @@
-# 🎓 US News University Scraper
+# 🎓 US News University HTML Downloader
 
-미국 대학교 정보를 US News에서 자동으로 스크래핑하는 도구입니다.
+미국 대학교 정보를 US News에서 자동으로 HTML 파일로 다운로드하는 도구입니다.
 
 ## 📋 기능
 
-- **1,827개 미국 대학교** 정보 자동 수집
+- **1,827개 미국 대학교** HTML 자동 다운로드
 - **7가지 페이지 타입** 지원: main, overall-rankings, applying, paying, academics, student-life, campus-info
 - **🔐 로그인 세션 캡처**: 기존 Chrome에서 로그인 상태를 복사하여 새 브라우저에서 사용
 - **모듈화된 아키텍처**: selenium 기능을 6개 모듈로 분리하여 유지보수성 향상
-- **자동 타임아웃**으로 빠른 수집
+- **30초 딜레이**: 서버 부하 방지를 위한 안전한 다운로드 간격
 - **대학교별 폴더** 자동 생성
 - **중복 콘텐츠 감지**: SHA256 해시로 동일한 내용 중복 저장 방지
 
@@ -27,19 +27,19 @@ pip install -r requirements.txt
 ### 2. 기본 사용법
 
 ```bash
-# 개별 대학교 스크래핑 (세션 캡처 모드)
-python main_scraper.py "Princeton University"
-python main_scraper.py "Harvard University"
-python main_scraper.py "MIT"
+# 개별 대학교 HTML 다운로드 (세션 캡처 모드)
+python main.py "Princeton University"
+python main.py "Harvard University"
+python main.py "MIT"
 
-# 모든 대학교 일괄 스크래핑 (1,827개 대학교)
-python main_scraper.py --all
+# 모든 대학교 일괄 HTML 다운로드 (1,827개 대학교)
+python main.py --all
 
 # 사용 가능한 대학교 목록 보기
-python main_scraper.py --list
+python main.py --list
 
 # 도움말
-python main_scraper.py --help
+python main.py --help
 ```
 
 **🔐 로그인 세션 캡처**: 기존 Chrome에서 로그인 상태를 자동으로 복사하여 새 브라우저에서 사용합니다.
@@ -56,7 +56,7 @@ python main_scraper.py --help
 # https://www.usnews.com 에서 로그인
 
 # 3. 스크래퍼 실행 (자동으로 세션 캡처)
-python main_scraper.py "Princeton University"
+python main.py "Princeton University"
 ```
 
 **세션 캡처 로그 예시**:
@@ -297,24 +297,30 @@ Target University: Princeton University
 ### 모듈화된 구조
 
 ```
-usnews_scraper/
-├── selenium/
-│   ├── __init__.py         # 통합 모듈
-│   ├── config.py           # 설정과 상수
-│   ├── chrome_setup.py     # Chrome 설정
-│   ├── navigation.py       # 네비게이션/에러 처리
-│   ├── session_manager.py  # 세션 관리
-│   └── health_check.py     # 상태 체크
-├── html_downloader.py      # 메인 다운로더
-└── selenium_base.py        # 통합 베이스 클래스
+scraper/
+├── usnews_scraper/         # HTML 다운로더 패키지
+│   ├── selenium/           # Selenium 모듈들
+│   │   ├── __init__.py     # 통합 모듈
+│   │   ├── config.py       # 설정과 상수
+│   │   ├── chrome_setup.py # Chrome 설정
+│   │   ├── navigation.py   # 네비게이션/에러 처리
+│   │   ├── session_manager.py # 세션 관리
+│   │   └── health_check.py # 상태 체크
+│   ├── html_downloader.py # 메인 HTML 다운로더
+│   └── selenium_base.py    # 통합 베이스 클래스
+├── data/
+│   └── universities.json   # 대학교 목록 데이터
+├── downloads/              # 다운로드된 HTML 파일들
+├── main.py                 # 메인 실행 파일
+└── requirements.txt       # 의존성 패키지
 ```
 
-### 주요 개선사항
+### 주요 특징
 
-- **747줄 → 185줄**: 메인 클래스 크기 75% 감소
+- **HTML 전용**: HTML 파일 다운로드에 특화된 간단한 구조
 - **모듈화**: 기능별 독립적인 모듈로 분리
 - **유지보수성**: 각 기능을 개별적으로 수정 가능
-- **테스트 용이성**: 컴포넌트별 단위 테스트 가능
+- **안전한 다운로드**: 30초 딜레이로 서버 부하 방지
 
 ## 📋 요구사항
 
