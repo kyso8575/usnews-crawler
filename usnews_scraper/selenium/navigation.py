@@ -89,7 +89,24 @@ class NavigationManager:
         try:
             if not driver:
                 return None
-            return driver.page_source
+            
+            # 타임아웃을 위한 시그널 처리
+            import signal
+            def timeout_handler(signum, frame):
+                raise TimeoutError("페이지 소스 가져오기 타임아웃")
+            
+            signal.signal(signal.SIGALRM, timeout_handler)
+            signal.alarm(20)  # 20초 타임아웃
+            
+            try:
+                page_source = driver.page_source
+                return page_source
+            finally:
+                signal.alarm(0)  # 타임아웃 해제
+                
+        except TimeoutError:
+            logger.warning("⚠️ 페이지 소스 가져오기 타임아웃 (20초)")
+            return None
         except Exception as e:
             logger.warning(f"❌ 페이지 소스 가져오기 중 오류: {str(e)}")
             return None
@@ -145,6 +162,19 @@ class NavigationManager:
                 return {"status": None, "type": "네트워크 에러 (드라이버 없음)"}
             status_code = self.get_response_status_code(driver)
             current_url = driver.current_url
+            
+            # Akamai CDN 에러 확인 (URL과 HTML 내용 모두 확인)
+            if "errors.edgesuite.net" in current_url:
+                return {"status": status_code, "type": "Akamai CDN 에러 (스킵)"}
+            
+            # HTML 내용에서 Akamai CDN 에러 확인
+            try:
+                page_source = driver.page_source
+                if "errors.edgesuite.net" in page_source or "Reference #" in page_source:
+                    return {"status": status_code, "type": "Akamai CDN 에러 (스킵)"}
+            except Exception:
+                pass
+            
             # 네트워크 에러 확인 (상태코드 없음 또는 0)
             if status_code is None or status_code == 0:
                 if any(indicator in current_url for indicator in NETWORK_ERROR_URL_INDICATORS):
@@ -213,7 +243,13 @@ class NavigationManager:
             영구적 에러 여부
         """
         info = self.get_error_info(driver)
+        error_type = info.get("type")
         status_code = info.get("status")
+        
+        # Akamai CDN 에러는 영구 에러로 처리 (즉시 스킵)
+        if error_type and "Akamai CDN 에러" in error_type:
+            return True
+            
         try:
             if status_code in PERMANENT_STATUS_CODES:
                 return True

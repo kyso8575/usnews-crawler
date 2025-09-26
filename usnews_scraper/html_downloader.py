@@ -346,19 +346,68 @@ class HTMLDownloader(SeleniumBase):
                     return None
                 break
 
-            # HTML 콘텐츠 가져오기 (에러 처리 개선)
-            try:
-                current_url = self.driver.current_url if self.driver else ""
-                logger.info("📄 HTML 콘텐츠 추출 중...")
-                html_content = self.get_page_source()
-                if not html_content:
-                    logger.error("❌ HTML 콘텐츠가 비어있습니다")
-                    return None
-                if len(html_content) < 1000:
-                    logger.warning(f"⚠️ HTML 콘텐츠가 너무 짧습니다 ({len(html_content)}자)")
-                logger.info(f"✅ HTML 콘텐츠 추출 성공 ({len(html_content):,}자)")
-            except Exception as e:
-                logger.error(f"❌ HTML 콘텐츠 추출 실패: {str(e)}")
+            # HTML 콘텐츠 가져오기 (타임아웃 및 재시도 로직 추가)
+            html_content = None
+            content_retry_count = 0
+            max_content_retries = 2
+            content_timeout = 30  # 30초 타임아웃
+            
+            while content_retry_count <= max_content_retries:
+                try:
+                    current_url = self.driver.current_url if self.driver else ""
+                    logger.info(f"📄 HTML 콘텐츠 추출 중... (시도 {content_retry_count + 1}/{max_content_retries + 1})")
+                    
+                    # 타임아웃을 위한 시그널 처리
+                    import signal
+                    def timeout_handler(signum, frame):
+                        raise TimeoutError("HTML 콘텐츠 추출 타임아웃")
+                    
+                    signal.signal(signal.SIGALRM, timeout_handler)
+                    signal.alarm(content_timeout)
+                    
+                    try:
+                        html_content = self.get_page_source()
+                    finally:
+                        signal.alarm(0)  # 타임아웃 해제
+                    
+                    if not html_content:
+                        logger.error("❌ HTML 콘텐츠가 비어있습니다")
+                        if content_retry_count < max_content_retries:
+                            content_retry_count += 1
+                            logger.warning(f"⚠️ HTML 콘텐츠 추출 재시도 ({content_retry_count}/{max_content_retries})")
+                            time.sleep(5)
+                            continue
+                        return None
+                    
+                    if len(html_content) < 1000:
+                        logger.warning(f"⚠️ HTML 콘텐츠가 너무 짧습니다 ({len(html_content)}자)")
+                    
+                    logger.info(f"✅ HTML 콘텐츠 추출 성공 ({len(html_content):,}자)")
+                    break  # 성공 시 루프 탈출
+                    
+                except TimeoutError:
+                    logger.warning(f"⚠️ HTML 콘텐츠 추출 타임아웃 ({content_timeout}초)")
+                    if content_retry_count < max_content_retries:
+                        content_retry_count += 1
+                        logger.warning(f"⚠️ HTML 콘텐츠 추출 재시도 ({content_retry_count}/{max_content_retries})")
+                        time.sleep(5)
+                        continue
+                    else:
+                        logger.error(f"❌ HTML 콘텐츠 추출 최종 실패 - 타임아웃")
+                        return None
+                        
+                except Exception as e:
+                    logger.error(f"❌ HTML 콘텐츠 추출 실패: {str(e)}")
+                    if content_retry_count < max_content_retries:
+                        content_retry_count += 1
+                        logger.warning(f"⚠️ HTML 콘텐츠 추출 재시도 ({content_retry_count}/{max_content_retries})")
+                        time.sleep(5)
+                        continue
+                    else:
+                        return None
+            
+            if html_content is None:
+                logger.error("❌ HTML 콘텐츠 추출 최종 실패")
                 return None
 
             if page_type != "":
@@ -527,6 +576,11 @@ class HTMLDownloader(SeleniumBase):
                     downloaded_files.append(file_path)
                 else:
                     logger.info(f"⏭️ {page_display_name} 페이지 건너뜀 (페이지가 존재하지 않거나 오류 발생)")
+                    
+                    # 메인 페이지에서 에러가 나면 해당 대학교 전체 스킵
+                    if page_type == "":
+                        logger.warning(f"⚠️ {university_info['name']} 메인 페이지 에러 - 해당 대학교 전체 스킵")
+                        break
 
                 # Delay between downloads (shorter if skipped)
                 if i < len(self.page_types):
