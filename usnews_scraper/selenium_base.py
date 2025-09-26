@@ -21,14 +21,14 @@ from .selenium.config import DEFAULT_IMPLICIT_WAIT, CLOSE_SELECTORS
 class SeleniumBase:
     """Selenium WebDriver의 기본 설정과 공통 기능을 제공하는 베이스 클래스 (리팩토링됨)"""
     
-    def __init__(self, headless: bool = True, implicit_wait: int = DEFAULT_IMPLICIT_WAIT, 
+    def __init__(self, headless: bool = False, implicit_wait: int = DEFAULT_IMPLICIT_WAIT, 
                  use_existing_chrome: bool = False, enable_network_monitoring: bool = False, 
                  config: Optional[SeleniumConfig] = None):
         """
         Selenium 베이스 클래스 초기화
         
         Args:
-            headless: 헤드리스 모드로 실행할지 여부 (기본값: True)
+            headless: 헤드리스 모드로 실행할지 여부 (기본값: False)
             implicit_wait: 암시적 대기 시간 (기본값: 5초)
             use_existing_chrome: 기존 실행 중인 Chrome을 사용할지 여부 (기본값: False)
             enable_network_monitoring: 네트워크 모니터링 활성화 여부 (기본값: False, 무시됨)
@@ -87,7 +87,8 @@ class SeleniumBase:
             url=url,
             wait_time=wait_time,
             do_precheck=do_precheck,
-            health_checker=self.health_checker
+            health_checker=self.health_checker,
+            driver_container=self
         )
     
     def get_page_source(self) -> Optional[str]:

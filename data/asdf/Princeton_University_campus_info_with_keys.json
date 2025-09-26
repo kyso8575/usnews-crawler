@@ -1,0 +1,153 @@
+{
+  "university_name": "Princeton University",
+  "source": "US News",
+  "campus_info": {
+    "campus_size_acres": "3,500",
+    "alcohol_permitted": "Yes",
+    "firearm_campus_carry_policy": "Banned",
+    "payscale_two_digit_cip_starting": "N/A",
+    "payscale_overall_starting": "$87,815",
+    "g_internship_compensation": "N/A",
+    "v_gui_rem": "N/A",
+    "pro_spe_pgm": "Self-directed/decentralized services.\nThere is no separate admissions process and eligibility for services must be established by the provision of disability documentation that meets institutional standards. Services may be coordinated through the Disability Services office and are based on need, as specified by the documentation. Other offices throughout the campus may also provide services, and some services offered are not mandated by laws. Students' progress is not monitored.",
+    "dis_ld_adv_yesno": "Yes",
+    "pro_spe_pgm_ld_yesno": "Yes",
+    "v_dis_ld_ser": "Freshmen, Sophomores, Juniors, Seniors",
+    "dis_ld_ind_yesno": "Yes",
+    "v_dis_ld_adv_freq": "Weekly",
+    "dis_ld_roo_ava_yesno": "Yes",
+    "v_pro_per_add_info": "Asha NambiarDirector of Accessibility and Disability Services(609) 258-2030anambiar@princeton.edu",
+    "GUIDNCECMPSACSBLTY": "Mostly",
+    "career_services_offered": [
+      "alumni network",
+      "career/job search classes",
+      "interest inventory",
+      "international student internship/job placement assistance",
+      "internships",
+      "interview training",
+      "on-campus job interviews",
+      "resume assistance"
+    ],
+    "formal_internship_program": "N/A",
+    "firms_that_most_frequently_hire_graduates": [
+      "Amazon",
+      "Bain & Company",
+      "Boston Consulting Group",
+      "Goldman Sachs",
+      "Google",
+      "JP Morgan Chase & Co",
+      "McKinsey & Company",
+      "Meta",
+      "Microsoft",
+      "Princeton University"
+    ],
+    "basic_student_services_offered": [
+      "financial services",
+      "first generation",
+      "health insurance",
+      "health service",
+      "nondevelopmental tutoring",
+      "placement service",
+      "women's center"
+    ],
+    "counseling_services_offered": [
+      "academic",
+      "birth control",
+      "career",
+      "international students",
+      "military",
+      "minority student",
+      "older student",
+      "personal",
+      "psychological",
+      "religious",
+      "veteran student"
+    ],
+    "campus_safety_and_security_services_offered": [
+      "24-hour emergency telephones",
+      "24-hour foot and vehicle patrols",
+      "Controlled dormitory access (key, security card, etc.)",
+      "Late night transport/escort service",
+      "Lighted pathways/sidewalks"
+    ],
+    "services_for_ld_students": [
+      "Exams on tape or computer",
+      "Extended time for tests",
+      "Learning center",
+      "Note-taking services",
+      "Other testing accommodations",
+      "Priority seating",
+      "Readers",
+      "Substitution of courses",
+      "Tutors",
+      "Typist/scribe"
+    ],
+    "counseling_services_offered_to_ld_students": [
+      "Academic",
+      "Psychological",
+      "Student support groups"
+    ],
+    "other_tutoring_options_available_to_ld_students_individual_setting": [
+      "Content area",
+      "Learning strategies",
+      "Math labs",
+      "Organizational skills",
+      "Study skills",
+      "Time management",
+      "Writing labs"
+    ],
+    "other_tutoring_options_available_to_ld_students_group_setting": [
+      "Content area",
+      "Learning strategies",
+      "Math labs",
+      "Organizational skills",
+      "Study skills",
+      "Time management",
+      "Writing labs"
+    ],
+    "services_for_physically_disabled_students": [
+      "Adaptive equipment",
+      "Braille services",
+      "Interpreters for hearing-impaired",
+      "Note-taking services",
+      "Reader services",
+      "Special housing",
+      "Special transportation",
+      "Talking books",
+      "Tape recorders",
+      "Tutors"
+    ],
+    "offer_specialized_asd_program": "No",
+    "asd_program_requires_separate_admissions": "N/A",
+    "asd_program_additional_cost": "N/A",
+    "services_offered": [
+      "Alternative locations for test taking",
+      "Audio version of textbooks",
+      "Extra time for test taking",
+      "Note taking",
+      "Time management/study skills classes or workshops"
+    ],
+    "program_url": "N/A",
+    "program_contact": "N/A",
+    "offer_specialized_adhd_program": "No",
+    "adhd_program_requires_separate_admissions": "N/A",
+    "adhd_program_additional_cost": "N/A",
+    "special_services_offered_for_international_students": [
+      "career support or OPT advising",
+      "cultural dining options",
+      "dining hall services offered to international students during all school holidays",
+      "host family program",
+      "housing offered during all school holidays",
+      "international student center",
+      "international student organization",
+      "special counselors/advisors",
+      "special orientation (1-6 days)",
+      "transportation"
+    ],
+    "offer_legal_services_to_students_without_u_s_visa_or_legal_status": "N/A",
+    "services_services_offered": [
+      "Exam accomodations",
+      "Housing accomodations"
+    ]
+  }
+}

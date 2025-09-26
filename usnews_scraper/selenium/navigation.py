@@ -21,7 +21,7 @@ class NavigationManager:
     def __init__(self, config: SeleniumConfig):
         self.config = config
     
-    def navigate_to(self, driver: webdriver.Chrome, url: str, wait_time: int = 3, do_precheck: Optional[bool] = None, health_checker=None) -> bool:
+    def navigate_to(self, driver: webdriver.Chrome, url: str, wait_time: int = 3, do_precheck: Optional[bool] = None, health_checker=None, driver_container=None) -> bool:
         """
         지정된 URL로 이동합니다.
         
@@ -62,7 +62,7 @@ class NavigationManager:
                     logger.warning(f"⚠️ 네비게이션 예외({attempts}/{self.config.navigate_retry_count + 1}): {e}")
                     if attempts > self.config.navigate_retry_count:
                         return False
-                    if health_checker and not health_checker.restart_chrome():
+                    if health_checker and driver_container and not health_checker.restart_chrome(driver_container):
                         return False
                     try:
                         driver.set_page_load_timeout(self.config.page_load_timeout)
