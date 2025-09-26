@@ -23,7 +23,7 @@ class ChromeSetup:
     def __init__(self, config: SeleniumConfig):
         self.config = config
         
-    def setup_chrome_options(self, headless: bool = True, use_existing_chrome: bool = False) -> Options:
+    def setup_chrome_options(self, headless: bool = False, use_existing_chrome: bool = False) -> Options:
         """
         Chrome 옵션을 설정합니다.
         
@@ -118,7 +118,7 @@ class ChromeSetup:
         
         return None
     
-    def setup_driver(self, headless: bool = True, use_existing_chrome: bool = False) -> tuple[Optional[webdriver.Chrome], Optional[WebDriverWait]]:
+    def setup_driver(self, headless: bool = False, use_existing_chrome: bool = False) -> tuple[Optional[webdriver.Chrome], Optional[WebDriverWait]]:
         """
         Chrome WebDriver를 설정하고 시작합니다.
         

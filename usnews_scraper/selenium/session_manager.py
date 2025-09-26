@@ -89,7 +89,7 @@ class SessionManager:
                         cookies = temp_driver.get_cookies()
                         if cookies:
                             collected_cookies.extend(cookies)
-                            logger.info(f"🍪 {origin}에서 쿠키 {len(cookies)}개 수집")
+                            logger.debug(f"🍪 {origin}에서 쿠키 {len(cookies)}개 수집")
                         else:
                             logger.info(f"🍪 {origin}에서 쿠키 없음")
                     except Exception as e:
@@ -99,7 +99,7 @@ class SessionManager:
                         local_items = temp_driver.execute_script(local_js)
                         if isinstance(local_items, dict) and local_items:
                             collected_local.update(local_items)
-                            logger.info(f"💾 {origin}에서 localStorage {len(local_items)}개 수집")
+                            logger.debug(f"💾 {origin}에서 localStorage {len(local_items)}개 수집")
                         else:
                             logger.info(f"💾 {origin}에서 localStorage 없음")
                     except Exception as e:
@@ -109,7 +109,7 @@ class SessionManager:
                         session_items = temp_driver.execute_script(session_js)
                         if isinstance(session_items, dict) and session_items:
                             collected_session.update(session_items)
-                            logger.info(f"🗂️ {origin}에서 sessionStorage {len(session_items)}개 수집")
+                            logger.debug(f"🗂️ {origin}에서 sessionStorage {len(session_items)}개 수집")
                         else:
                             logger.info(f"🗂️ {origin}에서 sessionStorage 없음")
                     except Exception as e:

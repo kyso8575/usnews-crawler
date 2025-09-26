@@ -49,8 +49,8 @@ CANONICAL_RE = re.compile(r'<link[^>]+rel="canonical"[^>]+href="([^"]+)', re.IGN
 class DownloaderConfig:
     truncate_at_widget: bool = True
     downloads_dir: str = "downloads"
-    wait_success_seconds: int = 10
-    wait_skip_seconds: int = 2
+    wait_success_seconds: int = 30
+    wait_skip_seconds: int = 30
     page_type_overrides: Optional[Dict[str, Dict[str, int]]] = None
     preserve_login_from_existing: bool = False
 
@@ -58,12 +58,12 @@ class DownloaderConfig:
 class HTMLDownloader(SeleniumBase):
     """Downloads HTML content from US News university pages."""
     
-    def __init__(self, universities_json: str = "data/universities.json", headless: bool = True, use_existing_chrome: bool = False, selenium_config: Optional[SeleniumConfig] = None, downloader_config: Optional[DownloaderConfig] = None):
+    def __init__(self, universities_json: str = "data/universities.json", headless: bool = False, use_existing_chrome: bool = False, selenium_config: Optional[SeleniumConfig] = None, downloader_config: Optional[DownloaderConfig] = None):
         """
         Initialize the HTML downloader with Chrome WebDriver.
         
         Args:
-            headless: Whether to run Chrome in headless mode (default: True)
+            headless: Whether to run Chrome in headless mode (default: False)
             truncate_at_widget: If True, cut HTML at the blueshift recommendations widget if present
             universities_json: Path to the JSON file containing university information
             use_existing_chrome: Whether to connect to existing Chrome browser (default: False)
@@ -276,23 +276,39 @@ class HTMLDownloader(SeleniumBase):
                 return False
 
             def _save_html(html_text: str, uni_name: str, ptype: str, display_name: str) -> Optional[str]:
-                self.create_downloads_directory()
-                university_dir_local, filename_local = self.generate_filename_and_path(uni_name, ptype)
-                os.makedirs(university_dir_local, exist_ok=True)
-                file_path_local = os.path.join(university_dir_local, filename_local)
                 try:
-                    content_hash_local = hashlib.sha256(html_text.encode('utf-8')).hexdigest()
-                except Exception:
-                    content_hash_local = None
-                if content_hash_local and content_hash_local in self._current_university_hashes:
-                    logger.info(f"⏭️ Duplicate content detected for '{display_name}' - not saving.")
+                    logger.info(f"💾 {display_name} 파일 저장 중...")
+                    self.create_downloads_directory()
+                    university_dir_local, filename_local = self.generate_filename_and_path(uni_name, ptype)
+                    os.makedirs(university_dir_local, exist_ok=True)
+                    file_path_local = os.path.join(university_dir_local, filename_local)
+                    
+                    # 해시 계산 (중복 검사용)
+                    try:
+                        content_hash_local = hashlib.sha256(html_text.encode('utf-8')).hexdigest()
+                    except Exception as e:
+                        logger.warning(f"⚠️ 해시 계산 실패: {e}")
+                        content_hash_local = None
+                    
+                    # 중복 검사
+                    if content_hash_local and content_hash_local in self._current_university_hashes:
+                        logger.info(f"⏭️ {display_name} 중복 콘텐츠 감지 - 저장 건너뜀")
+                        return None
+                    
+                    # 파일 저장
+                    with open(file_path_local, 'w', encoding='utf-8') as f:
+                        f.write(html_text)
+                    
+                    # 해시 저장
+                    if content_hash_local:
+                        self._current_university_hashes.add(content_hash_local)
+                    
+                    logger.info(f"✅ 저장 완료: {filename_local} ({len(html_text):,}자)")
+                    return file_path_local
+                    
+                except Exception as e:
+                    logger.error(f"❌ {display_name} 파일 저장 실패: {str(e)}")
                     return None
-                with open(file_path_local, 'w', encoding='utf-8') as f:
-                    f.write(html_text)
-                if content_hash_local:
-                    self._current_university_hashes.add(content_hash_local)
-                logger.info(f"✅ 저장됨: {filename_local} ({len(html_text):,}자)")
-                return file_path_local
 
             # ---- 본 로직 ----
             _ensure_driver_and_session()
@@ -330,9 +346,19 @@ class HTMLDownloader(SeleniumBase):
                     return None
                 break
 
-            current_url = self.driver.current_url if self.driver else ""
-            html_content = self.get_page_source()
-            if not html_content:
+            # HTML 콘텐츠 가져오기 (에러 처리 개선)
+            try:
+                current_url = self.driver.current_url if self.driver else ""
+                logger.info("📄 HTML 콘텐츠 추출 중...")
+                html_content = self.get_page_source()
+                if not html_content:
+                    logger.error("❌ HTML 콘텐츠가 비어있습니다")
+                    return None
+                if len(html_content) < 1000:
+                    logger.warning(f"⚠️ HTML 콘텐츠가 너무 짧습니다 ({len(html_content)}자)")
+                logger.info(f"✅ HTML 콘텐츠 추출 성공 ({len(html_content):,}자)")
+            except Exception as e:
+                logger.error(f"❌ HTML 콘텐츠 추출 실패: {str(e)}")
                 return None
 
             if page_type != "":
@@ -344,9 +370,16 @@ class HTMLDownloader(SeleniumBase):
                                 self.apply_session_to_current_driver(USNEWS_ORIGINS)
                             if not self.navigate_to(page_url, wait_time=nav_wait_seconds, do_precheck=True):
                                 return None
-                            current_url = self.driver.current_url if self.driver else ""
-                            html_content = self.get_page_source()
-                            if not html_content:
+                            try:
+                                current_url = self.driver.current_url if self.driver else ""
+                                logger.info("📄 리다이렉트 후 HTML 콘텐츠 재추출 중...")
+                                html_content = self.get_page_source()
+                                if not html_content:
+                                    logger.error("❌ 리다이렉트 후 HTML 콘텐츠가 비어있습니다")
+                                    return None
+                                logger.info(f"✅ 리다이렉트 후 HTML 콘텐츠 추출 성공 ({len(html_content):,}자)")
+                            except Exception as e:
+                                logger.error(f"❌ 리다이렉트 후 HTML 콘텐츠 추출 실패: {str(e)}")
                                 return None
                         finally:
                             redirect_retry_left -= 1
@@ -354,11 +387,21 @@ class HTMLDownloader(SeleniumBase):
                         logger.info(f"⏭️ Skipping save for '{page_type}' - redirected to main page (avoiding duplicate).")
                         return None
 
-            if self.truncate_at_widget:
-                cut_index = self._find_widget_cut_index(html_content)
-                if cut_index is not None and cut_index > 0:
-                    html_content = html_content[:cut_index] + "\n<!-- Truncated before recommendations widget -->\n"
+            # 위젯 제거 처리
+            try:
+                if self.truncate_at_widget:
+                    logger.info("✂️ 추천 위젯 제거 확인 중...")
+                    cut_index = self._find_widget_cut_index(html_content)
+                    if cut_index is not None and cut_index > 0:
+                        original_length = len(html_content)
+                        html_content = html_content[:cut_index] + "\n<!-- Truncated before recommendations widget -->\n"
+                        logger.info(f"✂️ 추천 위젯 제거됨 ({original_length:,}자 → {len(html_content):,}자)")
+                    else:
+                        logger.info("✅ 추천 위젯 없음 - 원본 콘텐츠 유지")
+            except Exception as e:
+                logger.warning(f"⚠️ 위젯 제거 중 오류 (원본 유지): {str(e)}")
 
+            # 파일 저장
             return _save_html(html_content, actual_name, page_type, page_display_name)
 
         except Exception as e:
