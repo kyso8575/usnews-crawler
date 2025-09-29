@@ -18,7 +18,7 @@ NETWORK_ERROR_URL_INDICATORS = [
     "chrome://network-error/",
 ]
 
-PERMANENT_STATUS_CODES = [404, 403, 401, 410]
+PERMANENT_STATUS_CODES = [404, 410]
 RETRY_POSSIBLE_CODES = [408, 429]
 
 # Common popup close selectors
@@ -69,7 +69,7 @@ class SeleniumConfig:
     origin_nav_timeout: int = 30  # 세션 캡처시 사이트 방문 타임아웃
     post_render_wait_seconds: int = 4
     navigate_retry_count: int = 1
-    retry_backoff_seconds: int = 3
+    retry_backoff_seconds: int = 60
     debugger_address: str = "127.0.0.1:9222"
     restart_pause_seconds: int = 2
     # Login check

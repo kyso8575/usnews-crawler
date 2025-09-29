@@ -12,6 +12,8 @@
 - **대학교별 폴더** 자동 생성
 - **중복 콘텐츠 감지**: SHA256 해시로 동일한 내용 중복 저장 방지
 
+- **Admissions Calculator JSON 캡처 (NEW)**: 기존 로그인 세션을 이용해 `admissions-calculator` API 응답 JSON 저장
+
 ## 🚀 빠른 시작
 
 ### 1. 환경 설정
@@ -70,6 +72,52 @@ python main.py "Princeton University"
 🔐 기존 Chrome의 로그인 세션을 캡처했습니다.
 ```
 
+### 4. 📊 Admissions Calculator JSON 캡처 (API)
+
+기존 Chrome 로그인 세션을 활용해 학교별 `admissions-calculator` API 응답 JSON을 저장합니다.
+
+1) Chrome을 디버그 모드로 실행하고 로그인 상태를 유지하세요:
+
+```bash
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+  --remote-debugging-port=9222 \
+  --user-data-dir=/tmp/chrome_dev_session
+```
+
+2) 단일 학교 수집:
+
+```bash
+# 이름으로 (부분 매칭 가능)
+venv/bin/python scripts/fetch_admissions_calculator.py --name "Princeton University"
+
+# 링크로 (예: universities.json의 link 값)
+venv/bin/python scripts/fetch_admissions_calculator.py --link "/best-colleges/princeton-university-2627"
+
+# school_id 직접 지정
+venv/bin/python scripts/fetch_admissions_calculator.py --school-id 2627 --name "Princeton University"
+```
+
+3) 일괄 수집 (전체):
+
+```bash
+# 전체에서 앞의 N개만, 항목 간 지연, 타임아웃 조정
+venv/bin/python scripts/fetch_admissions_calculator.py --all --limit 100 --delay 0.5 --wait 20
+
+# 기존 파일 덮어쓰기
+venv/bin/python scripts/fetch_admissions_calculator.py --all --overwrite --wait 20
+```
+
+4) 출력 위치:
+
+```
+downloads/<University>/admissions_calculator.json
+```
+
+5) 참고 사항:
+- 반드시 디버그 모드 Chrome에 로그인되어 있어야 합니다.
+- 타임아웃이 짧으면 캡처에 실패할 수 있으니 `--wait` 값을 늘려보세요.
+- 이미 파일이 있으면 기본적으로 스킵합니다. 덮어쓰려면 `--overwrite` 사용.
+
 ## 📁 출력 구조
 
 ```
@@ -81,7 +129,8 @@ downloads/
 │   ├── paying.html
 │   ├── academics.html
 │   ├── student_life.html
-│   └── campus_info.html
+│   ├── campus_info.html
+│   └── admissions_calculator.json  # API 응답(JSON)
 ├── Harvard_University/
 │   ├── main.html
 │   ├── overall_rankings.html

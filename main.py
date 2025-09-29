@@ -48,7 +48,7 @@ def download_html(university_name: str):
     logger.info(f"Downloading HTML for {university_name}")
     
     config = DownloaderConfig(preserve_login_from_existing=True)
-    downloader = HTMLDownloader(headless=False, downloader_config=config)
+    downloader = HTMLDownloader(headless=True, downloader_config=config)
     
     try:
         result = downloader.download_all_pages(university_name)
@@ -73,7 +73,7 @@ def download_all_html():
     logger.info("=" * 80)
     
     config = DownloaderConfig(preserve_login_from_existing=True)
-    downloader = HTMLDownloader(headless=False, downloader_config=config)
+    downloader = HTMLDownloader(headless=True, downloader_config=config)
     
     success_count = 0
     failed_count = 0

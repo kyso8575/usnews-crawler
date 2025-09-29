@@ -49,8 +49,8 @@ CANONICAL_RE = re.compile(r'<link[^>]+rel="canonical"[^>]+href="([^"]+)', re.IGN
 class DownloaderConfig:
     truncate_at_widget: bool = True
     downloads_dir: str = "downloads"
-    wait_success_seconds: int = 30
-    wait_skip_seconds: int = 30
+    wait_success_seconds: int = 15
+    wait_skip_seconds: int = 15
     page_type_overrides: Optional[Dict[str, Dict[str, int]]] = None
     preserve_login_from_existing: bool = False
 
@@ -58,12 +58,12 @@ class DownloaderConfig:
 class HTMLDownloader(SeleniumBase):
     """Downloads HTML content from US News university pages."""
     
-    def __init__(self, universities_json: str = "data/universities.json", headless: bool = False, use_existing_chrome: bool = False, selenium_config: Optional[SeleniumConfig] = None, downloader_config: Optional[DownloaderConfig] = None):
+    def __init__(self, universities_json: str = "data/universities.json", headless: bool = True, use_existing_chrome: bool = False, selenium_config: Optional[SeleniumConfig] = None, downloader_config: Optional[DownloaderConfig] = None):
         """
         Initialize the HTML downloader with Chrome WebDriver.
         
         Args:
-            headless: Whether to run Chrome in headless mode (default: False)
+            headless: Whether to run Chrome in headless mode (default: True)
             truncate_at_widget: If True, cut HTML at the blueshift recommendations widget if present
             universities_json: Path to the JSON file containing university information
             use_existing_chrome: Whether to connect to existing Chrome browser (default: False)
@@ -318,7 +318,7 @@ class HTMLDownloader(SeleniumBase):
             logger.info(f"📥 {page_display_name} 페이지 다운로드 중...")
 
             override = self.page_type_overrides.get(page_type, {})
-            max_retries = int(override.get("retries", 1))
+            max_retries = int(override.get("retries", 3))
             retry_count = 0
             redirect_retry_left = 1
             nav_wait_seconds = getattr(self.config, 'post_render_wait_seconds', 10)
@@ -435,6 +435,38 @@ class HTMLDownloader(SeleniumBase):
                     if _redirected_to_main(current_url, html_content, page_type):
                         logger.info(f"⏭️ Skipping save for '{page_type}' - redirected to main page (avoiding duplicate).")
                         return None
+
+            # 로그인 상태 확인
+            is_logged_in = self._check_login_status(html_content)
+            if not is_logged_in:
+                logger.warning(f"⚠️ {page_display_name} 페이지가 로그인되지 않은 상태로 다운로드됨")
+                logger.info("🔄 Chrome 재시작 및 로그인 재시도 중...")
+                
+                # Chrome 재시작 및 로그인 재시도
+                if self._restart_chrome_and_relogin():
+                    # 재로그인 후 페이지 다시 다운로드 시도
+                    logger.info(f"🔄 {page_display_name} 페이지 재다운로드 시도...")
+                    nav_ok = _navigate_with_timeout_override(page_url, timeout_override, nav_wait_seconds)
+                    if nav_ok:
+                        try:
+                            html_content = self.get_page_source()
+                            if html_content:
+                                # 재로그인 후 로그인 상태 재확인
+                                is_logged_in_retry = self._check_login_status(html_content)
+                                if is_logged_in_retry:
+                                    logger.info(f"✅ {page_display_name} 페이지 재로그인 성공")
+                                else:
+                                    logger.warning(f"⚠️ {page_display_name} 페이지 재로그인 후에도 비로그인 상태")
+                            else:
+                                logger.error(f"❌ {page_display_name} 페이지 재다운로드 실패 - HTML 콘텐츠 없음")
+                        except Exception as e:
+                            logger.error(f"❌ {page_display_name} 페이지 재다운로드 실패: {e}")
+                    else:
+                        logger.error(f"❌ {page_display_name} 페이지 재다운로드 실패 - 네비게이션 실패")
+                else:
+                    logger.error(f"❌ Chrome 재시작 및 로그인 재시도 실패")
+            else:
+                logger.info(f"✅ {page_display_name} 페이지 로그인 상태 확인됨")
 
             # 위젯 제거 처리
             try:
@@ -626,6 +658,77 @@ class HTMLDownloader(SeleniumBase):
                     earliest_index = idx
         
         return earliest_index
+
+    def _check_login_status(self, html_content: str) -> bool:
+        """
+        Check if the downloaded page indicates a logged-in state.
+        
+        Args:
+            html_content: HTML content to check
+            
+        Returns:
+            True if logged in, False if not logged in
+        """
+        # Canonical URL 기준으로 우선 판단
+        canonical_match = CANONICAL_RE.search(html_content)
+        if canonical_match:
+            canonical_url = canonical_match.group(1)
+            if 'premium.usnews.com' in canonical_url:
+                return True  # Premium host = logged in
+            elif 'www.usnews.com' in canonical_url:
+                return False  # www host = not logged in
+        
+        # Sign out/Log out markers
+        sign_out_patterns = [r'\bSign out\b', r'\bLog out\b']
+        for pattern in sign_out_patterns:
+            if re.search(pattern, html_content, re.IGNORECASE):
+                return True
+        
+        # Sign in/Log in markers
+        sign_in_patterns = [r'\bSign in\b', r'\bLog in\b']
+        for pattern in sign_in_patterns:
+            if re.search(pattern, html_content, re.IGNORECASE):
+                return False
+        
+        # Default to not logged in if unclear
+        return False
+
+    def _restart_chrome_and_relogin(self) -> bool:
+        """
+        Restart Chrome and attempt to re-login by copying session from existing Chrome.
+        
+        Returns:
+            True if successful, False otherwise
+        """
+        try:
+            logger.info("🔄 Chrome 재시작 및 로그인 재시도 중...")
+            
+            # 현재 드라이버 종료
+            if self.driver:
+                self.close()
+            
+            # 잠시 대기
+            time.sleep(2)
+            
+            # 새 드라이버 시작
+            self.setup_driver()
+            
+            # 기존 Chrome 세션 복사 시도
+            if self.preserve_login_from_existing and not self.use_existing_chrome:
+                try:
+                    self.apply_session_to_current_driver(USNEWS_ORIGINS)
+                    logger.info("✅ Chrome 재시작 및 로그인 세션 복사 완료")
+                    return True
+                except Exception as e:
+                    logger.warning(f"⚠️ 로그인 세션 복사 실패: {e}")
+                    return False
+            else:
+                logger.info("✅ Chrome 재시작 완료 (세션 복사 없음)")
+                return True
+                
+        except Exception as e:
+            logger.error(f"❌ Chrome 재시작 실패: {e}")
+            return False
     
     
     

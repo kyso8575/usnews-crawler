@@ -116,18 +116,28 @@ class DownloadsValidator:
         if is_premium:
             issues.append('premium_by_canonical')
 
-        # 로그인 여부: 강한 시그널 우선 (Sign out/Account), 그 다음 premium canonical
+        # 로그인 여부: canonical URL 기준으로 우선 판단
         is_logged_in = False
-        if self._matches_any(self.sign_out_markers + self.account_markers, content):
-            is_logged_in = True
-            issues.append('login_hit:signout_or_account')
-        elif is_premium:
+        if is_premium:
             # premium canonical이면 로그인으로 간주
             is_logged_in = True
             issues.append('login_hit:premium_host')
+        elif canonical and 'www.usnews.com' in canonical:
+            # www.usnews.com canonical이면 비로그인으로 간주
+            is_logged_in = False
+            issues.append('not_logged_in:www_host')
+        elif self._matches_any(self.sign_out_markers, content):
+            # Sign out/Log out이 있으면 로그인으로 간주
+            is_logged_in = True
+            issues.append('login_hit:signout')
         elif self._matches_any(self.sign_in_markers, content):
+            # Sign in/Log in이 있으면 비로그인으로 간주
             is_logged_in = False
             issues.append('login_hint:signin_present')
+        else:
+            # canonical URL이 없거나 다른 호스트면 불확실
+            is_logged_in = False
+            issues.append('not_logged_in:no_canonical_or_unknown_host')
 
         # 에러페이지 판단
         error_hit = self._matches_any(self.error_patterns, content)
@@ -205,25 +215,17 @@ class DownloadsValidator:
             print("\n모든 페이지가 정상입니다!")
 
     def save_json_report(self, output: str = 'html_quality_report.json') -> None:
-        # 문제가 있는 페이지만 필터링
+        # 문제가 있는 페이지만 필터링 (링크만 포함)
         problem_pages = []
         for r in self.results:
             if not r.is_logged_in or r.is_error_page:
-                problem_pages.append({
-                    'university': r.university,
-                    'file_type': r.file_type,
-                    'path': r.path,
-                    'issues': {
-                        'not_logged_in': not r.is_logged_in,
-                        'is_error_page': r.is_error_page,
-                        'details': r.issues
-                    }
-                })
+                problem_pages.append(r.path)
         
         summary: Dict[str, int] = {
             'total_files': len(self.results),
             'problem_files': len(problem_pages),
             'logged_in_files': sum(1 for r in self.results if r.is_logged_in),
+            'not_logged_in_files': sum(1 for r in self.results if not r.is_logged_in),
             'error_pages': sum(1 for r in self.results if r.is_error_page),
         }
         

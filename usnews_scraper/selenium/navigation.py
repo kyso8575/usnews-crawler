@@ -246,15 +246,12 @@ class NavigationManager:
         error_type = info.get("type")
         status_code = info.get("status")
         
-        # Akamai CDN 에러는 영구 에러로 처리 (즉시 스킵)
+        # Akamai CDN 에러는 재시도하지 않고 즉시 스킵
         if error_type and "Akamai CDN 에러" in error_type:
             return True
-            
+
         try:
-            if status_code in PERMANENT_STATUS_CODES:
-                return True
-            if isinstance(status_code, int) and 400 <= status_code < 500:
-                return status_code not in RETRY_POSSIBLE_CODES
-            return False
+            # 페이지 없음(404/410)만 영구 에러로 간주
+            return status_code in PERMANENT_STATUS_CODES
         except Exception:
             return False

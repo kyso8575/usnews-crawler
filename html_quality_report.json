@@ -1,0 +1,1596 @@
+{
+  "timestamp": "2025-09-27T16:08:03.482720",
+  "summary": {
+    "total_files": 4835,
+    "problem_files": 114,
+    "logged_in_files": 4721,
+    "not_logged_in_files": 114,
+    "error_pages": 0
+  },
+  "problem_pages": [
+    {
+      "university": "California_State_University--Los_Angeles",
+      "file_type": "academics",
+      "path": "downloads/California_State_University--Los_Angeles/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/california-state-university-los-angeles-1140/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "California_State_University--Los_Angeles",
+      "file_type": "applying",
+      "path": "downloads/California_State_University--Los_Angeles/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/california-state-university-los-angeles-1140/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "California_State_University--Los_Angeles",
+      "file_type": "campus_info",
+      "path": "downloads/California_State_University--Los_Angeles/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/california-state-university-los-angeles-1140/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "California_State_University--Los_Angeles",
+      "file_type": "main",
+      "path": "downloads/California_State_University--Los_Angeles/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/california-state-university-los-angeles-1140",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Cedarville_University",
+      "file_type": "academics",
+      "path": "downloads/Cedarville_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/cedarville-university-3025/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Cedarville_University",
+      "file_type": "applying",
+      "path": "downloads/Cedarville_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/cedarville-university-3025/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Cedarville_University",
+      "file_type": "campus_info",
+      "path": "downloads/Cedarville_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/cedarville-university-3025/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Cedarville_University",
+      "file_type": "main",
+      "path": "downloads/Cedarville_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/cedarville-university-3025",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Colorado_Mesa_University",
+      "file_type": "academics",
+      "path": "downloads/Colorado_Mesa_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/colorado-mesa-university-1358/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Colorado_Mesa_University",
+      "file_type": "applying",
+      "path": "downloads/Colorado_Mesa_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/colorado-mesa-university-1358/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Colorado_Mesa_University",
+      "file_type": "campus_info",
+      "path": "downloads/Colorado_Mesa_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/colorado-mesa-university-1358/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Colorado_Mesa_University",
+      "file_type": "main",
+      "path": "downloads/Colorado_Mesa_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/colorado-mesa-university-1358",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Davis_and_Elkins_College",
+      "file_type": "academics",
+      "path": "downloads/Davis_and_Elkins_College/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/davis-and-elkins-college-3811/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Davis_and_Elkins_College",
+      "file_type": "applying",
+      "path": "downloads/Davis_and_Elkins_College/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/davis-and-elkins-college-3811/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Davis_and_Elkins_College",
+      "file_type": "campus_info",
+      "path": "downloads/Davis_and_Elkins_College/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/davis-and-elkins-college-3811/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Davis_and_Elkins_College",
+      "file_type": "main",
+      "path": "downloads/Davis_and_Elkins_College/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/davis-and-elkins-college-3811",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Georgia_College_and_State_University",
+      "file_type": "academics",
+      "path": "downloads/Georgia_College_and_State_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/georgia-college--state-university-1602/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Georgia_College_and_State_University",
+      "file_type": "applying",
+      "path": "downloads/Georgia_College_and_State_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/georgia-college--state-university-1602/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Georgia_College_and_State_University",
+      "file_type": "campus_info",
+      "path": "downloads/Georgia_College_and_State_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/georgia-college--state-university-1602/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Georgia_College_and_State_University",
+      "file_type": "main",
+      "path": "downloads/Georgia_College_and_State_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/georgia-college--state-university-1602",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Hamline_University",
+      "file_type": "academics",
+      "path": "downloads/Hamline_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/hamline-university-2354/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Hamline_University",
+      "file_type": "applying",
+      "path": "downloads/Hamline_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/hamline-university-2354/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Hamline_University",
+      "file_type": "main",
+      "path": "downloads/Hamline_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/hamline-university-2354",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Ithaca_College",
+      "file_type": "academics",
+      "path": "downloads/Ithaca_College/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/ithaca-college-2739/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Ithaca_College",
+      "file_type": "applying",
+      "path": "downloads/Ithaca_College/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/ithaca-college-2739/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Ithaca_College",
+      "file_type": "campus_info",
+      "path": "downloads/Ithaca_College/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/ithaca-college-2739/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Ithaca_College",
+      "file_type": "main",
+      "path": "downloads/Ithaca_College/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/ithaca-college-2739",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Keene_State_College",
+      "file_type": "academics",
+      "path": "downloads/Keene_State_College/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/keene-state-college-2590/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Keene_State_College",
+      "file_type": "applying",
+      "path": "downloads/Keene_State_College/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/keene-state-college-2590/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Keene_State_College",
+      "file_type": "campus_info",
+      "path": "downloads/Keene_State_College/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/keene-state-college-2590/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Keene_State_College",
+      "file_type": "main",
+      "path": "downloads/Keene_State_College/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/keene-state-college-2590",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Lander_University",
+      "file_type": "academics",
+      "path": "downloads/Lander_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/lander-university-3435/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Lander_University",
+      "file_type": "applying",
+      "path": "downloads/Lander_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/lander-university-3435/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Lander_University",
+      "file_type": "campus_info",
+      "path": "downloads/Lander_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/lander-university-3435/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Lander_University",
+      "file_type": "main",
+      "path": "downloads/Lander_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/lander-university-3435",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Longwood_University",
+      "file_type": "academics",
+      "path": "downloads/Longwood_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/longwood-university-3719/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Longwood_University",
+      "file_type": "applying",
+      "path": "downloads/Longwood_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/longwood-university-3719/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Longwood_University",
+      "file_type": "campus_info",
+      "path": "downloads/Longwood_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/longwood-university-3719/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Longwood_University",
+      "file_type": "main",
+      "path": "downloads/Longwood_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/longwood-university-3719",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Millikin_University",
+      "file_type": "academics",
+      "path": "downloads/Millikin_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/millikin-university-1724/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Millikin_University",
+      "file_type": "applying",
+      "path": "downloads/Millikin_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/millikin-university-1724/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Millikin_University",
+      "file_type": "campus_info",
+      "path": "downloads/Millikin_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/millikin-university-1724/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Millikin_University",
+      "file_type": "main",
+      "path": "downloads/Millikin_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/millikin-university-1724",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Millikin_University",
+      "file_type": "student_life",
+      "path": "downloads/Millikin_University/student_life.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/millikin-university-1724/student-life",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Monmouth_University",
+      "file_type": "academics",
+      "path": "downloads/Monmouth_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/monmouth-university-2616/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Monmouth_University",
+      "file_type": "applying",
+      "path": "downloads/Monmouth_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/monmouth-university-2616/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Monmouth_University",
+      "file_type": "campus_info",
+      "path": "downloads/Monmouth_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/monmouth-university-2616/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Monmouth_University",
+      "file_type": "main",
+      "path": "downloads/Monmouth_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/monmouth-university-2616",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "New_York_Institute_of_Technology",
+      "file_type": "academics",
+      "path": "downloads/New_York_Institute_of_Technology/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/nyit-4804/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "New_York_Institute_of_Technology",
+      "file_type": "applying",
+      "path": "downloads/New_York_Institute_of_Technology/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/nyit-4804/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "New_York_Institute_of_Technology",
+      "file_type": "campus_info",
+      "path": "downloads/New_York_Institute_of_Technology/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/nyit-4804/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "New_York_Institute_of_Technology",
+      "file_type": "main",
+      "path": "downloads/New_York_Institute_of_Technology/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/nyit-4804",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Newberry_College",
+      "file_type": "academics",
+      "path": "downloads/Newberry_College/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/newberry-college-3440/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Newberry_College",
+      "file_type": "applying",
+      "path": "downloads/Newberry_College/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/newberry-college-3440/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Newberry_College",
+      "file_type": "campus_info",
+      "path": "downloads/Newberry_College/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/newberry-college-3440/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Newberry_College",
+      "file_type": "main",
+      "path": "downloads/Newberry_College/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/newberry-college-3440",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Pacific_Union_College",
+      "file_type": "academics",
+      "path": "downloads/Pacific_Union_College/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/pacific-union-college-1258/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Pacific_Union_College",
+      "file_type": "applying",
+      "path": "downloads/Pacific_Union_College/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "not_logged_in:no_canonical_or_unknown_host"
+        ]
+      }
+    },
+    {
+      "university": "Pacific_Union_College",
+      "file_type": "campus_info",
+      "path": "downloads/Pacific_Union_College/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/pacific-union-college-1258/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Pacific_Union_College",
+      "file_type": "paying",
+      "path": "downloads/Pacific_Union_College/paying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/pacific-union-college-1258/paying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Pacific_Union_College",
+      "file_type": "student_life",
+      "path": "downloads/Pacific_Union_College/student_life.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/pacific-union-college-1258/student-life",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Point_Loma_Nazarene_University",
+      "file_type": "academics",
+      "path": "downloads/Point_Loma_Nazarene_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/point-loma-nazarene-university-1262/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Point_Loma_Nazarene_University",
+      "file_type": "applying",
+      "path": "downloads/Point_Loma_Nazarene_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/point-loma-nazarene-university-1262/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Point_Loma_Nazarene_University",
+      "file_type": "campus_info",
+      "path": "downloads/Point_Loma_Nazarene_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/point-loma-nazarene-university-1262/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Point_Loma_Nazarene_University",
+      "file_type": "main",
+      "path": "downloads/Point_Loma_Nazarene_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/point-loma-nazarene-university-1262",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Princeton_University",
+      "file_type": "overall_rankings",
+      "path": "downloads/Princeton_University/overall_rankings.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/princeton-university-2627/overall-rankings",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY--Geneseo",
+      "file_type": "academics",
+      "path": "downloads/SUNY--Geneseo/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-geneseo-2845/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY--Geneseo",
+      "file_type": "applying",
+      "path": "downloads/SUNY--Geneseo/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-geneseo-2845/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY--Geneseo",
+      "file_type": "campus_info",
+      "path": "downloads/SUNY--Geneseo/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-geneseo-2845/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY--Geneseo",
+      "file_type": "main",
+      "path": "downloads/SUNY--Geneseo/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "login_hint:signin_present"
+        ]
+      }
+    },
+    {
+      "university": "SUNY_College_of_Technology--Delhi",
+      "file_type": "academics",
+      "path": "downloads/SUNY_College_of_Technology--Delhi/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-college-of-technology-delhi-2857/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY_College_of_Technology--Delhi",
+      "file_type": "applying",
+      "path": "downloads/SUNY_College_of_Technology--Delhi/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-college-of-technology-delhi-2857/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY_College_of_Technology--Delhi",
+      "file_type": "campus_info",
+      "path": "downloads/SUNY_College_of_Technology--Delhi/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-college-of-technology-delhi-2857/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "SUNY_College_of_Technology--Delhi",
+      "file_type": "main",
+      "path": "downloads/SUNY_College_of_Technology--Delhi/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/suny-college-of-technology-delhi-2857",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Siena_University",
+      "file_type": "academics",
+      "path": "downloads/Siena_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "not_logged_in:no_canonical_or_unknown_host"
+        ]
+      }
+    },
+    {
+      "university": "Siena_University",
+      "file_type": "applying",
+      "path": "downloads/Siena_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/siena-college-2816/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Siena_University",
+      "file_type": "campus_info",
+      "path": "downloads/Siena_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/siena-college-2816/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Siena_University",
+      "file_type": "main",
+      "path": "downloads/Siena_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "login_hint:signin_present"
+        ]
+      }
+    },
+    {
+      "university": "Stockton_University",
+      "file_type": "academics",
+      "path": "downloads/Stockton_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/stockton-university-9345/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Stockton_University",
+      "file_type": "campus_info",
+      "path": "downloads/Stockton_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/stockton-university-9345/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Stockton_University",
+      "file_type": "student_life",
+      "path": "downloads/Stockton_University/student_life.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/stockton-university-9345/student-life",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "academics",
+      "path": "downloads/The_University_of_Akron/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "applying",
+      "path": "downloads/The_University_of_Akron/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "campus_info",
+      "path": "downloads/The_University_of_Akron/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "main",
+      "path": "downloads/The_University_of_Akron/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "overall_rankings",
+      "path": "downloads/The_University_of_Akron/overall_rankings.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123/overall-rankings",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "paying",
+      "path": "downloads/The_University_of_Akron/paying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123/paying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "The_University_of_Akron",
+      "file_type": "student_life",
+      "path": "downloads/The_University_of_Akron/student_life.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/the-university-of-akron-3123/student-life",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Towson_University",
+      "file_type": "academics",
+      "path": "downloads/Towson_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/towson-university-2099/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Towson_University",
+      "file_type": "applying",
+      "path": "downloads/Towson_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "not_logged_in:no_canonical_or_unknown_host"
+        ]
+      }
+    },
+    {
+      "university": "Towson_University",
+      "file_type": "campus_info",
+      "path": "downloads/Towson_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/towson-university-2099/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Towson_University",
+      "file_type": "main",
+      "path": "downloads/Towson_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/towson-university-2099",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Union_Adventist_University",
+      "file_type": "academics",
+      "path": "downloads/Union_Adventist_University/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/union-adventist-university-2563/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Union_Adventist_University",
+      "file_type": "applying",
+      "path": "downloads/Union_Adventist_University/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/union-adventist-university-2563/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Union_Adventist_University",
+      "file_type": "campus_info",
+      "path": "downloads/Union_Adventist_University/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/union-adventist-university-2563/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "Union_Adventist_University",
+      "file_type": "main",
+      "path": "downloads/Union_Adventist_University/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/union-adventist-university-2563",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Lynchburg",
+      "file_type": "campus_info",
+      "path": "downloads/University_of_Lynchburg/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-lynchburg-3720/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Maine_at_Farmington",
+      "file_type": "academics",
+      "path": "downloads/University_of_Maine_at_Farmington/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-maine-at-farmington-2040/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Maine_at_Farmington",
+      "file_type": "applying",
+      "path": "downloads/University_of_Maine_at_Farmington/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-maine-at-farmington-2040/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Maine_at_Farmington",
+      "file_type": "campus_info",
+      "path": "downloads/University_of_Maine_at_Farmington/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-maine-at-farmington-2040/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Maine_at_Farmington",
+      "file_type": "main",
+      "path": "downloads/University_of_Maine_at_Farmington/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-maine-at-farmington-2040",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Northern_Colorado",
+      "file_type": "campus_info",
+      "path": "downloads/University_of_Northern_Colorado/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-northern-colorado-1349/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Pittsburgh_at_Johnstown",
+      "file_type": "academics",
+      "path": "downloads/University_of_Pittsburgh_at_Johnstown/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-pittsburgh-at-johnstown-3382/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Pittsburgh_at_Johnstown",
+      "file_type": "applying",
+      "path": "downloads/University_of_Pittsburgh_at_Johnstown/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-pittsburgh-at-johnstown-3382/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Pittsburgh_at_Johnstown",
+      "file_type": "campus_info",
+      "path": "downloads/University_of_Pittsburgh_at_Johnstown/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-pittsburgh-at-johnstown-3382/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Pittsburgh_at_Johnstown",
+      "file_type": "main",
+      "path": "downloads/University_of_Pittsburgh_at_Johnstown/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "login_hint:signin_present"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Silicon_Valley",
+      "file_type": "academics",
+      "path": "downloads/University_of_Silicon_Valley/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-silicon-valley-1177/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Silicon_Valley",
+      "file_type": "applying",
+      "path": "downloads/University_of_Silicon_Valley/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-silicon-valley-1177/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Silicon_Valley",
+      "file_type": "campus_info",
+      "path": "downloads/University_of_Silicon_Valley/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-silicon-valley-1177/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Silicon_Valley",
+      "file_type": "main",
+      "path": "downloads/University_of_Silicon_Valley/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-silicon-valley-1177",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Tampa",
+      "file_type": "academics",
+      "path": "downloads/University_of_Tampa/academics.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-tampa-1538/academics",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Tampa",
+      "file_type": "applying",
+      "path": "downloads/University_of_Tampa/applying.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-tampa-1538/applying",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Tampa",
+      "file_type": "campus_info",
+      "path": "downloads/University_of_Tampa/campus_info.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-tampa-1538/campus-info",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    },
+    {
+      "university": "University_of_Tampa",
+      "file_type": "main",
+      "path": "downloads/University_of_Tampa/main.html",
+      "issues": {
+        "not_logged_in": true,
+        "is_error_page": false,
+        "details": [
+          "canonical:https://www.usnews.com/best-colleges/university-of-tampa-1538",
+          "not_logged_in:www_host",
+          "upsell:\\bTry it now\\b"
+        ]
+      }
+    }
+  ]
+}
